@@ -1,0 +1,101 @@
+sector,job_role,acceptable_occupations
+Accountancy,Financial Controller,budgeting and financial accounting manager (including financial controller)
+Aerospace,Quality Manager (Aircraft Maintenance),quality control/assurance manager
+Aerospace,Senior Quality Engineer (Aircraft Engine / Component Maintenance),quality control/assurance engineer;aeronautical engineer
+Aerospace,Technical Service Manager (Aircraft Engine / Component Maintenance),technical/engineering services manager (excluding transport);aeronautical engineer
+Agrifood,Aquaculture Technician,aquarium fish farm worker
+Air Transport,Baggage Services Officer,air transport service supervisor;air transport clerk
+Arts,Multimedia Specialist (Network Engineer),"audio and video equipment engineer;network, servers and computer systems administrator;media and broadcasting engineer"
+Arts,Production Assistant,NONE
+Built Environment,Building Executive / Facilities Executive / Property Executive,premises and facilities maintenance officer;premises and facilities maintenance manager (excluding building security manager)
+Built Environment,Chief Digital Officer,chief information officer/chief technology officer/chief security officer
+Built Environment,Production Manager / Assistant Production Manager,manufacturing manager;construction manager
+Design,Head of Projects/Head of Products,NONE
+Early Childhood,Centre Leader,pre-school education manager
+Early Childhood,Early Years Educators,educarer;pre-primary education teacher
+Early Childhood,Senior Learning Support Educator,early intervention teacher for infants and children;pre-primary education teacher
+Electronics,Process Engineer,process engineer
+Energy and Chemicals,Senior Process Safety Engineer,industrial safety engineer;occupational health and safety professional
+Energy and Power,Billing and Settlement Executive,billing clerk
+Energy and Power,Business-to-Business Sales and Key Accounts Senior Executive,technical sales professional;business development executive
+Energy and Power,HVDC Operations and Maintenance Specialist,power generation and distribution engineer;electrical engineer
+Energy and Power,LNG Trading and Research Head,oil and bunker trader;commodities trader (excluding oil and bunker)
+Energy and Power,Multi-Utility Operations Team Leader,stationary plant and machine supervisor/general foreman;power generation and distribution engineer
+Energy and Power,Optimisation Engineer,energy engineer;power generation and distribution engineer
+Energy and Power,Solar PV and ESS Business Development and Project Financing Manager,business development manager
+Energy and Power,Town Gas Plant Maintenance Manager,technical/engineering services manager (excluding transport)
+Engineering Services,Assistant Engineer / Senior Technician (Operations and Maintenance),mechanical engineering technician;electrical engineering technician;maintenance planner
+Engineering Services,Assistant Manager / Senior Engineer (Project Development),NONE
+Engineering Services,Manager (Project Financing),"business and financial project management professional;financial analyst (e.g. equities analyst, credit analyst, investment research analyst)"
+Financial Services,Credit Risk Analyst (Private Banking and Wealth Management),"compliance officer/risk analyst (financial);financial analyst (e.g. equities analyst, credit analyst, investment research analyst)"
+Financial Services,Credit and Lending Operations Manager (Retail Banking),financial services manager
+Financial Services,Customer Experience Executive / User Experience Executive,service designer;interaction designer
+Financial Services,Financial Planner / Insurance Agent / Bancassurance Specialist,insurance sales agent/broker (including independent financial planner);financial/investment adviser (e.g. relationship manager)
+Financial Services,Head of Client Investment Performance and Reporting,financial services manager
+Financial Services,Head of Client Service / Client Support Services Director,customer service manager;financial services manager
+Financial Services,Head of Legal,"in-house legal counsel (except judiciary, ministries and statutory boards)"
+Financial Services,Head of Product Management (Investment Banking),financial services manager;financial product structurer
+Financial Services,Head of Risk Analytics / Head of Compliance Analytics (Corporate Banking),risk management manager;financial risk manager
+Financial Services,Head of Risk Analytics / Head of Compliance Analytics (investment Banking),risk management manager;financial risk manager
+Financial Services,Operational Risk Analyst (Corporate Banking),compliance officer/risk analyst (financial)
+Financial Services,Operational Risk Manager (Corporate Banking),risk management manager;financial risk manager
+Financial Services,Product Analyst (Asset Management),"financial analyst (e.g. equities analyst, credit analyst, investment research analyst);market research professional"
+Financial Services,Product Analyst (Investment Banking),"financial analyst (e.g. equities analyst, credit analyst, investment research analyst);market research professional"
+Financial Services,Product Marketing Manager (Retail Banking),marketing manager
+Food Manufacturing,Assistant Market Development Manager / Market Development Executive,business development executive;marketing strategy/planning professional
+Food Services,Executive Chef,chef;kitchen operations head/supervisor
+Healthcare,Assistant Director of Nursing (Education),"registered nurse and other nursing professional (e.g. clinical nurse, nurse educator, excluding enrolled nurse);health services manager"
+Healthcare,Director of Nursing (Management),"health services manager;registered nurse and other nursing professional (e.g. clinical nurse, nurse educator, excluding enrolled nurse)"
+Healthcare,Principal Occupational Therapy Educator,occupational therapist
+Human Resource,"Associate, Performance and Rewards",personnel/human resource officer
+Infocomm Technology,Artificial Intelligence / Machine Learning Engineer,data scientist;software developer
+Infocomm Technology,Associate Radio Frequency Engineer,telecommunications engineer
+Infocomm Technology,Chief Information Officer,chief information officer/chief technology officer/chief security officer
+Infocomm Technology,Chief Information Security Officer,chief information officer/chief technology officer/chief security officer;cybersecurity architect
+Infocomm Technology,Embedded Systems Engineering Manager,embedded systems engineer (including port systems engineer);research and development manager;software and applications manager
+Infocomm Technology,Forensics Investigation Manager,security operations specialist;cyber risk specialist
+Infocomm Technology,Head of Infrastructure,"network, communications and infrastructure manager"
+Infocomm Technology,Network Engineer,"network, servers and computer systems administrator;it infrastructure specialist"
+Intellectual Property,IP Paralegal / IP Executive,legal associate professional (e.g. paralegal);intellectual property agent
+Landscape,Landscape Project Manager,landscape manager
+Logistics,Logistics Contracts Analyst / Logistics Operations Analyst,logistics/production planner;operations research analyst
+Logistics,Senior Customer Service Officer / Customer Service Specialist,customer service officer/clerk
+Logistics,Warehouse Operations Manager / Inventory Management Manager / Capacity Management Manager,supply and distribution/logistics/warehousing manager
+Marine and Offshore,Design Engineer,marine engineer;mechanical engineer
+Marine and Offshore,Operations Manager,manufacturing manager;technical/engineering services manager (excluding transport)
+Marine and Offshore,Production Section Manager / Head of Department,manufacturing manager
+Marine and Offshore,Senior Project Engineer,marine engineer;mechanical engineer
+Marine and Offshore,Technician,mechanical engineering technician;electrical engineering technician
+Media,Executive - Content Commissioning,"producer (stage, film, television, game, commercial, video and radio)"
+Media,Head - Content Acquisition,media and broadcasting manager
+Media,Head - Programme Planning and Scheduling,media and broadcasting manager
+Media,Lead Technical Artist,multimedia artist and animator;multimedia (including games) designer;multimedia (including games) developer
+Media,Manager - Content Acquisition,media and broadcasting manager
+Media,Supervising Sound Editor (Sound Mixing),"editor (radio, television and video)"
+Precision Engineering,Assistant Manufacturing Manager / Section Manager,manufacturing manager
+Public Transport,Chief Engineer / Senior Engineering Manager (Mechanical and Electrical),transport/technical operations manager (except port/shipping operations)
+Public Transport,"Head, Train Operations / Head, Station Operations / Head, Passenger Services",transport/technical operations manager (except port/shipping operations)
+Public Transport,Master Technical Specialist,automotive engineering technician;automotive mechanic
+Public Transport,Principal Engineer / Engineering Manager (Power),power generation and distribution engineer;electrical engineer;transport/technical operations manager (except port/shipping operations)
+Public Transport,Rail Service Manager,train service supervisor;transport/technical operations manager (except port/shipping operations)
+Public Transport,Senior Engineer / Engineer (Permanent Way and Civil Structure),civil engineer
+Public Transport,Senior Technician (Mechanical and Electrical),rolling stock engineering technician;mechanical engineering technician;electrical engineering technician
+Public Transport,Technician,automotive mechanic;automotive engineering technician
+Retail,Merchandising Manager / Category Manager / House Brand Manager,merchandising/category manager
+Sea Transport,Chartering Broker,ship broker (e.g. charter or sales & purchase)
+Sea Transport,Head of Port Business Development / Operations,port/shipping operations manager
+Sea Transport,Lead Engineer / Principal Engineer,mechanical engineer;electrical engineer;embedded systems engineer (including port systems engineer)
+Social Service,Centre Manager,social service manager
+Social Service,Manager / Assistant Manager,social service manager
+Social Service,Programme Coordinator / Programme Executive,social work associate
+Social Service,Senior Manager / Manager,social service manager
+Tourism,Exhibition Director / Conference Director / Meeting Director,event manager;exhibition/conference/event planner (including wedding planner/coordinator)
+Tourism,Head of Education and Programmes,NONE
+Tourism,Product and Experience Development Director,travel agency manager
+Tourism,Sales Executive / Travel Consultant (Sales),travel consultant/reservation executive
+Trade Associations and Chambers,"Branding, Marketing & Communications Senior Executive / Executive","public relations/corporate communications professional;marketing strategy/planning professional;digital marketing professional (e.g. online, social media, e-commerce marketing professional)"
+Training and Adult Education,Learning Consultant / Learning Solutionist,training and staff development professional
+Wholesale Trade,Commodities Trader,commodities trader (excluding oil and bunker);oil and bunker trader
+Wholesale Trade,Credit Manager,financial services manager;budgeting and financial accounting manager (including financial controller)
+Wholesale Trade,Head of Marketing,marketing manager
+Wholesale Trade,Head of Operations,wholesale trade manager;chief operating officer/general manager

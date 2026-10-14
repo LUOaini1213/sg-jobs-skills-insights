@@ -1,0 +1,51 @@
+{
+  "accessed": "2026-10-14",
+  "files": {
+    "skills_framework_dataset.xlsx": {
+      "url": "https://file.go.gov.sg/jobsandskills-skillsfuture-skills-framework-dataset.xlsx",
+      "publisher": "SkillsFuture Singapore / SWDA (Jobs-Skills Portal)",
+      "sha256": "766fe0bf623a1883a4962cad4a876a2b9ac9c0fee820b40c93e62bffee477e2a",
+      "bytes": 13023037
+    },
+    "unique_skills_list.xlsx": {
+      "url": "https://file.go.gov.sg/jobsandskills-skillsfuture-unique-skills-list.xlsx",
+      "publisher": "SkillsFuture Singapore / SWDA (Jobs-Skills Portal)",
+      "sha256": "41694821348b12f0f40921442f68b8877587bbc6c7fa370f16188916cd628bf0",
+      "bytes": 458521
+    },
+    "tsc_to_unique_skills_mapping.xlsx": {
+      "url": "https://file.go.gov.sg/jobsandskills-skillsfuture-tsc-to-unique-skills-mapping.xlsx",
+      "publisher": "SkillsFuture Singapore / SWDA (Jobs-Skills Portal)",
+      "sha256": "f46bbad2fd336eafc9e00053ce147a267893519cfc8fd3e82ffdeeab863b2aa4",
+      "bytes": 1387170
+    },
+    "d_889d11a2b0a53b235abb64e3f4e0a47b.csv": {
+      "url": "https://data.gov.sg/datasets/d_889d11a2b0a53b235abb64e3f4e0a47b/view",
+      "title": "Number of Job Vacancy by Industry and Occupation - Annual",
+      "publisher": "Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)",
+      "sha256": "5f67b1e742c96e8d0e5eb95bc58ba572fcdcce50c2e64b00dd3a8dfe34bf6e49",
+      "bytes": 401289
+    },
+    "d_ddcb2546c798f94ba6b4a6508ab42632.csv": {
+      "url": "https://data.gov.sg/datasets/d_ddcb2546c798f94ba6b4a6508ab42632/view",
+      "title": "Job Vacancy Rate by Industry and Occupation - Annual",
+      "publisher": "Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)",
+      "sha256": "4a7585a0db0ab11a468ea3897e143eff9cb2b918c7e3d26ca47adbb7a572eff3",
+      "bytes": 399103
+    },
+    "d_74803e94c5299493f76d71c8994c50c1.csv": {
+      "url": "https://data.gov.sg/datasets/d_74803e94c5299493f76d71c8994c50c1/view",
+      "title": "Job Vacancy Rate by Industry and Occupation - Quarterly",
+      "publisher": "Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)",
+      "sha256": "94a3639367b5218d805d2d74b86afaa49a40c4b000d3508ad778ad66e6c67ef5",
+      "bytes": 1688735
+    },
+    "d_9917e751f7498502f70052a940a3f312.csv": {
+      "url": "https://data.gov.sg/datasets/d_9917e751f7498502f70052a940a3f312/view",
+      "title": "Resident Occupational Wages, June 2024",
+      "publisher": "Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)",
+      "sha256": "a01c9a2d21b441bb1e89ea997710e040a073a4ab9e2c14a5010825417578c280",
+      "bytes": 37138
+    }
+  }
+}

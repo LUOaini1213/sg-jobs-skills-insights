@@ -1,0 +1,7 @@
+data/raw/
+data/interim/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.mutation_tmp/
