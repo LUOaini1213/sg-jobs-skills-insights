@@ -1,0 +1,1977 @@
+unique_skill,index_2019,index_2025,growth_2019_2025_pct,emerging,casl,sectors,roles
+Stakeholder Management,27938.4,43301.9,55.0,False,False,26,1075
+Change Management,17138.8,23450.4,36.8,True,False,29,656
+Continuous Improvement Management,11341.6,22047.9,94.4,True,False,13,596
+Learning and Development,14897.1,20704.7,39.0,False,True,17,373
+Business Negotiation,12704.7,18568.0,46.2,False,False,25,433
+Project Management,12776.1,18259.2,42.9,False,False,25,519
+Innovation Management,14849.2,18205.1,22.6,False,False,25,495
+Business Opportunities Development,11671.7,18094.4,55.0,True,False,23,363
+Budgeting,12549.0,17396.6,38.6,False,False,20,445
+Technology Application,9164.8,16641.6,81.6,True,False,10,351
+Quality System Management,6739.0,13315.7,97.6,False,False,7,243
+Conflict Management,11053.0,13022.0,17.8,False,True,16,209
+Systems Thinking Application,9257.0,12546.1,35.5,True,False,12,208
+Manpower Planning,6607.9,12253.5,85.4,True,False,10,226
+Technology Scanning,6647.6,11738.7,76.6,True,False,6,152
+Business Performance Management,8687.8,11704.9,34.7,False,False,12,309
+Business Continuity Management,8490.2,11594.3,36.6,False,False,21,320
+Data Analytics,8672.4,11390.7,31.3,True,False,14,180
+People Management,5166.0,10731.2,107.7,False,False,4,95
+Strategy Planning,7836.6,10690.5,36.4,False,False,14,320
+Business Environment Analysis,7468.7,10385.1,39.0,True,False,10,268
+Vendor Management,6911.6,10313.8,49.2,False,True,13,196
+Integrated Digital Delivery Application,2200.0,10300.0,368.2,False,False,1,49
+Project Feasibility Assessment,4099.9,10296.8,151.1,False,False,13,107
+Legal and Compliance Management,8237.8,9995.7,21.3,False,False,5,119
+Building Information Modelling Application,2438.0,9580.9,293.0,True,False,3,65
+Market Research,7058.0,9008.9,27.6,True,False,14,203
+Workplace Safety and Health Framework Development and Implementation,3549.6,8964.6,152.5,False,False,5,275
+Data Collection and Analysis,3208.6,8851.4,175.9,False,True,3,148
+Ethical Culture,5292.8,8450.4,59.7,False,False,4,314
+Emergency Response Management,4016.1,8386.4,108.8,False,False,9,183
+Networking,5380.4,8273.2,53.8,False,False,8,156
+Design for Manufacturing and Assembly,1751.0,8198.0,368.2,True,False,1,39
+Construction Technology,1751.0,8198.0,368.2,False,False,1,39
+Quality Assurance and Audit,5989.3,8187.0,36.7,True,False,10,107
+Project Risk Management,2459.7,8145.0,231.1,False,False,6,67
+Business Presentation Delivery,5808.6,8110.5,39.6,False,False,10,156
+Collaborative Practices with Stakeholders Across Disciplines,5177.9,7985.4,54.2,True,False,2,85
+Partnership Management,4142.7,7745.6,87.0,False,False,7,116
+Workplace Safety and Health Culture Development,2775.9,7543.5,171.7,False,False,6,175
+Reflective Practice,4787.1,7509.6,56.9,False,False,3,62
+Critical Thinking,2013.3,7461.6,270.6,False,False,5,64
+Contract Development and Management,4671.7,7425.8,59.0,False,True,8,113
+Robotic and Automation Technology Application,4333.9,7402.9,70.8,True,False,9,231
+Data-mining and Modelling,5637.4,7400.8,31.3,True,False,6,115
+Technical Writing,2224.3,7274.5,227.0,False,False,4,84
+Resilience and Self-Care,4672.9,7257.9,55.3,False,False,3,70
+Effectiveness Management,6016.1,7052.3,17.2,False,False,4,84
+Design Thinking Practice,2512.2,6628.5,163.9,False,False,4,86
+Emerging Technology Synthesis,4100.8,6606.5,61.1,True,False,6,153
+Process Improvement and Optimisation,3517.9,6600.5,87.6,True,False,7,183
+Strategy Execution,4299.0,6512.1,51.5,False,True,7,176
+Knowledge Management,4787.1,6510.5,36.0,False,True,6,158
+Design for Safety,1565.7,6434.3,310.9,False,True,2,40
+Crisis Situations Management,5701.0,6249.3,9.6,False,False,5,79
+Internet of Things Management,4678.7,6206.4,32.7,False,False,12,277
+Organisational Analysis,4961.6,6141.0,23.8,False,False,7,76
+Construction Project Management,1302.0,6095.9,368.2,False,False,1,29
+Incident and Accident Investigation,2056.5,6039.6,193.7,False,True,5,88
+Situation Management with Families and Community,3645.0,5872.5,61.1,False,False,1,27
+Interaction and Relationship,3645.0,5872.5,61.1,False,False,1,27
+Inclusive Practices in Early Childhood,3645.0,5872.5,61.1,False,False,1,27
+Data and Information Management,3645.0,5872.5,61.1,True,False,1,27
+Emergency Response Planning,4590.2,5774.6,25.8,False,False,3,66
+Design for Maintainability,1212.2,5675.5,368.2,True,False,1,27
+Excellence in Service,5027.8,5661.8,12.6,True,False,10,175
+"Health, Hygiene and Nutrition for Children",3510.0,5655.0,61.1,False,False,1,26
+Community Partnership,3510.0,5655.0,61.1,False,False,1,26
+Child Safety and Protection,3510.0,5655.0,61.1,False,False,1,26
+Business Needs Analysis,3525.3,5632.2,59.8,True,False,5,141
+Technical Presentation,2413.1,5617.0,132.8,False,False,5,92
+Business Risk Assessment,4448.2,5396.6,21.3,False,False,6,143
+Market Profiling,4967.0,5384.8,8.4,False,False,7,187
+Workplace Safety and Health,3485.6,5350.1,53.5,False,False,6,118
+Condition-based Monitoring,1925.8,5300.4,175.2,False,True,4,147
+Financial Management,3498.2,5243.5,49.9,False,False,13,132
+Child Observation,3240.0,5220.0,61.1,False,False,1,24
+Practitioner Inquiry,3240.0,5220.0,61.1,False,False,1,24
+Learning Environment Design for Early Childhood,3240.0,5220.0,61.1,False,False,1,24
+Data Governance,2995.6,5187.0,73.2,True,False,8,126
+Procurement Coordination and Policy Development,1273.8,5158.5,305.0,False,True,3,39
+Strategic Business Planning,4517.2,5090.5,12.7,False,False,5,109
+Regulatory Submission and Clearance,1077.6,5044.9,368.2,False,True,1,24
+Resource Management,4662.6,5025.1,7.8,False,False,4,132
+Service Innovation,4495.9,4905.5,9.1,False,False,4,76
+Inventory Management,2762.6,4888.5,77.0,False,False,6,68
+Cost Control and Management,3796.2,4739.5,24.8,False,False,2,43
+Value Engineering,1120.8,4737.1,322.6,False,False,2,35
+Technical Inspection,1424.6,4736.5,232.5,False,False,4,56
+Diversity and Inclusion,4486.4,4714.3,5.1,False,False,4,67
+Productivity Optimisation for Food and Beverages Operations,4000.0,4700.0,17.5,False,True,1,30
+Green Building Strategy Implementation,987.8,4624.5,368.2,True,False,1,22
+Organisational Strategy Development,3985.1,4622.9,16.0,True,False,5,49
+Food Safety and Hygiene,3880.8,4571.7,17.8,False,False,2,35
+Workplace Safety and Health for Food and Beverage Operations,3866.7,4543.3,17.5,False,False,1,29
+System and Work Process Improvement,3866.7,4543.3,17.5,False,False,1,29
+Food Waste Disposal and Reduction,3866.7,4543.3,17.5,False,False,1,29
+Food and Beverage Equipment Maintenance,3866.7,4543.3,17.5,False,True,1,29
+Food and Beverage Inventory Management,3866.7,4543.3,17.5,False,False,1,29
+Customer Service Excellence,3866.7,4543.3,17.5,False,False,1,29
+Continuous Process Improvement,3912.4,4501.0,15.0,False,False,6,161
+Customer Data Analysis,3707.7,4430.0,19.5,True,False,2,31
+Asset Management,1276.7,4416.2,245.9,False,False,4,73
+Customer Relationship Management Operations,2880.2,4390.1,52.4,False,False,3,35
+Business Relationship Building,2914.0,4255.5,46.0,False,False,4,55
+Data Synthesis,3494.4,4119.5,17.9,False,True,7,128
+Solutions Design Thinking,3170.1,4080.2,28.7,False,False,3,57
+Corporate Governance,2779.8,4039.7,45.3,False,False,11,118
+Data and Statistical Analysis,2277.9,3990.3,75.2,True,False,8,173
+Enterprise Risk Management,3717.6,3980.4,7.1,False,False,4,54
+Technology Integration,3464.7,3970.6,14.6,False,False,2,87
+Business Innovation,2454.2,3957.7,61.3,True,False,4,54
+Research Data Analysis,2458.3,3938.1,60.2,False,False,3,39
+Professional Consultation,2595.0,3922.5,51.2,False,False,3,53
+Coaching and Mentoring for Educators,2430.0,3915.0,61.1,False,False,1,18
+Customer Acquisition Management,3205.9,3913.4,22.1,False,True,8,76
+Intellectual Property Management,3200.5,3833.5,19.8,False,True,5,51
+Staff Communication and Engagement,2295.0,3697.5,61.1,False,False,1,17
+Engineering Drawing Interpretation and Management,1340.0,3687.7,175.2,False,True,5,59
+Vision Leadership,2595.3,3667.4,41.3,False,False,4,43
+Dispute Resolution,1384.0,3666.2,164.9,False,False,2,30
+Risk Management,1840.7,3661.4,98.9,False,True,6,88
+Brand Portfolio Management,3187.8,3648.2,14.4,False,False,5,36
+Halal Certification Compliance for Food and Beverages Operations,3066.7,3603.3,17.5,False,False,1,23
+3D Modelling,934.3,3581.0,283.3,False,False,4,32
+Regulatory Compliance,2796.8,3523.1,26.0,False,True,5,256
+Customer Loyalty and Retention Strategy Formulation,2874.5,3484.9,21.2,False,False,5,35
+Site Assessment and Analysis,883.9,3474.8,293.1,False,True,2,24
+Risk Compliance and Governance,2929.7,3464.6,18.3,False,True,8,80
+Engineering Contract Management,773.2,3448.6,346.0,False,True,2,21
+Food and Beverage Recipe Formulation,2933.3,3446.7,17.5,False,False,1,22
+Customer Experience Management,2842.9,3431.6,20.7,True,False,7,121
+Diversity and Inclusion in Care Provision,2457.9,3387.9,37.8,False,True,2,93
+Risk Management and Administration,2219.6,3384.6,52.5,False,True,4,119
+ICT Disaster Recovery Management,2900.0,3360.0,15.9,True,False,2,23
+Audit Management,2364.9,3327.1,40.7,False,False,4,65
+Food Product Marketing,2721.8,3326.7,22.2,False,False,2,26
+Market Trend Analysis,2981.5,3318.3,11.3,False,False,5,65
+Early Childhood Programme Planning,2025.0,3262.5,61.1,False,False,1,15
+Early Childhood Pedagogical Practice,2025.0,3262.5,61.1,False,False,1,15
+Early Childhood Curriculum Design,2025.0,3262.5,61.1,False,False,1,15
+Child Development Assessment,2025.0,3262.5,61.1,False,False,1,15
+Responsive Caregiving Approaches,2025.0,3262.5,61.1,False,False,1,15
+Equipment and Systems Testing,950.7,3234.4,240.2,False,True,3,30
+Project Cost,903.6,3230.4,257.5,False,True,3,18
+Market Evaluation,2938.0,3204.6,9.1,False,False,7,157
+Customer Relationship Management,2794.3,3186.2,14.0,False,True,6,103
+Manufacturing Process Management,2011.8,3182.3,58.2,False,False,5,44
+Equipment and Systems Installation and Commissioning Management,734.9,3155.5,329.4,False,False,2,59
+Personal Performance Management,2666.7,3133.3,17.5,False,False,1,20
+Workplace Safety and Health Practice,2203.4,3115.3,41.4,False,False,3,49
+Strategy Development,1777.2,3100.4,74.5,False,False,6,78
+Technology Adoption and Innovation,2215.8,3094.7,39.7,True,False,2,54
+Customer Behaviour Analysis,2883.7,3026.5,5.0,False,False,7,87
+Product Management,2204.3,3008.7,36.5,True,False,4,106
+Emergency Response and Crisis Management,2167.1,2987.1,37.8,False,False,2,82
+Customer Acquisition and Relationship Management,2533.3,2976.7,17.5,False,False,1,19
+E-commerce Management,2533.3,2976.7,17.5,True,False,1,19
+Workplace Safety and Health Performance Management and Implementation,2500.8,2966.6,18.6,False,False,7,110
+Lean Manufacturing,2136.1,2936.3,37.5,False,False,3,113
+Business Risk Management,1642.9,2912.2,77.3,False,False,5,59
+Business Planning,2456.9,2910.3,18.5,False,False,8,78
+Business Innovation and Improvement,1281.8,2872.7,124.1,False,True,3,40
+Augmented Reality Application,1261.9,2857.7,126.5,True,False,3,48
+Learning Needs Analysis,1830.5,2852.7,55.8,False,True,4,47
+Climate Change Management,2224.6,2837.6,27.6,False,False,3,116
+Network Performance Management,1519.4,2831.4,86.3,False,False,2,53
+Family and Caregiver Engagement,1755.0,2827.5,61.1,False,False,1,13
+Stakeholder Engagement and Management,1755.0,2827.5,61.1,False,False,2,34
+People Performance Management,2543.3,2819.8,10.9,False,False,1,162
+Business Development Networking,1886.7,2803.1,48.6,False,False,1,69
+Solar Photovoltaic Systems Designs,593.1,2751.6,363.9,False,False,2,17
+Building Management System Implementation and Control,583.7,2732.7,368.2,False,False,1,13
+Life Cycle Costing and Analysis,583.7,2732.7,368.2,False,False,1,13
+Good Manufacturing Practices Implementation,1089.0,2707.7,148.6,False,False,3,54
+Technical Drawing,699.0,2686.1,284.3,False,False,3,20
+People and Performance Management,1872.0,2682.1,43.3,False,False,3,47
+Automation Process Control,1196.4,2669.2,123.1,True,False,5,32
+Food and Beverage Quality Audit and Compliance,2266.7,2663.3,17.5,False,False,1,17
+"Professional, Legal and Ethical Healthcare Practice",1929.3,2659.3,37.8,False,False,1,73
+Proposal Writing,1294.4,2646.8,104.5,False,False,5,53
+Centre Innovation and Change Adoption,1620.0,2610.0,61.1,False,False,1,12
+Data Analytics System Design,2277.6,2583.6,13.4,True,False,4,48
+Business Requirements Mapping,1873.8,2575.7,37.5,False,True,3,85
+Marketing Campaign Management,2068.8,2560.5,23.8,False,False,7,31
+Facilities Shut-down and Restart,538.8,2522.4,368.2,False,False,1,12
+Contract Administration and Management,538.8,2522.4,368.2,False,True,1,12
+Productivity Improvement,2845.9,2519.1,-11.5,False,False,3,70
+Technology Strategy Design,2191.7,2515.8,14.8,True,False,2,18
+Additive Manufacturing,1490.5,2470.1,65.7,True,False,4,35
+Engineering Safety Standards Interpretation,764.7,2466.6,222.6,False,True,5,34
+"Hazards and Risk Control, and Policy Management",1712.8,2441.0,42.5,False,True,4,52
+Management Decision Making,990.9,2436.4,145.9,False,False,2,30
+People Development,2262.4,2380.6,5.2,False,False,3,93
+Crisis Management,2235.9,2367.8,5.9,False,False,7,138
+Professional and Business Ethics,1563.6,2345.5,50.0,False,False,1,43
+Loss and Risk Prevention Management,2159.6,2344.6,8.6,False,True,2,22
+Aesthetic and Design Sensibility,802.1,2327.1,190.1,False,False,3,29
+Computational Design,493.9,2312.2,368.2,True,False,1,11
+Common Data Environment Management,493.9,2312.2,368.2,False,True,1,11
+Cybersecurity,1314.6,2308.7,75.6,True,False,4,109
+Workplace Communications,2200.0,2300.0,4.5,False,False,1,24
+Ethical Conduct and Professional Integrity,1665.0,2295.0,37.8,False,False,1,63
+IT Test Planning,1531.2,2275.0,48.6,False,False,1,56
+Internal Controls,1511.2,2266.3,50.0,False,True,4,38
+Events Planning and Management,1558.7,2261.7,45.1,False,False,4,39
+Environmental Management System Framework Development and Implementation,1431.5,2232.2,55.9,False,False,4,93
+Trends Evaluation and Application,1612.1,2222.1,37.8,True,False,1,61
+Report Writing,1897.2,2207.8,16.4,False,False,5,81
+Food and Beverage Visual Merchandising Presentation,1866.7,2193.3,17.5,False,False,1,14
+Visioning and Strategic Planning,1350.0,2175.0,61.1,False,False,1,10
+Hazards and Risk Identification and Management,1388.5,2161.8,55.7,False,True,3,112
+Demand Analysis,1878.1,2160.7,15.0,False,True,5,40
+Research and Information Synthesis,639.6,2152.9,236.6,True,False,2,24
+Research into Professional Practice Translation,1417.9,2142.9,51.1,True,False,2,29
+Production Resource Management,1052.6,2127.0,102.1,False,False,4,20
+Performance Management Strategies,1421.9,2112.5,48.6,False,True,1,52
+Business Operational Planning,2016.7,2108.3,4.5,False,False,1,22
+Workplace Safety and Health Management System Implementation,1764.1,2094.3,18.7,False,False,5,30
+Sales Target Management,1746.8,2085.3,19.4,False,False,5,37
+Security Surveillance Management,1287.6,2061.2,60.1,False,False,2,14
+Corporate and Business Law,1431.6,2060.2,43.9,False,False,3,49
+Social Sector Policy Influence,1480.0,2040.0,37.8,False,False,1,56
+Food and Beverage Services,1733.3,2036.7,17.5,False,False,1,13
+Sustainable Food Production Design,1733.3,2036.7,17.5,True,False,1,13
+Sales Management,1733.3,2036.7,17.5,False,False,1,13
+Business Change Assessment,1733.3,2036.7,17.5,False,False,1,13
+Food and Beverage Production Management,1733.3,2036.7,17.5,False,True,1,13
+Financial Planning and Analysis,1531.8,2023.4,32.1,False,False,4,46
+Material Studies and Production Processes,609.3,2005.6,229.2,False,False,3,20
+Transportation Route and Schedule Planning,474.3,2004.1,322.6,False,False,2,13
+Inter-professional Collaboration,1453.6,2003.6,37.8,False,False,1,55
+"Industry Knowledge, Research and Analysis",700.0,2000.0,185.7,False,False,1,22
+Failure Analysis,1800.9,1994.3,10.7,False,False,4,31
+Customer Management,1089.6,1990.1,82.7,False,False,2,53
+User Interface Design,1382.2,1986.0,43.7,True,False,4,38
+Staff Management,1760.6,1964.3,11.6,False,False,3,62
+E-commerce Campaign Management,1771.1,1959.9,10.7,True,False,4,26
+Data Collection and Preparation,1215.0,1957.5,61.1,False,False,2,21
+Early Intervention Principles and Practices,1215.0,1957.5,61.1,False,False,1,9
+Workforce Data Management,1215.0,1957.5,61.1,False,False,3,18
+Social Service (Early Intervention) Programme Development and Implementation,1215.0,1957.5,61.1,False,False,1,9
+Service Challenges,1991.5,1950.9,-2.0,False,False,4,60
+Standard Operating Procedures Development,1517.0,1932.3,27.4,False,True,3,117
+Quality Standards,1285.2,1909.4,48.6,False,True,1,47
+Consumer Intelligence Analysis,1683.7,1895.8,12.6,False,False,3,24
+Regulatory Risk Assessment,1509.6,1892.1,25.3,False,True,4,63
+Green Facilities Management,404.1,1891.8,368.2,True,False,1,9
+Smart Facilities Management,404.1,1891.8,368.2,True,False,1,9
+Indoor Environmental Quality Improvement,404.1,1891.8,368.2,False,False,1,9
+Business Data Analysis,1439.6,1864.7,29.5,True,False,4,75
+Process Validation,781.0,1864.6,138.7,False,True,4,31
+Software Testing,1229.4,1861.6,51.4,False,True,3,38
+Artificial Intelligence Application,1199.0,1849.8,54.3,True,False,4,72
+Marketing Communications Plan Development,1321.7,1842.6,39.4,False,False,7,25
+Problem Management,1230.5,1828.1,48.6,False,False,1,45
+Competitive Business Strategy,702.7,1827.9,160.1,False,False,2,11
+Data Storytelling and Visualisation,1418.6,1825.6,28.7,True,False,3,71
+Product Advisory,1639.2,1822.4,11.2,False,False,2,89
+Process Improvement,1741.7,1820.8,4.5,False,False,1,19
+Manufacturing Production Planning and Scheduling,898.7,1806.1,101.0,False,False,6,33
+Cyber and Data Breach Incident Management,1198.0,1805.5,50.7,True,False,2,63
+Infographics and Data Visualisation,1725.4,1800.4,4.3,True,False,2,22
+ICT System Integration,1174.7,1780.3,51.6,False,False,3,36
+Applications Integration,810.9,1779.9,119.5,False,False,3,28
+Service Planning and Implementation,2042.1,1769.0,-13.4,False,False,3,37
+Programme Management,1109.7,1753.5,58.0,False,False,2,57
+Centre Operations Management,1080.0,1740.0,61.1,False,False,1,8
+Technical Report Writing,1077.2,1726.5,60.3,False,True,5,160
+Food Science Application,1466.7,1723.3,17.5,True,False,1,11
+Policy Implementation and Revision,1575.0,1722.3,9.4,False,True,4,79
+User Experience Design,1233.6,1709.0,38.5,True,False,5,46
+Communication,1011.6,1678.8,66.0,False,False,8,55
+Internet of Things Application,940.2,1657.2,76.3,True,False,3,112
+Automated Operation Monitoring,1040.8,1656.1,59.1,True,False,5,22
+Digital Marketing Management,1271.8,1642.5,29.1,True,False,7,41
+Embedded System Integration,1388.1,1639.6,18.1,True,False,4,22
+Research Findings Communication,981.6,1635.4,66.6,False,False,3,24
+Problem Solving,989.1,1627.7,64.6,False,False,8,56
+Engineering Management of Change,454.3,1611.4,254.7,False,False,2,23
+Structural Testing,657.4,1604.5,144.1,False,True,3,28
+Product Testing,844.5,1596.6,89.1,False,True,4,25
+Market Research and Analysis,1417.9,1586.3,11.9,False,False,3,91
+Social Media Management,1480.1,1568.2,6.0,True,False,3,20
+Clinical Governance,1136.4,1566.4,37.8,False,True,1,43
+Customer Experience Innovation,1466.7,1533.3,4.5,False,False,1,16
+Fire Protection System Maintenance,337.3,1522.0,351.3,False,False,2,11
+Cyber Risk Management,1148.6,1509.2,31.4,True,False,3,39
+Automated System Design,1222.0,1499.6,22.7,True,False,4,32
+Benchmarking,1093.2,1494.4,36.7,False,False,4,51
+Programme Delivery,1083.6,1493.6,37.8,False,False,1,41
+Research Design,1012.9,1490.4,47.1,True,False,2,26
+OJT Blueprint Development,1582.8,1489.7,-5.9,False,True,1,27
+"Cultural, Heritage and Socio-economic Sensitivity for Design",371.5,1474.0,296.8,False,False,2,10
+Business Acumen,981.8,1472.7,50.0,False,True,1,27
+Project Execution and Control,981.8,1472.7,50.0,False,False,2,28
+Natural Ventilation Design,314.3,1471.4,368.2,False,False,1,7
+Placemaking and Programming of Spaces,314.3,1471.4,368.2,True,False,1,7
+Lighting Design Optimisation,314.3,1471.4,368.2,False,False,1,7
+Facade Design,314.3,1471.4,368.2,False,False,1,7
+Website Performance Management,1385.1,1463.7,5.7,False,True,3,18
+Service Leadership,1565.4,1454.3,-7.1,False,False,3,26
+Creative Entrepreneurship,1147.6,1453.8,26.7,False,True,2,17
+Sponsorship Management,732.2,1453.8,98.6,False,False,3,19
+Problem Identification,1375.0,1437.5,4.5,False,False,1,15
+Idea Generation and Selection,1375.0,1437.5,4.5,False,False,1,15
+Financial Analysis,939.2,1437.4,53.0,False,False,3,28
+Organisational Planning and Target Setting,1180.7,1433.5,21.4,False,False,2,41
+Equipment Maintenance,1089.4,1427.4,31.0,False,True,3,18
+Configuration Tracking,959.4,1426.6,48.7,False,True,2,36
+Cost Management,835.3,1424.4,70.5,False,False,2,30
+Value Analysis,741.4,1423.9,92.1,False,False,2,10
+Service Quality Management,1030.7,1420.7,37.8,True,False,1,39
+Clinical Teaching and Supervision,1030.7,1420.7,37.8,False,False,1,39
+Brand Campaign Management,1358.7,1417.0,4.3,False,False,2,18
+Civil and Structural Engineering Management,574.2,1412.5,146.0,False,False,3,21
+Applications Support and Enhancement,562.4,1409.6,150.6,False,False,2,18
+Geotechnical Engineering Management,571.8,1407.8,146.2,False,False,2,20
+Software Design,935.7,1407.0,50.4,False,False,3,36
+Reflexive Practice,1004.3,1384.3,37.8,False,False,1,38
+Maintenance Scheduling,496.2,1382.4,178.6,False,True,3,52
+Social Media Marketing,1126.0,1376.2,22.2,True,False,4,19
+Quality Control and Assurance,1215.6,1374.7,13.1,False,True,3,31
+Disruption Management,755.3,1367.9,81.1,False,False,3,32
+Financial Statements Analysis,909.1,1363.6,50.0,False,False,1,25
+Operational Risk Management,1214.9,1360.6,12.0,False,True,2,35
+Virtual Reality Application,1040.0,1360.0,30.8,True,False,1,12
+Communications Channel Management,1207.7,1350.0,11.8,False,False,2,16
+International Marketing Programmes Management,1207.7,1350.0,11.8,False,False,2,16
+Financial Performance Analysis,1212.0,1345.4,11.0,False,False,4,58
+Third-party Management,796.3,1344.0,68.8,False,True,3,106
+Programming and Coding,524.7,1343.6,156.1,True,False,4,18
+Design Standards and Specification,453.1,1339.3,195.6,False,False,3,16
+Pricing Strategy,1096.0,1339.2,22.2,False,True,4,67
+Research Data Collection and Management,861.9,1329.2,54.2,True,False,2,32
+Macroeconomic Analysis,884.5,1325.6,49.9,False,False,2,26
+Applications Development,896.1,1323.5,47.7,True,False,3,36
+Contract and Vendor Management,980.5,1312.6,33.9,False,True,6,91
+People and Relationship Management,1530.3,1310.4,-14.4,False,False,3,29
+Skills Framework Adoption,810.0,1305.0,61.1,False,False,2,25
+Operational Excellence,810.0,1305.0,61.1,False,False,2,23
+Team Management,810.0,1305.0,61.1,False,False,1,6
+Human Factors Application and Error Management,834.1,1297.6,55.6,False,True,1,76
+Organisational Resource Management,787.4,1294.7,64.4,False,False,3,60
+Materials Qualification,637.3,1288.4,102.2,False,True,4,30
+Market Risk Management,1142.9,1285.7,12.5,False,True,1,15
+Business Process Re-Engineering,675.7,1285.4,90.2,True,False,4,35
+Account Management,1085.3,1283.7,18.3,False,False,3,65
+Website Design,1252.2,1278.8,2.1,False,False,4,18
+Clinical Services Development,925.0,1275.0,37.8,True,False,1,35
+Data Analytics and Computational Modelling,1146.1,1270.6,10.9,False,False,1,73
+Precision Measurement,1046.1,1245.2,19.0,False,False,2,35
+Infection Control,898.6,1238.6,37.8,False,False,1,34
+Department Performance Management,898.6,1238.6,37.8,False,False,2,34
+Brand Management,810.6,1238.4,52.8,False,False,5,31
+New Product Introduction,1045.1,1237.7,18.4,False,False,2,14
+Succession Planning,989.1,1236.6,25.0,False,True,3,40
+Imagination and Exploration,702.1,1212.8,72.7,False,False,2,32
+Conceptual Thinking,702.1,1212.8,72.7,False,False,2,32
+Software Configuration,884.2,1207.1,36.5,False,False,2,40
+Design Sketching,367.4,1196.4,225.6,False,False,3,12
+Service Information and Results,1377.2,1190.7,-13.5,False,False,3,25
+International Trade Legislation Compliance,996.2,1188.8,19.3,False,False,3,24
+Tourism and Economic Development,1187.0,1187.0,0.0,False,False,1,63
+Taxonomy Application,1067.6,1183.6,10.9,False,False,1,68
+Automation System Maintenance,986.4,1182.5,19.9,True,False,2,13
+Equipment and Inventory Management,561.7,1170.2,108.3,False,False,1,22
+Risk and Compliance Reporting,1051.9,1166.2,10.9,False,True,1,67
+Warehouse Space Utilisation,294.7,1163.3,294.8,False,False,2,9
+Sentiment Analysis,1100.0,1150.0,4.5,False,False,1,12
+User Interface and User Experience (UI/UX) Optimisation,1100.0,1150.0,4.5,True,False,1,12
+Collaboration,700.3,1148.7,64.0,False,False,7,47
+Organisational Risk Management,642.9,1142.9,77.8,False,False,1,25
+Service Level Management,765.6,1137.5,48.6,False,False,1,28
+Commissioning and Start-up Management,338.6,1124.6,232.1,False,False,3,12
+Risk Appetite and Goals Setting,1015.3,1123.6,10.7,False,False,3,43
+Machining,892.6,1115.3,24.9,False,False,3,20
+Risk Management Strategies,1004.8,1114.0,10.9,False,False,2,65
+Contract Management,844.9,1113.6,31.8,False,False,3,51
+Installation and Assembly,351.9,1113.1,216.3,False,False,3,14
+Process Optimisation,285.7,1112.3,289.3,False,True,2,12
+Capital Expenditure and Investment Evaluation,839.9,1107.6,31.9,False,False,5,28
+Data Analysis and Interpretation,624.6,1104.9,76.9,False,True,2,28
+Sustainability Risk Management,956.9,1103.6,15.3,False,False,2,57
+Documentation,1400.0,1100.0,-21.4,False,True,1,11
+Technology Road Mapping,585.3,1092.0,86.6,True,False,6,37
+Taxation Laws,727.3,1090.9,50.0,False,True,1,20
+Systems Integration,372.4,1088.9,192.4,True,False,4,20
+Learning Support Session Planning and Implementation,675.0,1087.5,61.1,False,False,1,5
+Child Functional Needs Assessment,675.0,1087.5,61.1,False,False,1,5
+Individualised Intervention Planning and Implementation,675.0,1087.5,61.1,False,False,1,5
+Accreditation Structure Management,675.0,1087.5,61.1,False,False,1,5
+Early Intervention Curriculum Design,675.0,1087.5,61.1,False,False,1,5
+Talent Capability Assessment,675.0,1087.5,61.1,False,False,2,10
+Yield Analysis,615.0,1086.8,76.7,False,False,3,18
+Risk Management and Mitigation,717.8,1086.4,51.3,False,False,2,20
+Maintenance Strategy Development,259.5,1086.0,318.5,False,False,2,9
+Engineering Drawing and Design Specifications,308.2,1069.4,247.0,False,False,2,9
+Workplace Safety and Health for Incident and Accident investigation,482.8,1062.1,120.0,False,False,1,84
+Social Service Programme Evaluation,766.4,1056.4,37.8,False,True,1,29
+Solution Architecture,710.9,1056.2,48.6,False,False,1,26
+Organisational Alignment and Interdependency Analysis,1008.3,1054.2,4.5,False,False,1,11
+Financial Budget Planning and Management,1008.3,1054.2,4.5,False,False,1,11
+Maintenance Coordination,960.2,1052.4,9.6,False,True,2,49
+Workflow Management,224.5,1051.0,368.2,False,True,1,5
+Green Manufacturing Design and Implementation,845.0,1051.0,24.4,True,False,3,64
+Non-Financial Industry Sustainability Developments,942.0,1044.4,10.9,False,False,1,60
+Food Safety Management,552.6,1028.3,86.1,False,False,2,26
+Aviation Accident and Incident Response Management,658.5,1024.4,55.6,False,False,1,60
+User Testing and Usability Testing,649.6,1023.2,57.5,False,True,2,27
+Social Service Programme Development,740.0,1020.0,37.8,True,False,1,28
+Social Service Programme Implementation,740.0,1020.0,37.8,False,True,1,28
+Laser and Optics Application,826.4,1019.3,23.3,True,False,3,21
+Board Membership,526.9,1014.0,92.4,False,False,4,11
+Risk Analytics,868.0,1011.0,16.5,True,False,5,55
+Fraud Risk Management,784.4,1005.2,28.1,False,False,3,16
+Empathetic Design,600.0,1000.0,66.7,False,True,1,28
+Cultural Sensitivity,600.0,1000.0,66.7,False,True,1,28
+Facilitation,600.0,1000.0,66.7,False,False,1,28
+Import and Export Documentation Administration,778.9,993.0,27.5,False,False,2,21
+Content Writing and Editing,959.4,992.8,3.5,False,False,2,20
+Media Strategy Development,809.0,990.1,22.4,False,True,5,18
+Decision Making,582.9,986.9,69.3,False,False,8,35
+Quality Improvement and Safe Practices,713.6,983.6,37.8,False,True,1,27
+Supply Chain Solutioning,732.7,978.3,33.5,False,True,3,31
+Material Joining,775.2,976.0,25.9,False,False,2,16
+Production Line Set-up,775.2,976.0,25.9,False,False,2,16
+Security Administration,656.2,975.0,48.6,True,False,1,24
+Agile Software Development,656.2,975.0,48.6,False,True,1,24
+Design Sustainability and Ethics Management,578.6,964.3,66.7,True,False,1,27
+Creative Thinking,550.8,958.6,74.0,False,False,4,29
+Drive Productivity and Innovation,916.7,958.3,4.5,False,False,1,10
+Visual Design and Communication Principles,916.7,958.3,4.5,False,False,1,10
+Shopper Marketing Campaign Management,916.7,958.3,4.5,False,False,1,10
+Infrastructure Support,627.2,948.8,51.3,False,False,2,19
+Surface Preparation and Protection,734.3,941.3,28.2,False,False,2,12
+Computer-aided Manufacturing,734.3,941.3,28.2,False,False,2,12
+Non-Alcoholic Beverage Preparation,800.0,940.0,17.5,False,False,1,6
+Alcoholic Beverage Preparation,800.0,940.0,17.5,False,False,1,6
+Pastry Preparation,800.0,940.0,17.5,False,False,1,6
+Bread Preparation,800.0,940.0,17.5,False,False,1,6
+Joining and Welding,827.1,939.8,13.6,False,False,3,36
+Process Operations Troubleshooting,275.8,937.1,239.7,False,False,2,15
+Workplace and Facilities Safety Management,425.3,935.6,120.0,False,False,1,74
+Business Agility,628.9,934.4,48.6,False,False,1,23
+Data Design,628.9,934.4,48.6,True,False,1,23
+Computer-aided Design,724.0,932.7,28.8,False,True,2,11
+Design Concepts Generation,759.1,926.0,22.0,False,False,2,16
+Hazard and Risk Control in Air Transport,592.7,922.0,55.6,False,False,1,54
+Process Unit and Utilities Operations Management,258.3,919.6,255.9,False,False,2,13
+Sales Strategy,755.9,919.0,21.6,False,False,4,54
+Department Financial Management,660.7,910.7,37.8,False,False,1,25
+Trade Association Advocacy and Representation,318.2,909.1,185.7,False,False,1,10
+Cleanliness and Contamination Control,693.3,906.7,30.8,False,False,1,8
+Manufacturing Technology,693.3,906.7,30.8,False,False,1,8
+Research and Development,723.9,903.7,24.8,False,False,2,9
+Access Control Management,1145.5,900.0,-21.4,True,False,1,9
+Information Collection,1145.5,900.0,-21.4,False,True,1,9
+Alarm System Management,1145.5,900.0,-21.4,False,False,1,9
+Network Security,603.9,898.5,48.8,True,False,2,23
+Manufacturing Process Design,785.1,897.7,14.3,False,False,2,11
+Civil Structure Maintenance,204.9,896.1,337.3,False,True,3,9
+IT Procurement,601.6,893.8,48.6,False,True,1,22
+"Drainage, Plumbing and Sanitary Systems Maintenance",202.6,891.4,340.0,False,False,2,8
+Escalator and Travellator Systems Maintenance and Management,202.6,891.4,340.0,False,False,2,8
+Lift Systems Maintenance and Management,202.6,891.4,340.0,False,False,2,8
+Demand and Supply Analysis,800.7,887.7,10.9,False,False,1,51
+Computerised Systems Validation,223.3,884.6,296.1,False,True,2,9
+Good Manufacturing Practices Implementation in Electronics Manufacturing,937.9,882.8,-5.9,False,False,1,16
+Organisational Strategy and Policy Realisation,600.0,880.0,46.7,False,False,2,45
+Threat Observation,1157.4,876.3,-24.3,False,False,2,16
+Scenario Planning and Analysis,785.0,870.3,10.9,False,False,1,50
+Child Screening and Assessment,540.0,870.0,61.1,False,False,1,4
+Competency Framework Development,540.0,870.0,61.1,False,True,2,9
+Learning and Development Strategy,540.0,870.0,61.1,False,False,2,7
+Sustainable Engineering,488.6,868.6,77.8,False,False,1,19
+Public Relations Campaign Management,825.0,862.5,4.5,False,False,1,9
+Geometric Dimensioning and Tolerancing,724.7,853.2,17.7,False,False,2,26
+Plant Identification,408.5,851.1,108.3,False,False,1,16
+Process Quality Management,408.5,851.1,108.3,True,False,1,16
+Human Error Management in Aviation Safety,1003.1,848.8,-15.4,False,False,1,98
+Aviation Legislation Compliance,1003.1,848.8,-15.4,False,False,1,98
+Quality Control Management,182.0,845.5,364.7,False,True,2,5
+"Organisational Vision, Mission and Values Formulation",862.1,844.1,-2.1,False,False,3,35
+Lifts and Escalators Systems Design,179.6,840.8,368.2,False,False,1,4
+Lightning Protection Systems Design,179.6,840.8,368.2,False,False,1,4
+Air Conditioning and Mechanical Ventilation Systems Maintenance,179.6,840.8,368.2,False,False,1,4
+Air Conditioning and Mechanical Ventilation System Design,179.6,840.8,368.2,False,False,1,4
+Architecture Design,179.6,840.8,368.2,False,False,1,4
+Analytics and Computational Modelling,179.6,840.8,368.2,True,False,1,4
+Electrical and Electronic Systems Maintenance,179.6,840.8,368.2,False,False,1,4
+Fire Protection System Design,179.6,840.8,368.2,False,False,1,4
+Electrical Systems Design,179.6,840.8,368.2,False,False,1,4
+Measurement of Building and Construction Works,179.6,840.8,368.2,False,True,1,4
+"Plumbing, Sanitary, Drainage and Gas Systems Design",179.6,840.8,368.2,False,False,1,4
+Environment and Social Governance,613.6,837.5,36.5,False,True,4,31
+Financial Modelling,539.2,837.4,55.3,True,False,3,17
+Capital Raising,539.2,837.4,55.3,False,False,2,16
+Inclement Weather Operations and Planning,537.8,836.6,55.6,False,False,1,49
+Document Control,465.8,835.0,79.3,False,False,2,20
+"Contract Preparation, Evaluation, Negotiation and Tendering",410.1,828.9,102.1,False,False,3,17
+Cutting,647.6,828.0,27.9,False,False,2,11
+Solutioning,879.3,827.6,-5.9,False,False,1,15
+Electrical Engineering Management,483.3,825.6,70.8,False,True,3,23
+Staff Performance Management,474.1,821.3,73.2,False,False,3,77
+Customer Challenges Management,1136.8,821.1,-27.8,False,False,1,24
+Dangerous Goods Management in Air Transportation,526.8,819.5,55.6,False,False,1,48
+Data Visualisation,559.2,819.3,46.5,True,False,3,22
+Digital Technology Adoption and Innovation,545.5,818.2,50.0,True,False,1,15
+Professional Scepticism and Judgment,545.5,818.2,50.0,False,False,1,15
+Financial Product Performance Management,737.9,818.1,10.9,False,False,1,47
+Data Ethics,546.9,812.5,48.6,True,False,1,20
+Instrumentation and Control Design Engineering Management,472.1,812.1,72.0,False,False,2,21
+Rail Regulatory Compliance,367.8,809.2,120.0,False,False,1,64
+Business Proposal Writing,440.4,808.3,83.6,False,False,3,23
+Nursing Productivity and Innovation,581.4,801.4,37.8,True,False,1,22
+Programme Evaluation,581.4,801.4,37.8,False,False,1,22
+Nursing Research and Statistics,581.4,801.4,37.8,False,True,1,22
+Customer Acceptance Checking and Onboarding,722.2,800.7,10.9,False,False,1,46
+Security Screening Management,1018.2,800.0,-21.4,False,False,1,8
+Security Operation Compliance,1018.2,800.0,-21.4,False,False,1,8
+Guard and Patrol,1018.2,800.0,-21.4,False,False,1,8
+Incident Response,1018.2,800.0,-21.4,False,False,1,8
+Security Risk Analysis,1018.2,800.0,-21.4,False,False,1,8
+Order Fulfilment Administration,679.7,798.0,17.4,False,False,2,12
+Test Planning,238.1,794.0,233.5,False,True,3,9
+Accounting Standards,526.7,788.3,49.7,False,False,2,17
+Metrology Management,698.4,784.4,12.3,False,True,2,10
+Visual Collaterals Production,754.7,783.9,3.9,False,False,2,13
+Product Testing Management,283.4,779.4,175.0,False,False,2,20
+Mechanical Engineering Management,437.1,777.1,77.8,False,True,1,17
+Credit Risk Management,660.4,772.9,17.0,False,True,4,31
+Emergency Management,820.7,772.4,-5.9,False,False,1,14
+Manufacturing Operation Management,820.7,772.4,-5.9,False,False,1,14
+Factory System Management,820.7,772.4,-5.9,False,False,1,14
+Carbon Footprint Management,722.5,771.1,6.7,False,False,5,54
+Paid Search Engine Marketing (SEM),733.3,766.7,4.5,True,False,1,8
+Order Fulfilment and Returns Processing,733.3,766.7,4.5,True,False,1,8
+Typeface and Layout Production,733.3,766.7,4.5,False,False,1,8
+Content Management System Utilisation,733.3,766.7,4.5,False,False,1,8
+Product Styling,733.3,766.7,4.5,False,False,1,8
+Game-Based Marketing,733.3,766.7,4.5,False,False,1,8
+Search Engine Optimisation (SEO),733.3,766.7,4.5,True,False,1,8
+Personal Effectiveness,733.3,766.7,4.5,False,False,1,8
+Colour Concept Application,733.3,766.7,4.5,False,False,1,8
+Webpage Content Management,733.3,766.7,4.5,False,False,1,8
+Mobile Apps Marketing,733.3,766.7,4.5,True,False,1,8
+Digital Asset and File Management,733.3,766.7,4.5,False,False,1,8
+Security Governance,579.3,766.0,32.2,True,False,2,28
+Learning Programme Design,555.0,765.0,37.8,False,False,2,21
+Group Work Evaluation,555.0,765.0,37.8,False,False,1,21
+Credit Assessment,683.9,761.9,11.4,False,True,2,32
+Database Administration,517.2,756.2,46.2,False,True,2,22
+Delivery Management,689.1,750.9,9.0,False,False,3,11
+Advanced Processing Technology,403.8,750.0,85.7,True,False,1,15
+Hazardous Material Management,357.4,744.7,108.3,False,False,2,15
+Digital Fluency,461.5,742.2,60.8,False,False,5,25
+Treasury Management,588.1,741.1,26.0,False,False,3,18
+Market Entry Strategy Formulation,659.1,738.6,12.1,False,True,2,9
+Analytical Method Validation,239.7,735.6,206.9,False,True,3,15
+Audit Compliance,490.4,733.8,49.6,False,True,3,17
+Audit and Compliance,492.2,731.2,48.6,False,False,1,18
+Procurement Performance Monitoring,541.2,729.8,34.9,False,True,3,11
+Health Promotion,528.6,728.6,37.8,True,False,1,20
+Advocacy and Representation,528.6,728.6,37.8,False,False,1,20
+Workplace Violence,528.6,728.6,37.8,False,True,1,20
+Supplier Sourcing,671.4,726.2,8.2,False,True,2,8
+Product Development,671.4,726.2,8.2,False,False,2,8
+Electrostatic Discharge Control,762.1,717.2,-5.9,False,True,1,13
+Ground Handling Services and Operations Management,461.0,717.1,55.6,False,False,1,42
+Work at Heights,349.7,713.8,104.1,False,False,3,40
+Digital and Physical Prototyping,402.1,712.8,77.2,False,False,2,18
+Performance Management,446.2,710.1,59.2,False,False,3,21
+Process Monitoring,213.4,709.4,232.3,False,False,2,12
+Automated Process Design,213.4,709.4,232.3,True,False,2,12
+Cargo and Receipt Inspection,532.8,707.8,32.8,False,True,2,17
+Production Performance Management,543.6,705.5,29.8,False,False,3,10
+Process Control,207.1,705.3,240.7,False,False,3,12
+Executive Protection,890.9,700.0,-21.4,False,True,1,7
+International Air Transport Association Safety Audit for Ground Operations Implementation,450.0,700.0,55.6,False,False,1,41
+Aircraft Turnaround Coordination,450.0,700.0,55.6,False,False,1,41
+Financial Product Design and Development,628.0,696.2,10.9,False,False,1,40
+Natural Capital Management,628.0,696.2,10.9,False,False,1,40
+Group Work Intervention,502.1,692.1,37.8,False,False,1,19
+Group Work Assessment and Planning,502.1,692.1,37.8,False,False,1,19
+Practice Supervision,502.1,692.1,37.8,True,False,1,19
+Engineering Support Management,189.6,687.8,262.9,False,True,3,10
+Manufacturing Systems Operation and Control,187.2,683.1,264.9,False,False,2,9
+Plant Economic Modelling,187.2,683.1,264.9,True,False,2,9
+Pneumatic Systems Management,520.0,680.0,30.8,False,False,1,6
+Engineering Product Design,520.0,680.0,30.8,False,False,1,6
+Plastic Injection Moulding,520.0,680.0,30.8,False,True,1,6
+Accounting and Tax Systems,448.1,671.0,49.7,False,False,2,14
+Sales Performance Management,641.7,670.8,4.5,False,False,1,7
+Service Coaching,821.1,670.5,-18.3,False,False,3,17
+Talent Management,416.8,669.0,60.5,False,False,3,8
+Sustainability Management,477.1,665.4,39.5,False,True,3,16
+Sense Making,388.6,664.5,71.0,False,False,6,30
+Equipment Maintenance and Housekeeping,321.6,661.7,105.8,False,True,3,45
+Equipment Qualification,160.9,656.9,308.1,False,False,2,6
+Automated Equipment and Control Systems Configuration,160.9,656.9,308.1,False,False,2,6
+Transdisciplinary Thinking,394.2,652.7,65.6,False,False,5,20
+New Product Introduction for Food,350.0,650.0,85.7,False,False,1,13
+Solar Photovoltaic Energy Assessment,144.1,649.5,350.6,True,False,2,7
+Cargo Tracking System Administration,497.8,648.3,30.2,False,False,3,17
+Design Creation and Development,359.3,641.3,78.5,False,False,2,16
+Environment Management in Landscape Operations,306.4,638.3,108.3,True,False,1,12
+"Landscape Tools, Equipment and Machinery Management",306.4,638.3,108.3,False,True,1,12
+Automation of Landscape Operations,306.4,638.3,108.3,True,False,1,12
+Soil and Media Assessment and Remediation,306.4,638.3,108.3,False,False,1,12
+Horticultural Chemical Usage,306.4,638.3,108.3,False,False,1,12
+Human-Robot Collaboration,406.1,631.7,55.6,True,False,1,37
+Active and Smart Packaging,337.3,628.3,86.3,True,False,2,18
+Network Administration and Maintenance,428.9,628.1,46.4,True,False,2,18
+Chinese Dry-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Indian Moist-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Indian Dry-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Malay Moist-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Western Cold Dish Preparation,533.3,626.7,17.5,False,False,1,4
+Malay Dry-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Western Dry-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Western Moist-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Asian Cuisine Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Chinese Moist-Heat Dish Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Specialty Cuisine Preparation and Cooking,533.3,626.7,17.5,False,False,1,4
+Asian Cold Dish and Dessert Preparation,533.3,626.7,17.5,False,False,1,4
+Client Advocacy,449.3,619.3,37.8,False,False,1,17
+Customer Feedback and Relationship Management,852.6,615.8,-27.8,False,False,1,18
+Mathematical Concepts Application,726.8,615.0,-15.4,False,False,1,71
+"Environmental Management System Policies, Standards, Procedures and Practices Management",295.0,613.5,107.9,False,True,2,17
+Merchandise Performance Analysis,587.7,612.7,4.3,False,True,2,8
+Metallic Material Characterisation,484.5,610.0,25.9,False,False,2,10
+Data Engineering,410.2,609.4,48.6,True,False,1,15
+IT Strategy,410.2,609.4,48.6,False,True,1,15
+Channel Management,549.5,609.2,10.9,False,True,1,35
+Scenario and Strategic Planning,364.3,607.1,66.7,False,False,1,17
+Manpower Planning and Deployment,275.9,606.9,120.0,False,True,1,48
+Product and Machine Assembly,474.3,601.3,26.8,False,False,2,9
+Professional Standards,400.0,600.0,50.0,False,False,1,11
+Food Manufacturing Process Design,323.1,600.0,85.7,False,True,1,12
+Risk Assessment,400.0,600.0,50.0,False,False,1,11
+People Change Management,400.0,600.0,50.0,False,False,1,11
+Security Manpower Deployment Plan,763.6,600.0,-21.4,False,False,1,6
+Governance,400.0,600.0,50.0,False,False,1,11
+Sales Closure,562.6,599.5,6.6,False,False,3,13
+Crisis Communication and Media Management,384.1,597.6,55.6,False,False,1,35
+Cargo Issuance and Dispatch,462.7,595.5,28.7,False,True,2,13
+Workplace Safety and Health for Fire Prevention and Fire Fighting,270.1,594.3,120.0,False,False,1,47
+Network Configuration,403.9,592.2,46.6,True,False,3,18
+Production Quality Management,810.5,589.5,-27.3,False,False,1,14
+Visual Communication,333.7,588.1,76.2,False,False,2,15
+Quality Assurance,518.0,588.1,13.5,False,False,2,38
+Automation Research and Implementation,280.9,585.1,108.3,True,False,1,11
+Laboratory Management,331.2,585.0,76.7,False,False,2,15
+Equipment Breakdown Repair and Maintenance,416.8,584.5,40.2,False,False,4,13
+Non-destructive Testing,500.2,583.3,16.6,False,True,3,19
+Casework Evaluation,422.9,582.9,37.8,False,True,1,16
+Clinical Records Documentation and Management,422.9,582.9,37.8,False,False,1,16
+Clinical Incident Management in Rehabilitation Therapy,422.9,582.9,37.8,False,False,1,16
+Performance Management for Nursing,422.9,582.9,37.8,False,False,1,16
+Medication Management in Nursing,422.9,582.9,37.8,False,False,1,16
+Casework Intervention,422.9,582.9,37.8,False,False,1,16
+Infection Prevention and Control in Nursing Practice,422.9,582.9,37.8,False,False,1,16
+Patient Care Delivery in Nursing,422.9,582.9,37.8,False,False,1,16
+Case and Care Planning,422.9,582.9,37.8,False,True,1,16
+Financial Reporting,395.0,580.3,46.9,False,True,2,12
+Product Improvement,322.4,576.2,78.7,False,True,2,14
+Organisation Evaluation for Business Excellence,550.0,575.0,4.5,False,False,1,6
+Retail Space Utilisation,550.0,575.0,4.5,False,False,1,6
+Retailing and the Economy,550.0,575.0,4.5,False,False,1,6
+Rules-Based Copy Editing,550.0,575.0,4.5,False,False,1,6
+Continuous Integration and Continuous Deployment,385.2,573.5,48.9,False,False,2,15
+Cloud Computing Application,385.2,573.5,48.9,True,False,2,15
+Hydraulic Systems Management,433.3,566.7,30.8,False,False,1,5
+Sustainable Manufacturing,433.3,566.7,30.8,False,False,1,5
+Polymeric Material Characterisation,433.3,566.7,30.8,False,False,1,5
+Valuation Approaches and Methodologies,357.4,564.7,58.0,False,False,2,11
+New Export Market Entry Strategy Formulation,235.0,563.6,139.9,False,True,2,8
+Knowledge Management System Implementation,282.4,562.9,99.3,False,False,2,12
+Media Platforms Management,505.2,561.7,11.2,False,False,3,10
+Procurement,523.5,561.6,7.3,False,False,2,29
+Service Innovation Culture,653.9,561.2,-14.2,False,False,2,11
+Preventive Maintenance Management,367.5,560.7,52.6,False,False,4,53
+Business Networking,427.5,559.1,30.8,False,False,4,25
+Staff Training Facilitation,390.2,556.1,42.5,False,False,3,59
+Media Public Relations Management,402.5,556.1,38.2,False,False,3,12
+Brand Guideline Development,533.7,554.5,3.9,False,False,2,9
+Narrative Design,350.0,550.0,57.1,False,True,2,22
+Service Brand,553.1,547.6,-1.0,False,False,2,7
+Effective Communication in Nursing,396.4,546.4,37.8,False,False,1,15
+Chemical Risk Management,338.6,546.2,61.3,False,False,2,20
+Intellectual Property Audit and Due Diligence,363.6,545.5,50.0,False,False,1,10
+Valuation for Deal Structuring,363.6,545.5,50.0,False,False,1,10
+Infrastructure Design,449.5,537.3,19.5,False,False,3,14
+Aerospace Engineering Drawing Interpretation and Management,634.6,537.0,-15.4,False,False,1,62
+Warehousing/Cargo-Related Occupational Health and Safety Management,333.3,533.3,60.0,False,False,1,19
+Security Architecture,357.8,532.8,48.9,True,False,2,14
+Plant Selection for Landscape Development,255.3,531.9,108.3,False,True,1,10
+Landscape Irrigation Management,255.3,531.9,108.3,False,True,1,10
+Automation Management in Product Development,355.5,528.1,48.6,False,True,1,13
+IT Asset Management,355.5,528.1,48.6,False,True,1,13
+Merchandise Buying,455.4,527.4,15.8,False,False,3,8
+Carbon Markets and Decarbonisation Strategies Management,409.5,526.8,28.6,False,False,4,27
+Dangerous Goods Management,333.5,526.6,57.9,False,False,2,23
+Food Safety Analysis,281.0,523.6,86.3,False,False,2,15
+Business Intelligence and Data Analytics,282.3,520.9,84.5,True,False,3,111
+Research,439.1,518.8,18.1,False,False,2,50
+Project Administration,501.1,513.6,2.5,False,False,2,15
+Airport Operations Management,329.3,512.2,55.6,False,False,1,30
+Group Therapy Planning and Implementation,370.0,510.0,37.8,True,False,1,14
+Patient Empowerment on Self-care,370.0,510.0,37.8,True,False,1,14
+Respiratory Care in Nursing,370.0,510.0,37.8,False,False,1,14
+Marketing Mix Management,448.7,505.2,12.6,False,False,2,7
+Manpower Forecasting,397.9,503.1,26.4,False,False,2,21
+Environment Observation,636.4,500.0,-21.4,False,False,1,5
+Behavioural Economics,300.0,500.0,66.7,False,True,1,14
+Business Model Innovation,300.0,500.0,66.7,False,False,1,14
+Security Event Management,636.4,500.0,-21.4,False,True,1,5
+Trend Forecasting,300.0,500.0,66.7,False,False,1,14
+Confidentiality Management,636.4,500.0,-21.4,False,False,1,5
+Security Threat Research,636.4,500.0,-21.4,False,False,1,5
+Security Performance Management,636.4,500.0,-21.4,False,False,1,5
+Safe System of Work Development and Implementation,317.2,494.3,55.9,False,False,2,91
+Laboratory Data Analysis,286.1,493.8,72.6,False,False,2,14
+Facility Maintenance,406.8,493.0,21.2,False,False,3,14
+Cash Flow Reporting,407.4,491.9,20.7,False,False,3,32
+Business Process Analysis,327.3,490.9,50.0,False,False,2,10
+Legal Writing,327.3,490.9,50.0,False,True,1,9
+Negotiation,327.3,490.9,50.0,False,True,1,9
+Tax Implications,327.3,490.9,50.0,False,False,1,9
+Professional Ethics,327.3,490.9,50.0,False,False,1,9
+Legal Matter Management,327.3,490.9,50.0,False,False,1,9
+Transfer Pricing,327.3,490.9,50.0,False,False,1,9
+Legal Business Acumen,327.3,490.9,50.0,False,False,1,9
+Accident and Incident Response Management,489.9,489.9,0.0,False,True,1,26
+Disaster Recovery Management,328.1,487.5,48.6,False,False,1,12
+Threat Analysis and Defence,328.1,487.5,48.6,False,False,1,12
+IT Standards,328.1,487.5,48.6,False,True,1,12
+Client Investment Suitability,439.6,487.4,10.9,False,False,2,30
+Organisational Policy Development for Workplace Safety and Health,275.9,486.2,76.2,False,False,4,17
+Influence,307.0,485.0,58.0,False,False,4,9
+Store Facilities and Housekeeping,458.3,479.2,4.5,False,True,1,5
+Point-Of-Purchase Marketing,458.3,479.2,4.5,False,False,1,5
+Store Security Policy,458.3,479.2,4.5,False,False,1,5
+Food and Beverage Safety and Hygiene,458.3,479.2,4.5,False,False,1,5
+Customer Loyalty,458.3,479.2,4.5,False,False,1,5
+Customer Experience Performance Management,663.2,478.9,-27.8,False,False,1,14
+Airline Operations Management,307.3,478.0,55.6,False,False,1,28
+Physics Concepts Application,563.0,476.4,-15.4,False,False,1,55
+Therapy Intervention Evaluation,343.6,473.6,37.8,False,False,1,13
+Case Reporting and Documentation,343.6,473.6,37.8,False,False,1,13
+Effective Client Communication,343.6,473.6,37.8,False,False,1,13
+Therapy Intervention Implementation,343.6,473.6,37.8,False,False,1,13
+Therapy Discharge Planning,343.6,473.6,37.8,True,False,1,13
+Client Education in Rehabilitation Therapy,343.6,473.6,37.8,False,False,1,13
+Logistics Operations Research and Planning,298.5,470.5,57.6,False,False,2,21
+Seafood Storage and Fabrication,400.0,470.0,17.5,False,False,1,3
+Meat Storage and Fabrication,400.0,470.0,17.5,False,False,1,3
+Wine Service,400.0,470.0,17.5,False,False,1,3
+Sustainable Insurance and Re-Insurance Solutions and Applications,423.9,470.0,10.9,False,False,1,27
+Sustainable Investment Management,423.9,470.0,10.9,False,False,1,27
+"Impact Indicators, Measurement and Reporting",423.9,470.0,10.9,False,True,1,27
+Workplace Safety and Health for Electrical Safety,212.6,467.8,120.0,False,False,1,37
+Behaviour Change Facilitation,278.6,464.3,66.7,False,False,1,13
+Group Dynamics Facilitation,278.6,464.3,66.7,True,False,1,13
+Concept Creation for Production Design,636.8,463.2,-27.3,False,False,1,11
+Engineering Problem Solving,542.5,459.1,-15.4,False,False,1,53
+Metal Forming,346.7,453.3,30.8,False,True,1,4
+Heat Treatment Process,346.7,453.3,30.8,False,False,1,4
+Production Shut-down and Restart,377.2,450.3,19.4,False,False,2,5
+Logistics Solution Design Thinking,280.7,449.1,60.0,False,False,1,16
+Threat Intelligence and Detection,300.8,446.9,48.6,False,False,1,11
+Data Strategy,300.8,446.9,48.6,True,False,1,11
+Agile Coaching,300.8,446.9,48.6,False,True,1,11
+Security Programme Management,300.8,446.9,48.6,True,False,1,11
+Risk Assessment for Production,535.9,445.9,-16.8,False,False,2,10
+Inventory Management in Rehabilitation Therapy,317.1,437.1,37.8,False,False,1,12
+Analysis of Research Data,317.1,437.1,37.8,False,False,1,12
+Research Proposal Development,317.1,437.1,37.8,False,False,1,12
+Scientific Writing and Communication,317.1,437.1,37.8,False,False,1,12
+Data Collection and Management,317.1,437.1,37.8,False,False,1,12
+Mobility and Ambulation Assistance in Nursing,317.1,437.1,37.8,False,False,1,12
+Finance Business Partnering,290.9,436.4,50.0,True,False,1,8
+Legal Research and Analysis,290.9,436.4,50.0,False,False,1,8
+Auditor Independence,290.9,436.4,50.0,False,True,1,8
+Information Gathering and Analysis,290.9,436.4,50.0,True,False,1,8
+Transaction Due Diligence,290.9,436.4,50.0,False,False,1,8
+Packaging Testing,250.4,435.0,73.7,False,True,2,12
+Leadership Development,270.0,435.0,61.1,False,False,2,7
+Curriculum Design,270.0,435.0,61.1,False,False,1,2
+Coaching and Mentoring,270.0,435.0,61.1,True,False,1,2
+Developing People,282.5,434.4,53.8,False,False,2,9
+Crowd Control and Planning,433.3,433.3,0.0,False,False,1,23
+Data and Information Visualisation,257.1,428.6,66.7,False,True,1,12
+Freight and Cargo Claim Administration,357.4,427.1,19.5,False,True,2,7
+Production Budget Management,536.5,426.0,-20.6,False,True,2,28
+Cleaning Chemical Handling,204.3,425.5,108.3,False,False,1,8
+Environmental Protection Management,263.2,421.1,60.0,False,False,1,15
+Logistics Solution Product/Project Management,263.2,421.1,60.0,False,False,1,15
+Biophilic Design in Built Environment,89.8,420.4,368.2,True,False,1,2
+Regulatory and Legal Advisory,376.8,417.7,10.9,False,False,1,24
+Innovation,296.5,416.5,40.5,False,True,2,51
+Asset and Inventory Management,568.4,410.5,-27.8,False,True,1,12
+Environmental Sustainability Management,568.4,410.5,-27.8,True,False,1,12
+Service Branding and Coaching,263.4,409.8,55.6,False,False,1,24
+Enterprise Architecture,273.4,406.2,48.6,False,False,1,10
+Cyber Forensics,273.4,406.2,48.6,True,False,1,10
+IT Governance,273.4,406.2,48.6,False,True,1,10
+Valuation Research and Analysis,248.3,401.0,61.5,False,False,2,8
+Valuation Conclusion and Reporting,248.3,401.0,61.5,False,False,2,8
+Technology Application in Counselling,290.7,400.7,37.8,False,False,1,11
+Research Translation,290.7,400.7,37.8,False,True,1,11
+Health Education Programme Development and Implementation,290.7,400.7,37.8,False,False,1,11
+Programme Quality and Audit Management,290.7,400.7,37.8,False,False,1,11
+Sustainable Lending Instruments Structuring,361.1,400.3,10.9,False,False,1,23
+Crowd and Traffic Control Management,509.1,400.0,-21.4,False,False,1,4
+Contingency Management,509.1,400.0,-21.4,False,False,1,4
+Security Escort,509.1,400.0,-21.4,False,False,1,4
+First-aid Support,509.1,400.0,-21.4,False,False,1,4
+Self-defence,509.1,400.0,-21.4,False,False,1,4
+Arrestation,509.1,400.0,-21.4,False,True,1,4
+Form Giving,209.3,391.3,87.0,False,False,2,9
+Sustainability Reporting,313.2,389.9,24.5,False,False,3,18
+Service Partnerships,366.7,383.3,4.5,False,False,1,4
+Delivery Optimisation,366.7,383.3,4.5,True,False,1,4
+Category Marketing,366.7,383.3,4.5,False,True,1,4
+Category Management,366.7,383.3,4.5,False,True,1,4
+House Brand Development,366.7,383.3,4.5,False,True,1,4
+Adapt to Change,366.7,383.3,4.5,False,False,1,4
+Product Costing and Pricing,366.7,383.3,4.5,False,True,1,4
+Press Conferences Management,366.7,383.3,4.5,False,False,1,4
+Supply Chain Operational Costing,366.7,383.3,4.5,False,False,1,4
+Inbound Marketing,366.7,383.3,4.5,True,False,1,4
+Supplier Performance,366.7,383.3,4.5,False,True,1,4
+Digital Image Production,366.7,383.3,4.5,False,False,1,4
+Product Advisory for Sales and Marketing,366.7,383.3,4.5,False,False,1,4
+Mass Communications Management,366.7,383.3,4.5,False,False,1,4
+Affiliate Marketing,366.7,383.3,4.5,True,False,1,4
+Products and Services Promotions,366.7,383.3,4.5,False,False,1,4
+Visual Merchandising Presentation,366.7,383.3,4.5,False,False,1,4
+Blog and Vlog Deployment,366.7,383.3,4.5,True,False,1,4
+Learning Programme Evaluation,174.7,382.0,118.6,False,False,2,6
+Cash Flow Management,254.5,381.8,50.0,False,False,1,7
+Intellectual Property Portfolio Management,254.5,381.8,50.0,False,True,1,7
+Intellectual Property Management Processes,254.5,381.8,50.0,False,False,1,7
+Contracts and Agreement,254.5,381.8,50.0,False,False,1,7
+Trade Finance Management,338.5,379.0,12.0,False,True,2,10
+Room Revenue Management,521.1,376.3,-27.8,False,False,1,11
+Hospitality Data Collection and Analysis,521.1,376.3,-27.8,False,True,1,11
+Workplace First-aid,315.2,376.0,19.3,False,False,2,10
+Jigs and Fixtures Design,300.9,374.6,24.5,False,False,2,7
+Plant Health Management and Disease Control,178.7,372.3,108.3,False,False,1,7
+Systems Engineering Thinking,166.7,366.7,120.0,False,False,1,29
+Portfolio Management,246.1,365.6,48.6,False,True,1,9
+Organisational Design,246.1,365.6,48.6,False,True,2,21
+Quality Engineering,246.1,365.6,48.6,False,True,1,9
+Security Strategy,246.1,365.6,48.6,False,False,1,9
+Wound Management in Nursing,264.3,364.3,37.8,False,False,1,10
+Social Policy Formulation,264.3,364.3,37.8,False,False,1,10
+Emergency Care Management in Nursing,264.3,364.3,37.8,False,False,1,10
+Nursing Care for the Deceased,264.3,364.3,37.8,False,False,1,10
+"Product, Content and Experience Performance Management",358.0,358.0,0.0,False,True,1,19
+Project Quality,346.7,348.1,0.4,False,True,2,10
+Compliance Mindset Development,314.0,348.1,10.9,False,False,1,20
+Aerospace Materials and Hardware Selection,409.4,346.5,-15.4,False,False,1,40
+Electrical Fundamentals Application,409.4,346.5,-15.4,False,False,1,40
+"Helicopter Aerodynamics, Structures and Systems Principles Application",409.4,346.5,-15.4,False,False,1,40
+Aerodynamics Principles Application,409.4,346.5,-15.4,False,False,1,40
+Digital Techniques Application,409.4,346.5,-15.4,False,False,1,40
+"Piston Aeroplane Aerodynamics, Structures and Systems Principles Application",409.4,346.5,-15.4,False,False,1,40
+Electronic Fundamentals Application,409.4,346.5,-15.4,False,False,1,40
+"Turbine Aeroplane Aerodynamics, Structures and Systems Principles Application",409.4,346.5,-15.4,False,False,1,40
+Financial Planning,229.9,343.7,49.5,False,False,2,8
+Sales Delivery,473.7,342.1,-27.8,False,False,1,10
+Financial Planning and Budget Management,219.5,341.5,55.6,False,False,2,21
+Workplace Safety and Health Hazard Identification and Risk Control Management,341.2,341.2,0.0,False,False,1,39
+People Capability Development,170.1,340.2,100.0,False,False,1,72
+Polymeric Additive Manufacturing,260.0,340.0,30.8,True,False,1,3
+Metal-Based Additive Manufacturing,260.0,340.0,30.8,True,False,1,3
+Piston Engine Principles Application,399.2,337.8,-15.4,False,False,1,39
+Propeller Principles Application,399.2,337.8,-15.4,False,False,1,39
+Gas Turbine Engine Principles Application,399.2,337.8,-15.4,False,False,1,39
+Pricing for Cargo Services and Operations,210.5,336.8,60.0,False,False,1,12
+Technology and Systems Application,167.7,335.4,100.0,True,False,1,71
+Audit and Review Management,330.0,334.8,1.5,False,False,4,29
+ICT Quality Assurance,221.1,329.7,49.1,False,True,2,9
+Infrastructure Deployment,221.1,329.7,49.1,False,False,2,9
+Propulsion Principles Application,389.0,329.1,-15.4,False,False,1,38
+Health and Fatigue Risk Management,149.4,328.7,120.0,False,False,1,26
+Workplace Safety and Health for Confined Spaces,149.4,328.7,120.0,False,False,1,26
+Billing Procedure,237.9,327.9,37.8,False,True,1,9
+Counselling Intervention,237.9,327.9,37.8,False,False,1,9
+Nursing Manpower Planning,237.9,327.9,37.8,False,False,1,9
+Counselling Assessment,237.9,327.9,37.8,False,True,1,9
+Goal Setting in Rehabilitation Therapy,237.9,327.9,37.8,False,False,1,9
+Social Policy Development,237.9,327.9,37.8,False,False,1,9
+Performance Measurement Management,218.2,327.3,50.0,False,False,1,6
+Legal Interviewing,218.2,327.3,50.0,False,False,1,6
+Registered Design Application,218.2,327.3,50.0,False,False,1,6
+Contract Drafting,218.2,327.3,50.0,False,False,1,6
+Client Management,218.2,327.3,50.0,False,False,1,6
+Intellectual Property Intelligence,218.2,327.3,50.0,False,False,1,6
+Business Development for Law Firms,218.2,327.3,50.0,False,False,1,6
+Trade Mark Application,218.2,327.3,50.0,False,True,1,6
+Non-Financial Reporting,218.2,327.3,50.0,False,False,2,8
+Patent Practice,218.2,327.3,50.0,False,False,1,6
+Due Diligence,218.2,327.3,50.0,False,True,1,6
+Financial Reporting Quality,218.2,327.3,50.0,False,False,1,6
+Deal Structuring,218.2,327.3,50.0,False,False,1,6
+Security Assessment and Testing,218.8,325.0,48.6,True,False,1,8
+Technical Sales Support,218.8,325.0,48.6,False,True,1,8
+Airside Driving,208.5,324.4,55.6,False,False,1,19
+Qualitative Research,192.9,321.4,66.7,False,True,1,9
+Risk Control and Response Planning,229.4,321.2,40.0,False,False,1,39
+Waste Material Loading and Unloading Administration,153.2,319.1,108.3,False,True,1,6
+Waste Sorting Management,153.2,319.1,108.3,False,False,1,6
+Waste Treatment Management,153.2,319.1,108.3,False,False,1,6
+Landscape Drainage Management,153.2,319.1,108.3,False,False,1,6
+Waste Disposal Management,153.2,319.1,108.3,False,False,1,6
+Workflow Digitalisation,153.2,319.1,108.3,True,False,1,6
+Skyrise Greenery Design and Implementation,153.2,319.1,108.3,True,False,1,6
+Product Marketing and Branding,282.6,313.3,10.9,False,False,1,18
+Mergers and Acquisition,275.7,309.4,12.2,False,False,2,6
+Autonomous Logistics Design and Application,193.0,308.8,60.0,True,False,1,11
+Material Management,193.0,308.8,60.0,False,False,1,11
+Time-sensitive Cargo Delivery Management,193.1,305.4,58.2,False,True,2,13
+Content Marketing Strategy,126.7,304.0,139.9,False,False,2,8
+Workshop Practices Application,358.3,303.1,-15.4,False,False,1,35
+Attractions Guest Relations Management,301.4,301.4,0.0,False,True,1,16
+Media Storage Record Maintenance,381.8,300.0,-21.4,False,False,1,3
+Automated Food Manufacturing System Maintenance,161.5,300.0,85.7,True,False,1,6
+International Trade Legislation for Business,161.5,300.0,85.7,False,False,1,6
+Marketing Management,381.8,300.0,-21.4,False,False,1,3
+Recipe Formulation,161.5,300.0,85.7,False,False,1,6
+Deterrence,381.8,300.0,-21.4,False,False,1,3
+Sales Channel Management,298.8,299.3,0.2,False,False,2,8
+Corrective Maintenance Management,148.8,297.6,100.0,False,False,1,63
+Investment Financial Modelling,266.9,295.9,10.9,False,False,1,17
+Financial Statements Review,266.9,295.9,10.9,False,False,1,17
+Production Planning and Scheduling,370.7,291.8,-21.3,False,True,2,18
+Medication Safety,211.4,291.4,37.8,False,False,1,8
+Learner Assessments,211.4,291.4,37.8,False,False,1,8
+Nutrition and Fluids Management in Nursing,211.4,291.4,37.8,False,False,1,8
+Engineering Maintenance Management,132.2,290.8,120.0,False,True,1,23
+Bus Regulatory Compliance,132.2,290.8,120.0,False,False,1,23
+Equipment and Systems Repair,189.8,289.8,52.7,False,False,2,12
+Productivity and Innovation Strategy,275.0,287.5,4.5,False,True,1,3
+Product Quality Assurance,275.0,287.5,4.5,False,False,1,3
+Print Management,275.0,287.5,4.5,False,False,1,3
+Project Plan,275.0,287.5,4.5,False,False,1,3
+Property and Infrastructural Planning,275.0,287.5,4.5,False,False,1,3
+Franchise Management,275.0,287.5,4.5,False,False,1,3
+Interviewing,275.0,287.5,4.5,False,False,1,3
+Functional Analysis,275.0,287.5,4.5,False,False,1,3
+Project Timeline,275.0,287.5,4.5,False,True,1,3
+Writing of Advertising Copy for Broadcast and Interactive Media,275.0,287.5,4.5,False,True,1,3
+Project Scope,275.0,287.5,4.5,False,False,1,3
+Writing of Advertising Copy for Print Media,275.0,287.5,4.5,False,False,1,3
+Project Integration,275.0,287.5,4.5,False,False,1,3
+Production of Still and Moving Images,275.0,287.5,4.5,False,False,1,3
+Project Resources,275.0,287.5,4.5,False,False,1,3
+Print Production Trends and Techniques,275.0,287.5,4.5,False,False,1,3
+Product and Production Engineering,171.4,285.7,66.7,False,False,1,8
+Learning Agility,178.1,285.5,60.4,False,False,4,8
+Security Education and Awareness,191.4,284.4,48.6,False,False,1,7
+Cold Chain Operations Administration,175.4,280.7,60.0,False,False,1,10
+Financial Fraud Risk Management,251.2,278.5,10.9,False,False,1,16
+Intellectual Property Enforcement,181.8,272.7,50.0,False,True,1,5
+Auditing and Assurance Standards,181.8,272.7,50.0,False,True,1,5
+Risk Advisory,181.8,272.7,50.0,False,True,1,5
+Patent Claim and Specification Drafting,181.8,272.7,50.0,False,False,1,5
+Learning and Development Programme Management,95.5,272.7,185.7,False,True,2,7
+Learning Experience Delivery,95.5,272.7,185.7,True,False,1,3
+Vegetation Planting,127.7,266.0,108.3,False,False,1,5
+Transportation Operations and Management,127.7,266.0,108.3,False,False,1,5
+Water Features Management,127.7,266.0,108.3,False,False,1,5
+Waste Collection Management,127.7,266.0,108.3,False,False,1,5
+Plant Pruning,127.7,266.0,108.3,False,False,1,5
+Employee and Labour Relations,263.8,263.8,0.0,False,False,1,14
+Financial Transactions,224.8,263.4,17.2,False,False,2,13
+Portfolio and Investment Risk Management,235.5,261.1,10.9,False,False,2,17
+Asset and Liability Management,235.5,261.1,10.9,False,False,1,15
+Materials Inspection,195.0,260.8,33.8,False,False,2,13
+Applied Research and Development Management,299.7,260.3,-13.1,False,False,2,30
+Autonomous Systems Technology Application,129.9,259.8,100.0,True,False,1,55
+Derivatives Trading Management,228.6,257.1,12.5,False,False,1,3
+Commodities Trading Management,228.6,257.1,12.5,False,True,2,4
+Organisation Representative,218.2,255.2,16.9,False,False,3,4
+Pharmaceutical Equipment Maintenance,185.0,255.0,37.8,False,False,1,7
+Care Transition in Nursing,185.0,255.0,37.8,True,False,1,7
+Security Management,114.9,252.9,120.0,False,False,1,20
+Pricing for Transportation Services and Operations,157.9,252.6,60.0,False,False,1,9
+Performing Arts Production Operations,347.4,252.6,-27.3,False,False,1,6
+Logistics Process Quality Management,157.9,252.6,60.0,False,False,1,9
+Logistics Solutions Sales,157.9,252.6,60.0,False,False,1,9
+Cargo Security Control,157.9,252.6,60.0,False,False,1,9
+Procurement for Production Operations,298.7,251.3,-15.9,False,False,2,23
+Enterprise Database System Administration,234.0,250.9,7.2,False,True,2,20
+Food Manufacturing Quality Control Management,134.6,250.0,85.7,False,False,1,5
+Food Production Management,134.6,250.0,85.7,False,False,1,5
+Design Writing,150.0,250.0,66.7,False,True,1,7
+"Training, Coaching and Assessment Management",245.0,245.0,0.0,False,False,1,28
+Reliability Engineering Management,160.1,244.8,52.9,False,False,3,12
+Infrastructure Strategy,164.1,243.8,48.6,False,True,1,6
+Organisational Impact Analysis,164.1,243.8,48.6,True,False,1,6
+Computational Modelling,164.1,243.8,48.6,True,False,1,6
+Data Centre Facilities Management,164.1,243.8,48.6,False,True,1,6
+Market Specialisation,219.8,243.7,10.9,False,False,1,14
+Tourism Promotion,331.6,239.5,-27.8,False,False,1,7
+Revenue Optimisation,331.6,239.5,-27.8,True,False,1,7
+Flight Disruptions and Irregular Operations Management,153.7,239.0,55.6,False,False,1,14
+Tax Advisory,161.2,235.6,46.2,False,True,2,5
+Internal Audit Engagement Execution,161.2,235.6,46.2,False,False,2,5
+Cleanliness Testing,142.7,235.0,64.7,False,False,2,8
+Aerospace Maintenance Practices Application,276.4,233.9,-15.4,False,False,1,27
+Strategic Service Excellence,166.5,229.7,37.9,False,False,2,13
+Production Design,308.2,229.3,-25.6,False,False,2,8
+Continuing Professional Development Management,227.5,227.5,0.0,False,False,1,26
+Injection Mould Design,173.3,226.7,30.8,False,False,1,2
+Collateral Management,204.1,226.3,10.9,False,False,1,13
+Personal Finance Advisory,204.1,226.3,10.9,False,False,1,13
+Behavioural Finance,204.1,226.3,10.9,False,False,1,13
+Volunteer Management,226.1,226.1,0.0,False,False,1,12
+Pricing for Warehouse Services and Operations,140.4,224.6,60.0,False,False,1,8
+Cloud Computing Implementation,140.4,224.6,60.0,False,False,2,14
+Information Technology and Network Security,140.4,224.6,60.0,False,False,1,8
+Hazardous Materials Identification System (Hmis) Administration,140.4,224.6,60.0,False,True,1,8
+Customer Service Delivery,142.7,222.0,55.6,False,False,1,13
+Psychological Formulation,158.6,218.6,37.8,False,False,1,6
+Clinical Supervision,158.6,218.6,37.8,False,True,1,6
+Psychological Assessment,158.6,218.6,37.8,False,False,1,6
+Practice Evaluation,158.6,218.6,37.8,False,False,1,6
+Psychological Intervention,158.6,218.6,37.8,False,False,1,6
+Tax Controversy Management,145.5,218.2,50.0,False,True,1,4
+Internal Audit Engagement Planning,145.5,218.2,50.0,False,False,1,4
+Debt Restructuring,145.5,218.2,50.0,False,False,1,4
+Intellectual Property in Research and Development,145.5,218.2,50.0,False,True,1,4
+Evidence Management,145.5,218.2,50.0,False,True,1,4
+Intellectual Property Licencing,145.5,218.2,50.0,False,True,1,4
+Tax Risk Management,145.5,218.2,50.0,False,True,1,4
+Infocomm Security and Data Privacy,145.5,218.2,50.0,False,False,1,4
+Post-Deal Integration Management,145.5,218.2,50.0,False,False,1,4
+Tax Compliance,145.5,218.2,50.0,False,True,1,4
+Copyright Protection,145.5,218.2,50.0,False,False,1,4
+Digital Forensics,145.5,218.2,50.0,True,False,1,4
+Claims Management,145.5,218.2,50.0,False,False,1,4
+Forensic Data Analytics,145.5,218.2,50.0,True,False,1,4
+Business Process Management,145.5,218.2,50.0,False,False,1,4
+Litigation Support,145.5,218.2,50.0,False,False,1,4
+Valuation Of Different Classes Of Interest,145.5,218.2,50.0,False,False,1,4
+Restructuring Insolvency Advisory,145.5,218.2,50.0,False,False,1,4
+Due Professional Care,145.5,218.2,50.0,False,False,1,4
+Financial Crime Laws and Regulations,145.5,218.2,50.0,False,True,1,4
+Enterprise Risk Mitigation Management,145.5,218.2,50.0,False,False,1,4
+Fraud Detection and Prevention,145.5,218.2,50.0,False,False,1,4
+Regulatory Strategy,145.5,218.2,50.0,False,False,2,7
+Fraud Investigation Planning and Execution,145.5,218.2,50.0,False,False,1,4
+Engagement Quality Control,145.5,218.2,50.0,False,False,1,4
+Interaction Design,128.6,214.3,66.7,True,False,1,6
+Technology Transfer,136.0,213.6,57.1,False,False,2,4
+Intellectual Property Commercialisation and Exploitation,136.0,213.6,57.1,False,True,2,4
+Horizontal Surface Maintenance,102.1,212.8,108.3,False,False,1,4
+Horticultural Maintenance Programme,102.1,212.8,108.3,False,False,1,4
+Pest Control Detection and Monitoring Application,102.1,212.8,108.3,False,False,1,4
+Pest Control Site Assessment and Analysis,102.1,212.8,108.3,False,True,1,4
+Plant Propagation and Production,102.1,212.8,108.3,False,False,1,4
+Skyrise Greenery Maintenance,102.1,212.8,108.3,True,False,1,4
+Pest Disposal Management,102.1,212.8,108.3,False,True,1,4
+Turf Maintenance,102.1,212.8,108.3,False,False,1,4
+Display Creation and Management,102.1,212.8,108.3,False,False,1,4
+Vertical Surface Maintenance,102.1,212.8,108.3,False,False,1,4
+Tree Removal,102.1,212.8,108.3,False,False,1,4
+Tree Pruning,102.1,212.8,108.3,False,False,1,4
+Tree Climbing and Aerial Rescues,102.1,212.8,108.3,False,False,1,4
+Ecology in Landscapes,102.1,212.8,108.3,False,False,1,4
+Biophilic Design,102.1,212.8,108.3,True,False,1,4
+Rehearsal Management,289.5,210.5,-27.3,False,False,1,5
+Monitoring and Surveillance,188.4,208.9,10.9,False,False,1,12
+Engineering Project Management,171.0,203.8,19.2,False,False,3,19
+Computer Vision Technology,136.7,203.1,48.6,True,False,1,5
+Text Analytics and Processing,136.7,203.1,48.6,True,False,1,5
+Intelligent Reasoning,136.7,203.1,48.6,True,False,1,5
+Pattern Recognition Systems,136.7,203.1,48.6,True,False,1,5
+Self-Learning Systems,136.7,203.1,48.6,True,False,1,5
+Heavy Lifting Machinery Operation,92.0,202.3,120.0,False,False,1,16
+Rail Incident Management,92.0,202.3,120.0,False,False,1,16
+Rail Emergency Response Management,92.0,202.3,120.0,False,False,1,16
+Security Audit Management,254.5,200.0,-21.4,False,False,1,2
+Food Manufacturing Facility Maintenance,107.7,200.0,85.7,False,True,1,4
+Canine Handling,254.5,200.0,-21.4,False,False,1,2
+Surface Preparation and Protection for Aerospace Manufacturing,235.4,199.2,-15.4,False,False,1,23
+Material Flow Modelling,122.8,196.5,60.0,False,False,1,7
+Technology Infrastructure Management and Integration,122.8,196.5,60.0,True,False,2,13
+e-Logistics IT Solutioning,122.8,196.5,60.0,False,False,1,7
+Livestock Cargo Administration,122.8,196.5,60.0,False,False,1,7
+Automation Design,122.8,196.5,60.0,False,False,1,7
+Integrated System Design and Application,122.8,196.5,60.0,False,True,1,7
+Sustainable Landscape Design,98.0,195.3,99.2,True,False,2,4
+Utilities Management,124.5,193.8,55.6,True,False,2,8
+Photographic Images Manipulation,183.3,191.7,4.5,False,False,1,2
+Product Improvement Management,183.3,191.7,4.5,False,False,1,2
+Product Demonstration,183.3,191.7,4.5,False,False,1,2
+After-sales Service,183.3,191.7,4.5,False,False,1,2
+Manual and Digital Drawings Production,183.3,191.7,4.5,False,False,1,2
+Project After Action Review,183.3,191.7,4.5,False,False,1,2
+Retail Administration,183.3,191.7,4.5,False,False,1,2
+Elastomer Seals Application,225.2,190.6,-15.4,False,False,1,22
+Sealants Process,225.2,190.6,-15.4,False,False,1,22
+Civil Emergency Management,86.2,189.7,120.0,False,False,1,15
+Integrated Marketing,164.9,189.0,14.6,False,False,3,8
+Behavioural Analysis and Predictive Screening,120.7,187.8,55.6,True,False,1,11
+Ground Support Equipment Operations,120.7,187.8,55.6,False,False,1,11
+Concept Creation,187.5,187.5,0.0,False,False,1,30
+Front-end Engineering and Design,102.9,182.9,77.8,False,False,1,4
+Intervention Planning in Occupational Therapy,132.1,182.1,37.8,True,False,1,5
+Care Assistance,132.1,182.1,37.8,False,True,2,5
+Assistive Devices Prescription in Occupational Therapy,132.1,182.1,37.8,False,False,1,5
+Inventory Control and Equipment Maintenance in Rehabilitation Care,132.1,182.1,37.8,False,False,1,5
+Support Service to Seniors,132.1,182.1,37.8,False,False,2,5
+Social Policy Implementation,132.1,182.1,37.8,False,False,1,5
+Intervention Implementation,132.1,182.1,37.8,False,True,2,5
+Frontline Services Management,132.1,182.1,37.8,False,False,1,5
+Client Assessment for Occupational Therapy,132.1,182.1,37.8,False,True,1,5
+Social Policy Evaluation,132.1,182.1,37.8,False,True,1,5
+Environmental Assessment and Modification for Occupational Therapy,132.1,182.1,37.8,False,True,1,5
+Warehouse Inventory Control and Audit,215.0,181.9,-15.4,False,True,1,21
+Learning Programme Management,215.0,181.9,-15.4,False,False,1,21
+Content Strategy and Development,107.1,178.6,66.7,False,True,1,5
+Artificial Intelligence Ethics and Governance,107.1,178.6,66.7,False,True,1,5
+Inspection Engineering Management,128.4,178.0,38.6,True,False,2,30
+Track Access Management,80.5,177.0,120.0,False,False,1,14
+Laboratory Data Reporting and Analysis Management,175.0,175.0,0.0,False,False,1,20
+Attribution Analysis,157.0,174.1,10.9,False,False,1,10
+Financial Valuation,157.0,174.1,10.9,False,False,2,11
+Technical Analysis,157.0,174.1,10.9,False,False,1,10
+Trading Management,157.0,174.1,10.9,False,False,2,11
+Baggage Services Management,109.8,170.7,55.6,False,False,1,10
+Aircraft Performance Management,109.8,170.7,55.6,False,False,1,10
+Flight Planning,109.8,170.7,55.6,False,False,1,10
+Flight Performance Data Calculation,109.8,170.7,55.6,False,False,1,10
+Baggage Lost and Found Operations,109.8,170.7,55.6,False,False,1,10
+Instrumentation and Control Maintenance Management,85.0,170.1,100.0,False,False,1,36
+Attractions Programme Development,169.6,169.6,0.0,False,True,1,9
+"Meetings, Incentives, Conferences and Exhibitions (MICE) Equipment Management and Venue Management",169.6,169.6,0.0,False,False,1,9
+Vertical Programme Management,105.3,168.4,60.0,False,False,1,6
+Costume Design and Creation,231.6,168.4,-27.3,False,False,1,4
+Transport Management System Administration,105.3,168.4,60.0,False,False,1,6
+Material Handling Equipment (Mhe) Handling,105.3,168.4,60.0,False,False,1,6
+Warehouse Facility Management,105.3,168.4,60.0,False,False,1,6
+Transportation Hub/Control Centre Administration,105.3,168.4,60.0,False,False,1,6
+Warehouse Management System Administration,105.3,168.4,60.0,False,False,1,6
+Environment Impact Assessment,111.5,168.4,51.1,False,True,3,9
+Data Migration,111.7,167.2,49.7,False,True,2,5
+"Health, Safety and Environment Procedures Implementation",166.2,166.2,0.0,False,False,1,19
+Marketing Strategy,125.8,165.6,31.7,False,False,2,10
+Process Integration,175.9,165.5,-5.9,False,False,1,3
+Defect Density Monitoring,175.9,165.5,-5.9,False,True,1,3
+Parametric Testing,175.9,165.5,-5.9,False,False,1,3
+Condition Monitoring,82.7,165.4,100.0,False,True,1,35
+Intellectual Property Monetisation,109.1,163.6,50.0,False,False,1,3
+Legal Advocacy,109.1,163.6,50.0,False,False,1,3
+Intellectual Property in Business,109.1,163.6,50.0,False,False,1,3
+Internal Audit Function Management,109.1,163.6,50.0,False,False,1,3
+Internal Audit Quality Assurance,109.1,163.6,50.0,False,False,1,3
+Climate Reporting,109.1,163.6,50.0,False,False,2,7
+Group Accounting and Consolidation,109.1,163.6,50.0,False,False,1,3
+Stakeholder Management for Legal Professionals,109.1,163.6,50.0,False,False,1,3
+Engagement Completion and Reporting,109.1,163.6,50.0,False,False,1,3
+Dispute Resolution Strategy,109.1,163.6,50.0,False,False,1,3
+Engagement Planning,109.1,163.6,50.0,False,False,1,3
+Engagement Execution,109.1,163.6,50.0,False,False,1,3
+Technology Incubation,109.1,163.6,50.0,False,False,1,3
+Sustainability Assurance,109.1,163.6,50.0,False,True,2,5
+Engagement Review,109.1,163.6,50.0,False,False,1,3
+Crisis Management for Legal Professionals,109.1,163.6,50.0,False,False,1,3
+Greenhouse Gas Accounting,109.1,163.6,50.0,False,False,2,7
+Naval Architecture Calculations,181.4,163.3,-10.0,False,True,2,19
+Embedded Systems Interface Design,109.4,162.5,48.6,True,False,1,4
+Narrative Design in Product Development,109.4,162.5,48.6,False,True,1,4
+Bulk Cargo Administration,105.5,161.7,53.3,False,False,2,10
+Flower Arrangement,76.6,159.6,108.3,False,False,1,3
+Public Hygiene Maintenance,76.6,159.6,108.3,False,False,1,3
+Food Shop Hygiene Maintenance,76.6,159.6,108.3,False,False,1,3
+Furniture and Furnishing Maintenance,76.6,159.6,108.3,False,False,1,3
+Transport Route and Schedule Planning,76.6,159.6,108.3,False,False,1,3
+Washroom Maintenance,76.6,159.6,108.3,False,False,1,3
+Tree Transplantation,76.6,159.6,108.3,False,False,1,3
+Chainsaw Operations,76.6,159.6,108.3,False,False,1,3
+Tree Health Management,76.6,159.6,108.3,False,False,1,3
+Pesticide Application,76.6,159.6,108.3,False,False,1,3
+Pest Behavioural Management,76.6,159.6,108.3,False,False,1,3
+Flower Harvesting and Handling,76.6,159.6,108.3,False,False,1,3
+Sample Management,157.5,157.5,0.0,False,False,1,18
+Laboratory Operations Management,157.5,157.5,0.0,False,False,1,18
+Qualitative Analysis,141.3,156.7,10.9,False,False,1,9
+Sustainability Stewardship Development,141.3,156.7,10.9,False,False,2,10
+"Trade Processing, Fund Settlement and Treasury Transaction Processing",141.3,156.7,10.9,False,False,2,10
+Coating,184.3,155.9,-15.4,False,False,1,18
+Chemical Processing,184.3,155.9,-15.4,False,False,1,18
+Energy Systems Asset Integrity Management,78.0,155.9,100.0,False,False,1,33
+Surface Enhancement,184.3,155.9,-15.4,False,False,1,18
+Non-Metallic Materials Testing,184.3,155.9,-15.4,False,False,1,18
+Flight Dispatch,98.8,153.7,55.6,False,False,1,9
+Flight Watching and Flight Following,98.8,153.7,55.6,False,False,1,9
+Airline Marketing,98.8,153.7,55.6,False,False,1,9
+Customer and Passenger Handling and Care,98.8,153.7,55.6,False,False,1,9
+Tour and Travel Services Product and Experience Development and Delivery,150.7,150.7,0.0,False,False,1,8
+Production Bioprocess Development,80.8,150.0,85.7,False,False,1,3
+Novel Food Application,80.8,150.0,85.7,False,True,1,3
+Food Technology Application,80.8,150.0,85.7,False,False,1,3
+Control System Programming,112.7,147.9,31.2,False,True,2,6
+Marine Engineering Calculations,174.0,147.2,-15.4,False,True,1,17
+Automated Distribution Management,105.7,145.7,37.8,True,False,1,4
+Case History Taking in Physiotherapy,105.7,145.7,37.8,False,False,1,4
+Medication Reconciliation in Pharmacy Support,105.7,145.7,37.8,False,False,1,4
+Medication Dispensing,105.7,145.7,37.8,False,True,1,4
+Patient Education on Use of Prescribed Drugs,105.7,145.7,37.8,False,False,1,4
+Mentoring for Youths,105.7,145.7,37.8,False,False,1,4
+Development on Intervention Plan for Physiotherapy,105.7,145.7,37.8,True,False,1,4
+Therapeutic Equipment Prescription in Physiotherapy,105.7,145.7,37.8,False,False,1,4
+Environmental Assessment and Modification for Physiotherapy,105.7,145.7,37.8,False,False,1,4
+Client Assessment for Physiotherapy,105.7,145.7,37.8,False,True,1,4
+Client Assessment for Speech Therapy,105.7,145.7,37.8,False,True,1,4
+Intervention Planning in Speech Therapy,105.7,145.7,37.8,True,False,1,4
+Ambulatory Care Service Support,105.7,145.7,37.8,False,False,1,4
+Youth Development,105.7,145.7,37.8,False,True,1,4
+Client Assessment in Therapy Support,105.7,145.7,37.8,False,False,1,4
+Therapeutic Equipment Prescription in Speech Therapy,105.7,145.7,37.8,False,False,1,4
+Drug Distribution and Inventory Management,105.7,145.7,37.8,False,False,1,4
+Document Management for Pharmacy Support,105.7,145.7,37.8,False,True,1,4
+Non-sterile Compounding,105.7,145.7,37.8,False,False,1,4
+Sterile Manufacturing of Pharmaceutical Products,105.7,145.7,37.8,False,False,1,4
+Pharmacy-only (P) Medication Sales,105.7,145.7,37.8,False,False,1,4
+Youth Outreach,105.7,145.7,37.8,False,True,1,4
+Set Design,192.4,145.1,-24.6,False,True,2,6
+Prop Design,192.4,145.1,-24.6,False,True,2,6
+Set Construction,192.4,145.1,-24.6,False,False,2,6
+Data Management,70.9,141.7,100.0,False,False,1,30
+Warehouse Performance Measurement,87.7,140.4,60.0,False,False,1,5
+Transportation Equipment Handling,87.7,140.4,60.0,False,False,1,5
+Warehouse Facility Security Control,87.7,140.4,60.0,False,False,1,5
+Warehouse Administration,87.7,140.4,60.0,False,False,1,5
+Warehouse Maintenance and Housekeeping,87.7,140.4,60.0,False,False,1,5
+Shipment Load Planning and Palletisation/Consolidation,87.7,140.4,60.0,False,True,1,5
+Staff Development Management,140.0,140.0,0.0,False,False,1,16
+Electronic Trading System Management,125.6,139.2,10.9,True,False,1,8
+Wealth Planning Administration,125.6,139.2,10.9,False,False,1,8
+Proposal Management,125.6,139.2,10.9,False,False,1,8
+Information Technology Application Support and Monitoring,125.6,139.2,10.9,True,False,1,8
+Price Verification and Profit Analysis,125.6,139.2,10.9,False,False,1,8
+Bus Engine System Maintenance,63.2,139.1,120.0,False,False,1,11
+Bus Electrical and Electronic Systems Maintenance,63.2,139.1,120.0,False,False,1,11
+Bus Drivetrain Systems Maintenance,63.2,139.1,120.0,False,False,1,11
+Bus Steering and Suspension Systems Maintenance,63.2,139.1,120.0,False,False,1,11
+Bus Brake Systems Maintenance,63.2,139.1,120.0,False,False,1,11
+Bus Air-conditioning Systems Maintenance,63.2,139.1,120.0,False,False,1,11
+Supplier Management and Capability Development,163.8,138.6,-15.4,False,False,1,16
+Operational Risk Planning,163.8,138.6,-15.4,False,False,1,16
+Continuous Quality Improvement,163.8,138.6,-15.4,False,False,1,16
+Predictive Maintenance,163.8,138.6,-15.4,True,False,1,16
+Production Operations,137.5,137.5,0.0,False,True,1,22
+Adaptability,86.9,137.4,58.2,False,False,2,8
+Maintenance Strategy Management,77.1,137.1,77.8,False,False,1,3
+Room Housekeeping Operations Management,189.5,136.8,-27.8,False,False,1,4
+Front Office Operations Management,189.5,136.8,-27.8,False,False,1,4
+Room Reservation Operations Management,189.5,136.8,-27.8,False,True,1,4
+Ground Services Training Delivery,87.8,136.6,55.6,False,False,1,8
+Media File Formats Conformation,165.8,134.2,-19.0,False,False,2,10
+Video Editing,165.8,134.2,-19.0,False,False,2,10
+Plant Turnaround Management,131.2,131.2,0.0,False,False,1,15
+Major Hazard Installation Safety Case Management,131.2,131.2,0.0,False,False,1,15
+Composite Structures Design and Maintenance,153.5,129.9,-15.4,False,False,1,15
+Production Crew Selection,145.4,129.6,-10.9,False,False,2,15
+Business Stakeholder Management,63.8,127.6,100.0,False,False,1,27
+Process Safety Management Framework Development and Implementation,124.9,127.2,1.9,False,False,2,15
+Digital and Interactive Design,173.7,126.3,-27.3,False,False,1,3
+Props Management,173.7,126.3,-27.3,False,False,1,3
+Business Ethics and Values Management,79.2,125.1,58.0,False,False,2,2
+Content Strategy,98.4,125.0,27.0,False,False,2,9
+Non-conformance Management,122.5,122.5,0.0,False,False,1,14
+Radio Frequency Engineering,82.0,121.9,48.6,True,False,1,3
+Product Risk Assessment,82.0,121.9,48.6,False,True,1,3
+Data Sharing,82.0,121.9,48.6,True,False,1,3
+Data Protection Management,82.0,121.9,48.6,True,False,1,3
+Risk and Crisis Management,82.0,121.9,48.6,False,True,1,3
+Internal Controls in Product Development,82.0,121.9,48.6,False,True,1,3
+Content Management,82.0,121.9,48.6,True,False,1,3
+Philanthropy Advisory,109.9,121.8,10.9,False,False,1,7
+Sound Recording Operations,153.3,121.7,-20.6,False,False,2,8
+"Electrical Termination, Connection and Measurement",143.3,121.3,-15.4,False,False,1,14
+Visual Testing,143.3,121.3,-15.4,False,False,1,14
+Financial Budgeting,143.3,121.3,-15.4,False,True,2,16
+Airline Distribution Channel Strategies,76.8,119.5,55.6,False,False,1,7
+Airport Collaborative Decision Making Model Application,76.8,119.5,55.6,False,False,1,7
+Ship Security,82.4,115.3,40.0,False,False,1,14
+Workplace Traffic Safety Management,51.7,113.8,120.0,False,True,1,9
+Crowd Management,51.7,113.8,120.0,False,False,1,9
+Engineering Train and Rolling Stock Operation,51.7,113.8,120.0,False,False,1,9
+Flexible Facilities Implementation,113.8,113.8,0.0,False,True,1,13
+Manufacturing Workflow Management,133.1,112.6,-15.4,False,True,1,13
+Warehouse Automation Application,70.2,112.3,60.0,False,False,1,4
+Warehouse Layout Design,70.2,112.3,60.0,False,False,1,4
+Cross Docking,70.2,112.3,60.0,False,False,1,4
+Public-Private-Individual Partnership Collaboration,70.2,112.3,60.0,False,False,1,4
+System Configuration Management,115.7,110.9,-4.1,True,False,2,13
+Interface Management,115.7,110.9,-4.1,False,False,2,13
+Learning Framework Development,79.3,109.3,37.8,False,False,1,3
+"Review and approval of curricula. Establish standards for the development, implementation, evaluation of curricula.",79.3,109.3,37.8,False,False,1,3
+Inventory Procurement for Pharmacy Support,79.3,109.3,37.8,False,False,1,3
+Staff Training Management,79.3,109.3,37.8,False,False,1,3
+Intervention Implementation in Therapy Support,79.3,109.3,37.8,True,False,1,3
+Support Service to Children and Youths,79.3,109.3,37.8,False,False,1,3
+Support Service to Persons with Disabilities,79.3,109.3,37.8,False,False,1,3
+Patient Education and Engagement,79.3,109.3,37.8,True,False,1,3
+Volunteer Programme Management,79.3,109.3,37.8,False,False,1,3
+Clinical Support for Patient Service Associates,79.3,109.3,37.8,False,False,1,3
+Learning Programme Delivery,79.3,109.3,37.8,False,False,1,3
+Volunteer Recruitment,79.3,109.3,37.8,False,False,1,3
+Client Supervision,79.3,109.3,37.8,False,False,1,3
+Client Education in Therapy Support,79.3,109.3,37.8,False,False,1,3
+Volunteer Programme Evaluation,79.3,109.3,37.8,False,False,1,3
+Vision Mixing,140.8,109.2,-22.4,False,True,2,6
+Visual Style Development,140.8,109.2,-22.4,False,False,2,6
+Lighting Operations,140.8,109.2,-22.4,False,True,2,6
+Sound Design and Creation,140.8,109.2,-22.4,False,True,2,6
+Transactional Accounting,72.7,109.1,50.0,False,False,1,2
+Tax Computation,72.7,109.1,50.0,False,False,1,2
+Technology Assessment,72.7,109.1,50.0,False,False,1,2
+Audit Frameworks,72.7,109.1,50.0,False,True,2,3
+Financial Closing,72.7,109.1,50.0,False,False,1,2
+Patent Office Action and Infringements,72.7,109.1,50.0,False,True,1,2
+Intellectual Property Strategy,72.7,109.1,50.0,False,False,1,2
+Customer Orientation,64.3,107.1,66.7,False,False,2,5
+Quantitative Research,64.3,107.1,66.7,False,False,1,3
+Ship Operations,76.5,107.1,40.0,False,False,1,13
+Plastic Recycling Process,51.1,106.4,108.3,False,False,1,2
+Plants and Materials Procurement for Landscape Projects,51.1,106.4,108.3,False,False,1,2
+Waste Recycling and Recovery Management,51.1,106.4,108.3,False,False,1,2
+Microclimate in Landscape Design,51.1,106.4,108.3,False,False,1,2
+Sustainable Material Research,51.1,106.4,108.3,False,False,1,2
+Pyrolysis Process for Plastic Waste Recycling,51.1,106.4,108.3,False,False,1,2
+Nursery Operations Management,51.1,106.4,108.3,False,True,1,2
+Placemaking and Programming of Open Spaces,51.1,106.4,108.3,False,False,1,2
+Process Engineering Design,78.0,105.7,35.4,False,False,2,7
+Operations Reporting Protocol Application,105.0,105.0,0.0,False,False,1,12
+Hazards and Risk Identification and Management in BioPharmaceuticals,105.0,105.0,0.0,False,True,1,12
+Block Trading,94.2,104.4,10.9,False,False,1,6
+FInancial Market Risk Management,94.2,104.4,10.9,False,False,1,6
+Trust Structuring,94.2,104.4,10.9,False,False,1,6
+Insurance Claims Handling,94.2,104.4,10.9,False,False,1,6
+Image Processing and Industrial Vision Inspection,122.8,103.9,-15.4,False,True,1,12
+Commissioning Coordination,122.8,103.9,-15.4,False,False,1,12
+Rigging Operations,134.5,103.0,-23.5,False,False,2,5
+Linen and Uniform Room Operations Management,142.1,102.6,-27.8,False,False,1,3
+Laundry Operations Management,142.1,102.6,-27.8,False,False,1,3
+Concierge and Uniformed Service Delivery,142.1,102.6,-27.8,False,False,1,3
+One-Stop Service Delivery,142.1,102.6,-27.8,False,False,1,3
+Room Distribution Channel Management,142.1,102.6,-27.8,False,False,1,3
+Butler Service Delivery,142.1,102.6,-27.8,False,False,1,3
+Club Floor Operations Management,142.1,102.6,-27.8,False,False,1,3
+Service Level Agreement Management,65.9,102.4,55.6,False,False,1,6
+Rail Operations Enhancement Management,46.0,101.1,120.0,False,False,1,8
+Electrical Field Maintenance Management,68.1,101.1,48.6,False,False,2,18
+Firearm Handling,127.3,100.0,-21.4,False,False,1,1
+Permit Management,49.6,99.2,100.0,False,False,1,21
+Personal Survival Techniques,70.6,98.8,40.0,False,False,1,12
+Fire Prevention and Firefighting Aboard Ships,70.6,98.8,40.0,False,False,1,12
+Survival Craft and Rescue Boats,70.6,98.8,40.0,False,False,1,12
+Documentation and Administration,70.6,98.8,40.0,False,True,1,12
+Laboratory Equipment Maintenance and Calibration Management,96.3,96.3,0.0,False,False,1,11
+Biorisk Management,96.3,96.3,0.0,False,False,1,11
+Business Excellence,91.7,95.8,4.5,False,False,1,1
+Power Plant Operations Management,47.2,94.5,100.0,False,False,1,20
+"Tour and Travel Coordination, Ticketing and Reservations Management",94.2,94.2,0.0,False,True,1,5
+Market Intelligence,107.9,92.1,-14.6,False,False,2,9
+Mechanical Field Maintenance Management,63.3,91.7,44.7,False,False,2,16
+Ship Medical Care,64.7,90.6,40.0,False,False,1,11
+Employee Relationship Management,64.7,90.6,40.0,False,False,2,16
+Global Perspective,57.8,90.3,56.2,False,False,2,2
+Electrical Maintenance Management,44.9,89.8,100.0,False,False,1,19
+Bus Body Work Maintenance,40.2,88.5,120.0,False,False,1,7
+High Voltage Power Systems Maintenance,40.2,88.5,120.0,False,False,1,7
+Low Voltage Power Systems Maintenance,40.2,88.5,120.0,False,False,1,7
+Asset Integrity Management,87.5,87.5,0.0,False,False,1,10
+Product Design and Development,87.5,87.5,0.0,True,False,1,10
+Chemical Plant Commissioning and Start-up Management,87.5,87.5,0.0,False,False,1,10
+BioPharmaceuticals Manufacturing Process Optimisation,87.5,87.5,0.0,False,False,1,10
+Organisational Analysis Management,87.5,87.5,0.0,False,True,1,10
+Front-End Engineering Design Management,87.5,87.5,0.0,False,False,1,10
+Post Trade Monitoring and Risk and Capital Management,78.5,87.0,10.9,False,False,1,5
+Family Governance,78.5,87.0,10.9,False,False,1,5
+Instrumentation and Control System Design,102.4,86.6,-15.4,False,False,1,10
+Aerospace Heat Treatment Process,102.4,86.6,-15.4,False,False,1,10
+Systems Design,57.0,86.0,50.7,False,False,2,3
+Air Cargo Operations Management,54.9,85.4,55.6,False,False,1,5
+Engineering Safety and Security Standards,54.9,85.4,55.6,False,True,1,5
+Engineering Standards Audit and Assessment,54.9,85.4,55.6,False,False,1,5
+Aircraft Load Planning,54.9,85.4,55.6,False,False,1,5
+Fire Prevention and Firefighting,54.9,85.4,55.6,False,False,1,5
+Cargo Warehousing Operations,54.9,85.4,55.6,False,False,1,5
+Cabin Crew Performance Management,54.9,85.4,55.6,False,False,1,5
+Airline Representation and Station Management,54.9,85.4,55.6,False,False,1,5
+Unit Load Devices Operations,54.9,85.4,55.6,False,False,1,5
+Air-freight Tracking System Adminsitration,54.9,85.4,55.6,False,False,1,5
+Personnel and Equipment Operational Readiness,54.9,85.4,55.6,False,False,1,5
+Baggage Loading and Unloading Administration,54.9,85.4,55.6,False,False,1,5
+Airport Infrastructure and Facilities Maintenance and Design,54.9,85.4,55.6,False,False,1,5
+Ground Support Equipment Safety Audit Inspections,54.9,85.4,55.6,False,False,1,5
+Aviation Emergency Response Planning,54.9,85.4,55.6,False,False,1,5
+Kitchen Production Scheduling,54.9,85.4,55.6,False,False,1,5
+Baggage Security Screening Operations,54.9,85.4,55.6,False,False,1,5
+Airfield Civil Infrastructure Maintenance and Design,54.9,85.4,55.6,False,False,1,5
+Load Control Documentation,54.9,85.4,55.6,False,False,1,5
+Cargo Processing for Air-freight,54.9,85.4,55.6,False,False,1,5
+Ground Support Equipment Maintenance,54.9,85.4,55.6,False,False,1,5
+Call Centre Management,54.9,85.4,55.6,False,True,1,5
+Airfield Specialised Systems Maintenance and Design,54.9,85.4,55.6,False,False,1,5
+Cargo Transit and Transhipment Management,54.9,85.4,55.6,False,True,1,5
+"Food and Beverage Safety, Hygiene and Security",54.9,85.4,55.6,False,False,1,5
+Food and Beverage Quality Audit and Assessment,54.9,85.4,55.6,False,False,1,5
+Food Waste Management,54.9,85.4,55.6,False,False,1,5
+Baggage Handling Operations,54.9,85.4,55.6,False,False,1,5
+Aircraft Weight and Balance Calculation,54.9,85.4,55.6,False,False,1,5
+Cargo Loading and Unloading Administration,54.9,85.4,55.6,False,False,1,5
+Engineering Services Procurement Management,42.5,85.0,100.0,False,False,1,18
+Mechanical Maintenance Management,42.5,85.0,100.0,False,True,1,18
+Pharmaceutical and Nutritional Product Introduction,61.9,85.0,37.3,False,False,2,5
+Logistics Solutions Marketing,52.6,84.2,60.0,False,False,1,3
+Multimedia Operations,115.8,84.2,-27.3,False,False,1,2
+Multimedia Design,115.8,84.2,-27.3,False,False,1,2
+Lighting Conceptualisation and Design for Production,115.8,84.2,-27.3,False,False,1,2
+Strategic Human Resource Management,52.6,84.2,60.0,False,False,1,3
+Technical Sound Design,115.8,84.2,-27.3,False,True,1,2
+Organisational and Reglatory Governance,52.6,84.2,60.0,False,False,1,3
+Immersive Video Editing for Performing Arts,115.8,84.2,-27.3,False,False,1,2
+Digital Lighting for Production,115.8,84.2,-27.3,False,False,1,2
+Content Creation,115.8,84.2,-27.3,False,False,1,2
+Hair Design and Styling,115.8,84.2,-27.3,False,False,1,2
+Maintenance Integrity and Reliability Framework Development and Implementation,81.1,83.5,2.9,False,False,2,10
+Embedded Systems Programming,54.7,81.2,48.6,True,False,1,2
+Power Quality Management,40.2,80.3,100.0,False,False,1,17
+Reliability Centred Maintenance,40.2,80.3,100.0,False,False,1,17
+Process Plant and Equipment Integrity Management,78.8,78.8,0.0,False,False,1,9
+Technical Services Management,78.8,78.8,0.0,False,False,1,9
+System Architecture Design,92.1,78.0,-15.4,False,False,1,9
+Electrical Testing,92.1,78.0,-15.4,False,False,1,9
+Quality Engineering Integration,92.1,78.0,-15.4,False,False,1,9
+Marine Equipment Material Selection,83.4,77.1,-7.6,False,False,2,9
+Underwriting Process,64.7,76.9,18.8,False,True,2,6
+Marine Design Customisation,79.1,76.7,-3.0,False,True,2,9
+Train Station Operations Management,34.5,75.9,120.0,False,False,1,6
+Energy Management and Audit,37.8,75.6,100.0,True,False,1,16
+Outage Planning,37.8,75.6,100.0,False,False,1,16
+Delegates and Participants Management,75.4,75.4,0.0,False,False,1,4
+"Attractions Membership, Admission and Ticketing Management",75.4,75.4,0.0,False,True,1,4
+"Meetings, Incentives, Conferences and Exhibitions (MICE) Content and Experience Development and Delivery",75.4,75.4,0.0,False,False,1,4
+Attractions Content and Experience Development and Delivery,75.4,75.4,0.0,False,True,1,4
+Crew Management,52.9,74.1,40.0,False,True,1,9
+Volunteer Retention and Engagement,52.9,72.9,37.8,False,True,1,2
+Pharmacy Information Technology Management,52.9,72.9,37.8,True,False,1,2
+Clinical Investigational Drug Management,52.9,72.9,37.8,False,False,1,2
+Treatment Implementation in Oral Health Therapy,52.9,72.9,37.8,False,False,1,2
+Dental Inventory Maintenance and Management,52.9,72.9,37.8,False,False,1,2
+Feeding Management in Community Care,52.9,72.9,37.8,False,False,1,2
+Para-Counselling,52.9,72.9,37.8,False,False,1,2
+Workplace Curriculum Design,52.9,72.9,37.8,False,False,1,2
+Building Inclusivity,42.9,71.4,66.7,False,False,1,2
+Public Relations Management,72.1,70.5,-2.2,False,False,2,7
+Feedstock and Product Transfer Operations Management,70.0,70.0,0.0,False,False,1,8
+Process Analytical Technology Implementation,70.0,70.0,0.0,True,False,1,8
+Market Liquidity and Counterparty Matching,62.8,69.6,10.9,False,False,1,4
+Deal Syndication and Arrangement,62.8,69.6,10.9,False,False,1,4
+Non-Destructive Testing (Liquid Penetrant Inspection),81.9,69.3,-15.4,False,False,1,8
+Electrical Wiring Interconnection Systems Maintenance,81.9,69.3,-15.4,False,False,1,8
+Non-Destructive Testing (Infrared Inspection),81.9,69.3,-15.4,False,False,1,8
+Non-Destructive Testing (Magnetic Particle Inspection),81.9,69.3,-15.4,False,False,1,8
+Non-Destructive Testing (Radiographic Inspection),81.9,69.3,-15.4,False,True,1,8
+Non-Destructive Testing (Ultrasonic Inspection),81.9,69.3,-15.4,False,False,1,8
+Non-Destructive Testing (Eddy Current Inspection),81.9,69.3,-15.4,False,False,1,8
+Non-Destructive Testing (Vibration Analysis),81.9,69.3,-15.4,False,False,1,8
+Launch Planning and Management,81.9,69.3,-15.4,False,True,1,8
+Component Assembly,81.9,69.3,-15.4,False,False,1,8
+Talent Casting,68.8,68.8,0.0,False,True,1,11
+Collateral Production,94.7,68.4,-27.8,False,False,1,2
+Hospitality Venue Inspection,94.7,68.4,-27.8,False,True,1,2
+Marketing Strategy Development and Implementation,94.7,68.4,-27.8,False,False,1,2
+Public Areas Housekeeping Operations Management,94.7,68.4,-27.8,False,True,1,2
+Sales Trends and Opportunities Analysis,94.7,68.4,-27.8,False,False,1,2
+Switchboard Operations Management,94.7,68.4,-27.8,False,True,1,2
+Property Operations Management,94.7,68.4,-27.8,False,True,1,2
+Bell Service Delivery,94.7,68.4,-27.8,False,False,1,2
+Airside Safety,43.9,68.3,55.6,False,False,1,4
+Passenger Movement Management,43.9,68.3,55.6,False,False,1,4
+Airport and Airline Economics,43.9,68.3,55.6,False,False,1,4
+Cargo Load Planning,43.9,68.3,55.6,False,False,1,4
+Passenger Information Systems Management,43.9,68.3,55.6,False,False,1,4
+Post-Landing Operations,43.9,68.3,55.6,False,False,1,4
+Route Forecasting and Development,43.9,68.3,55.6,False,False,1,4
+Runway Safety,43.9,68.3,55.6,False,False,1,4
+Airport Safeguarding and Security,43.9,68.3,55.6,False,False,1,4
+Pre-Flight Preparation,43.9,68.3,55.6,False,False,1,4
+Aircraft Landing Operations,43.9,68.3,55.6,False,False,1,4
+Ground Support Equipment Failure Analysis,43.9,68.3,55.6,False,False,1,4
+Aircraft Take-Off Operations,43.9,68.3,55.6,False,False,1,4
+Airport Service Quality Management,43.9,68.3,55.6,False,False,1,4
+Airline Revenue Management,43.9,68.3,55.6,False,False,1,4
+Aircraft Manual Handling,43.9,68.3,55.6,False,False,1,4
+Network Planning and Operations,43.9,68.3,55.6,False,False,1,4
+Flight Deck Communications,43.9,68.3,55.6,False,False,1,4
+Aircraft Emergency Management,43.9,68.3,55.6,False,False,1,4
+Cabin Loading Activities,43.9,68.3,55.6,False,False,1,4
+Scheduling and Slot Coordination,43.9,68.3,55.6,False,False,1,4
+Aircraft Cruise Operations,43.9,68.3,55.6,False,False,1,4
+Airside Operations Management,43.9,68.3,55.6,False,False,1,4
+Air-freight Import and Export Documentation,43.9,68.3,55.6,False,False,1,4
+Network Monitoring and Control Management,33.1,66.1,100.0,False,False,1,14
+Physical Security Access Control Management,33.1,66.1,100.0,False,False,1,14
+Operational Technology Security Design,33.1,66.1,100.0,True,False,1,14
+Operational Technology Audit Management of Vulnerability Assessment and Penetration Test,33.1,66.1,100.0,True,False,1,14
+Cargo Handling and Stowage,47.1,65.9,40.0,False,False,1,8
+Ship Safety Management Systems Audit,47.1,65.9,40.0,False,True,1,8
+Bus Vehicle Operations,28.7,63.2,120.0,False,False,1,5
+Rail Operations Control Management,28.7,63.2,120.0,False,False,1,5
+Compositing Visuals,62.5,62.5,0.0,False,False,1,10
+Cybersecurity Framework Application,30.7,61.4,100.0,True,False,1,13
+Detection and Monitoring Application,30.7,61.4,100.0,True,False,1,13
+Network Equipment Testing,30.7,61.4,100.0,False,False,1,13
+Team Effectiveness Management,61.2,61.2,0.0,False,False,1,7
+Cleaning and Sterilising,61.2,61.2,0.0,False,False,1,7
+Maintenance Organisation Structure Management,71.7,60.6,-15.4,False,False,1,7
+Organisation Management,71.7,60.6,-15.4,False,False,1,7
+Patent Filing and Registration,71.7,60.6,-15.4,False,False,1,7
+Fleet Procurement,41.2,57.6,40.0,False,True,1,7
+Port Call Planning,41.2,57.6,40.0,False,True,1,7
+Cargo Loading and Unloading,41.2,57.6,40.0,False,False,1,7
+Ship Cyber Security,41.2,57.6,40.0,False,True,1,7
+Quality Systems,41.2,57.6,40.0,False,False,1,7
+Electricity Network incident Management,28.3,56.7,100.0,False,False,1,12
+Site and Factory Acceptance Testing Management,28.3,56.7,100.0,False,False,1,12
+Gas Metering Data Management,28.3,56.7,100.0,False,False,1,12
+Attractions Ride and Equipment Maintenance,56.5,56.5,0.0,False,False,1,3
+Attractions Transportation Operations,56.5,56.5,0.0,False,False,1,3
+Generate Design Concepts for Tourism Promotion,56.5,56.5,0.0,False,True,1,3
+Horticulture Management,56.5,56.5,0.0,False,False,1,3
+Animal Transaction,56.5,56.5,0.0,False,False,1,3
+Animal Husbandry and Nutrition,56.5,56.5,0.0,False,False,1,3
+Animal Habitat Management,56.5,56.5,0.0,False,False,1,3
+Animal Conditioning and Enrichment,56.5,56.5,0.0,False,False,1,3
+Creative Storytelling,56.3,56.3,0.0,False,True,1,9
+Gameplay Design,56.3,56.3,0.0,False,False,1,9
+Retail Logistics Administration,35.1,56.1,60.0,False,False,1,2
+Freight Insurance Administration,35.1,56.1,60.0,False,False,1,2
+Cargo Lifting,35.1,56.1,60.0,False,False,1,2
+Container Loading and Unloading Administration,35.1,56.1,60.0,False,False,1,2
+Engineering Installation Design,35.1,56.1,60.0,False,True,1,2
+Event Logistics Administration,35.1,56.1,60.0,False,False,1,2
+Rigging Equipment Maintenance,70.4,54.6,-22.4,False,False,2,3
+Tree Conservation and Protection,25.5,53.2,108.3,False,False,1,1
+Tree Assessments,25.5,53.2,108.3,False,True,1,1
+Water Sensitive Urban Design,25.5,53.2,108.3,True,False,1,1
+Robotic and Automation System Maintenance,52.5,52.5,0.0,False,False,1,6
+Safety Integrity Levels Management,52.5,52.5,0.0,False,False,1,6
+Engineering Drawing,52.5,52.5,0.0,False,False,1,6
+Manufacturing Equipment Operation and Control,52.5,52.5,0.0,False,False,1,6
+Process Development Management,52.5,52.5,0.0,True,False,1,6
+Price Stabilisation,47.1,52.2,10.9,False,False,1,3
+Book Building,47.1,52.2,10.9,False,False,1,3
+Capital Management,47.1,52.2,10.9,False,False,1,3
+Legal Drafting and Writing,47.1,52.2,10.9,False,False,1,3
+Underwriting Profitability and Efficiency Management,47.1,52.2,10.9,False,True,1,3
+Computer Numeric Control Operations,61.4,52.0,-15.4,False,True,1,6
+Installation Planning and Execution,61.4,52.0,-15.4,False,False,1,6
+Marine Equipment and System Maintenance,61.4,52.0,-15.4,False,False,1,6
+Non-Metallic Materials Manufacturing,61.4,52.0,-15.4,False,False,1,6
+Engine Cleaning,61.4,52.0,-15.4,False,False,1,6
+Business-to-business Customer Relationship Management,26.0,52.0,100.0,False,False,1,11
+Product Lifecycle Management,61.4,52.0,-15.4,False,True,1,6
+Sales and Business Development,26.0,52.0,100.0,False,False,1,11
+Forming,61.4,52.0,-15.4,False,False,1,6
+Battery Systems Design Management,26.0,52.0,100.0,False,False,1,11
+Project Coordination,61.4,52.0,-15.4,False,False,2,15
+Sheet Metal Structures Maintenance,61.4,52.0,-15.4,False,True,1,6
+Threat and Vulnerability Management,26.0,52.0,100.0,True,False,1,11
+Cabin Safety Management,32.9,51.2,55.6,False,False,1,3
+Airline Crew Scheduling,32.9,51.2,55.6,False,False,1,3
+Food and Beverage Quality Assurance Framework Development,32.9,51.2,55.6,False,False,1,3
+Flight Check-In Operations,32.9,51.2,55.6,False,False,1,3
+Airport Audit and Compliance,32.9,51.2,55.6,False,False,1,3
+Wildlife Hazard Management,32.9,51.2,55.6,False,False,1,3
+Aircraft Movement Management,32.9,51.2,55.6,False,False,1,3
+In-Flight Emergency Management,32.9,51.2,55.6,False,False,1,3
+In-Flight Customer Services,32.9,51.2,55.6,False,False,1,3
+Cabin Preparation,32.9,51.2,55.6,False,False,1,3
+Cabin Hygiene and Cleanliness,32.9,51.2,55.6,False,False,1,3
+In-flight Food and Beverage Service,32.9,51.2,55.6,False,False,1,3
+Wagon Maintenance,23.0,50.6,120.0,False,False,1,4
+Video Surveillance System Maintenance,23.0,50.6,120.0,False,False,1,4
+Communication Auxiliary Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Ventilation System Maintenance,23.0,50.6,120.0,False,False,1,4
+Automatic Fare Collection Gate Maintenance,23.0,50.6,120.0,False,False,1,4
+Signal Interlocking Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Traction Power System Maintenance,23.0,50.6,120.0,False,False,1,4
+Station Air-conditioning Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Supervisory Control and Data Acquisition System Maintenance,23.0,50.6,120.0,False,False,1,4
+Bus Recovery and Towing,23.0,50.6,120.0,False,False,1,4
+Third Rail Maintenance,23.0,50.6,120.0,False,False,1,4
+Battery and Battery Charger Maintenance,23.0,50.6,120.0,False,False,1,4
+Track Tamping Vehicle Maintenance,23.0,50.6,120.0,False,False,1,4
+Trackside Automatic Train Control Equipment Maintenance,23.0,50.6,120.0,False,False,1,4
+Train Fare and Ticket Management,23.0,50.6,120.0,False,False,1,4
+Signalling Auxiliary Devices and Equipment Maintenance,23.0,50.6,120.0,False,False,1,4
+Train Supervisory System Maintenance,23.0,50.6,120.0,False,False,1,4
+Trainborne Automatic Train Control Equipment Maintenance,23.0,50.6,120.0,False,False,1,4
+Automatic Fare Collection Sales Device Maintenance,23.0,50.6,120.0,False,False,1,4
+Transformer Maintenance,23.0,50.6,120.0,False,False,1,4
+Automatic Fare Collection Auxiliary Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Travel Information System Maintenance,23.0,50.6,120.0,False,False,1,4
+Uninterruptible Power Supply System Maintenance,23.0,50.6,120.0,False,False,1,4
+Communication Backbone System Maintenance,23.0,50.6,120.0,False,False,1,4
+22KV Switchgear Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Communication Power System Maintenance,23.0,50.6,120.0,False,False,1,4
+Heavy Crane Vehicle Maintenance,23.0,50.6,120.0,False,True,1,4
+Rolling Stock On-board Control and Communication Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Bogie Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Power Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Propulsion Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Auxiliary Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Air-conditioning and Ventilation Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rail Track Maintenance,23.0,50.6,120.0,False,False,1,4
+Rail Track Inspection,23.0,50.6,120.0,False,False,1,4
+Rail Grinding Vehicle Maintenance,23.0,50.6,120.0,False,False,1,4
+Radio System Maintenance,23.0,50.6,120.0,False,False,1,4
+Emergency and Security Communication Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Car Body Maintenance,23.0,50.6,120.0,False,False,1,4
+Platform Screen Door Maintenance,23.0,50.6,120.0,False,False,1,4
+Rolling Stock Brake Systems Maintenance,23.0,50.6,120.0,False,False,1,4
+Passenger Train Operations,23.0,50.6,120.0,False,False,1,4
+Locomotive Maintenance,23.0,50.6,120.0,False,False,1,4
+Low Voltage Switchboard Maintenance,23.0,50.6,120.0,False,False,1,4
+Network Systems Maintenance,23.0,50.6,120.0,False,True,1,4
+Multi-function Vehicle Maintenance,23.0,50.6,120.0,False,True,1,4
+Workplace Safety and Health Performance Management,26.9,50.0,85.7,False,False,2,8
+Fundraising and Sponsorships,50.0,50.0,0.0,False,True,1,8
+Social Media Content Creation and Management,50.0,50.0,0.0,False,False,1,8
+Ship Repair Management,35.3,49.4,40.0,False,False,1,6
+Maritime Incident Management,35.3,49.4,40.0,False,True,1,6
+Ship Seaworthiness and Pollution Prevention,35.3,49.4,40.0,False,False,1,6
+Maritime Emergency Response Management,35.3,49.4,40.0,False,True,1,6
+Chartering,35.3,49.4,40.0,False,False,1,6
+Ship Maintenance and Repair at Docks,35.3,49.4,40.0,False,True,1,6
+Equipment and System Value Engineering Management,46.1,48.5,5.1,False,False,2,6
+Distributed Generation System Performance Monitoring Management,23.6,47.2,100.0,False,False,1,10
+Supervisory Control and Data Acquisition Maintenance Management,23.6,47.2,100.0,False,False,1,10
+Cell Culture,43.8,43.8,0.0,False,False,1,5
+Mechanical Static Equipment Engineering Management,43.8,43.8,0.0,False,False,1,5
+Mechanical Rotating Equipment Engineering Management,43.8,43.8,0.0,False,False,1,5
+Sound Editing,43.8,43.8,0.0,False,True,1,7
+Level Design,43.8,43.8,0.0,False,False,1,7
+Supply Chain Management,43.8,43.8,0.0,False,False,1,5
+Emergency Shut-down and Restart,43.8,43.8,0.0,False,False,1,5
+"Engineering, Procurement and Construction Management",43.8,43.8,0.0,False,False,1,5
+Production Optimisation,43.8,43.8,0.0,False,False,1,5
+News Editing,43.8,43.8,0.0,False,False,1,7
+BioPharmaceutical Material Management,43.8,43.8,0.0,False,False,1,5
+Game Porting,43.8,43.8,0.0,False,False,1,7
+Gameplay Development,43.8,43.8,0.0,False,False,1,7
+News Story Development,43.8,43.8,0.0,False,False,1,7
+Audio Programming,43.8,43.8,0.0,False,True,1,7
+Game Concept Design,43.8,43.8,0.0,False,False,1,7
+Process Equipment Preparation for Mechanical Work,43.8,43.8,0.0,False,False,1,5
+Colour Grading,43.8,43.8,0.0,False,False,1,7
+Content Distribution,43.8,43.8,0.0,False,True,1,7
+Green Ship Design,51.2,43.3,-15.4,True,False,1,5
+Scaffolding,51.2,43.3,-15.4,False,False,1,5
+Asset Management and Monitoring of Distributed Generation Systems,21.3,42.5,100.0,False,False,1,9
+Power Generation Process Control and Monitoring,21.3,42.5,100.0,False,False,1,9
+Battery and Energy Storage System Testing and Diagnostics,21.3,42.5,100.0,False,False,1,9
+Network System Planning and Design,21.3,42.5,100.0,False,False,1,9
+Electricity Metering Data Management,21.3,42.5,100.0,False,False,1,9
+Network Simulation and Analysis,21.3,42.5,100.0,False,True,1,9
+Electricity Network Operations Management,21.3,42.5,100.0,False,False,1,9
+Electricity Network Performance Monitoring Management,21.3,42.5,100.0,False,False,1,9
+Load Profile and Capacity Certificate Management,21.3,42.5,100.0,False,False,1,9
+Technical Sound Editing and Mixing,57.9,42.1,-27.3,False,False,1,1
+Make-up Design (and Special Effects),57.9,42.1,-27.3,False,False,1,1
+Port Equipment Maintenance,29.4,41.2,40.0,False,False,1,5
+Claims Processing,29.4,41.2,40.0,False,False,1,5
+"Electrical, Electronic and Control Engineering",29.4,41.2,40.0,False,False,1,5
+Crisis Communication,29.4,41.2,40.0,False,False,1,5
+Network Slicing,27.3,40.6,48.6,True,False,1,1
+Maintenance Planning and Scheduling,37.4,39.7,6.3,False,False,2,5
+Bus Operations Control Management,17.2,37.9,120.0,False,False,1,3
+Bus Interchange Operations,17.2,37.9,120.0,False,False,1,3
+Bus Garaging,17.2,37.9,120.0,False,True,1,3
+Bus Fare Management,17.2,37.9,120.0,False,True,1,3
+Bus Equipment and Systems Operation,17.2,37.9,120.0,False,False,1,3
+Bus Depot Operations,17.2,37.9,120.0,False,False,1,3
+Trading Analysis,18.9,37.8,100.0,False,False,2,9
+Transmission and Distribution Facilities Maintenance Management,18.9,37.8,100.0,False,False,1,8
+Plant Equipment Diagram Review,18.9,37.8,100.0,False,False,1,8
+Electricity Service Connections Planning,18.9,37.8,100.0,False,False,1,8
+Technical Service Process Management,18.9,37.8,100.0,False,False,1,8
+Substation Design Development,18.9,37.8,100.0,False,False,1,8
+Electricity Network Planning,18.9,37.8,100.0,False,False,1,8
+Meter and Associated Equipment Maintenance Management,18.9,37.8,100.0,False,False,1,8
+Steam and Water Quality Control Management,18.9,37.8,100.0,False,False,1,8
+Tour Guide Operations,37.7,37.7,0.0,False,False,1,2
+Tour Leading Operations,37.7,37.7,0.0,False,False,1,2
+3D Animation,37.5,37.5,0.0,False,False,1,6
+Content Ingest Operations,37.5,37.5,0.0,False,False,1,6
+Game Technical Design,37.5,37.5,0.0,False,False,1,6
+Media Content Cataloguing,37.5,37.5,0.0,False,False,1,6
+Sound Mixing,37.5,37.5,0.0,False,True,1,6
+Media Data Management,37.5,37.5,0.0,False,True,1,6
+2D Animation,37.5,37.5,0.0,False,False,1,6
+Digital Lighting,37.5,37.5,0.0,False,False,1,6
+Surfacing and Texturing,37.5,37.5,0.0,False,False,1,6
+Rigging for Animation,37.5,37.5,0.0,False,False,1,6
+News Story Research,37.5,37.5,0.0,False,False,1,6
+Immersive Design,37.5,37.5,0.0,True,False,1,6
+Breathing Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Medication Administration for Prehospital Cases,26.4,36.4,37.8,False,False,1,1
+Patient Education in Genetics,26.4,36.4,37.8,False,False,1,1
+Symptoms and Conditions Management,26.4,36.4,37.8,False,False,1,1
+Circulation Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Special Situations in Prehospital Setting,26.4,36.4,37.8,False,False,1,1
+Genetic Knowledge Analysis,26.4,36.4,37.8,False,False,1,1
+Effective Patient Counselling,26.4,36.4,37.8,False,False,1,1
+Intervention Planning in Genetic Counselling,26.4,36.4,37.8,False,False,1,1
+Exposure Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Inventory Control and Equipment Maintenance,26.4,36.4,37.8,False,False,1,1
+Clinical Support Duties and Procedures,26.4,36.4,37.8,False,False,1,1
+Transportation and Handover of Patient,26.4,36.4,37.8,False,True,1,1
+Client Assessment for Genetic Counselling,26.4,36.4,37.8,False,False,1,1
+Trauma Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Ambulance Readiness and Maintenance,26.4,36.4,37.8,False,True,1,1
+Airway Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Disability Assessment and Management,26.4,36.4,37.8,False,False,1,1
+Initial Assessment,26.4,36.4,37.8,False,False,1,1
+Instrumentation and Control Field Maintenance Management,35.0,35.0,0.0,False,False,1,4
+BioPharmaceuticals Manufacturing Process Design,35.0,35.0,0.0,False,False,1,4
+Biological Product Introduction,35.0,35.0,0.0,False,False,1,4
+Pharmacovigilance Integration,35.0,35.0,0.0,False,True,1,4
+Raw Materials and Utilities Testing,35.0,35.0,0.0,False,False,1,4
+Emergency Response and Crisis Management Development and Implementation,35.0,35.0,0.0,False,False,1,4
+Fund Accounting,31.4,34.8,10.9,False,False,1,2
+Transaction Documentation for Prospectus Development,31.4,34.8,10.9,False,False,1,2
+Propulsion System Design,40.9,34.6,-15.4,False,False,1,4
+Safety System Design,40.9,34.6,-15.4,False,False,1,4
+Fuel and Lubrication System Design,40.9,34.6,-15.4,False,False,1,4
+Lift Planning and Management,40.9,34.6,-15.4,False,False,1,4
+Aircraft Electrical Equipment and Accessories Maintenance,40.9,34.6,-15.4,False,False,1,4
+Ballast System Design,40.9,34.6,-15.4,False,True,1,4
+New Engine Build Process Application,40.9,34.6,-15.4,False,False,1,4
+Cargo System Design,40.9,34.6,-15.4,False,False,1,4
+Engineering Product Design Facilitation,40.9,34.6,-15.4,False,False,1,4
+"Heating, Ventilation and Air Conditioning System Design",40.9,34.6,-15.4,False,True,1,4
+Power Generation System Design,40.9,34.6,-15.4,False,False,1,4
+Pump and Piping Design,40.9,34.6,-15.4,False,False,1,4
+Cooling System Design,40.9,34.6,-15.4,False,False,1,4
+"Engines and Components Handling, Inspection and Packing",40.9,34.6,-15.4,False,False,1,4
+Engine Rigging and De-Rigging,40.9,34.6,-15.4,False,False,1,4
+Hotel Asset Valuation and Acquisition,47.4,34.2,-27.8,False,False,1,1
+Work-Life Harmony,47.4,34.2,-27.8,False,False,1,1
+Aircraft Dispatch,22.0,34.1,55.6,False,False,1,2
+Network Diversion Management,16.5,33.1,100.0,False,False,1,7
+Pipeline Damage Prevention Management,16.5,33.1,100.0,False,False,1,7
+Billing Process Improvement Management,16.5,33.1,100.0,False,False,1,7
+Power Plant Incident investigation Management,16.5,33.1,100.0,False,True,1,7
+Network Technical Specifications Development,16.5,33.1,100.0,False,False,1,7
+Gas Pipeline Leak Surveying,16.5,33.1,100.0,False,False,1,7
+Gas Receiving and Holder Operations and Maintenance,16.5,33.1,100.0,False,False,1,7
+Mobile Generator Deployment,16.5,33.1,100.0,False,False,1,7
+Gas Network Operations Management,16.5,33.1,100.0,False,False,1,7
+Gas Meter Maintenance,16.5,33.1,100.0,False,False,1,7
+Gas Meter installation and Commissioning,16.5,33.1,100.0,False,False,1,7
+Gas Cathodic Protection System Operation and Maintenance,16.5,33.1,100.0,False,False,1,7
+Power Plant Inspection Management,16.5,33.1,100.0,False,False,1,7
+Cable Damage Prevention Management,16.5,33.1,100.0,False,False,1,7
+Chemical Reagent Management,16.5,33.1,100.0,False,False,1,7
+Electricity Meter and Associated Equipment installation and Commissioning,16.5,33.1,100.0,False,False,1,7
+Relay and Protection Systems Development,16.5,33.1,100.0,False,False,1,7
+Riser and Service Pipe inspection,16.5,33.1,100.0,False,False,1,7
+"Propulsion, Plant and Machinery",23.5,32.9,40.0,False,False,1,4
+Port Systems Architecture Design,23.5,32.9,40.0,False,False,1,4
+Search and Rescue Operations,23.5,32.9,40.0,False,False,1,4
+Marine Survey Reporting,23.5,32.9,40.0,False,True,1,4
+Game Artificial Intelligence Development,31.2,31.2,0.0,False,False,1,5
+Content Rating and Compliance,31.2,31.2,0.0,False,False,1,5
+Tools Development,31.2,31.2,0.0,False,True,1,5
+Game Level Development,31.2,31.2,0.0,False,False,1,5
+Game User Interface Development,31.2,31.2,0.0,True,False,1,5
+Game Testing Automation,31.2,31.2,0.0,False,False,1,5
+Trading Reporting and Assessment,14.2,28.3,100.0,False,False,2,7
+Good Agriculture Practices Implementation,14.2,28.3,100.0,False,False,1,6
+Energy Trading Portfolio Optimisation,14.2,28.3,100.0,False,False,1,6
+Gas Network Planning,14.2,28.3,100.0,False,False,1,6
+Urban Farming Implementation and Management,14.2,28.3,100.0,False,False,1,6
+Trunk and Feeder Expansion Management,14.2,28.3,100.0,False,False,1,6
+Billing and Settlement Administration,14.2,28.3,100.0,False,False,1,6
+Credit Management,14.2,28.3,100.0,False,False,1,6
+"Network Monitoring, Control and Supply Restoration",14.2,28.3,100.0,False,True,1,6
+Emergency and Crisis Situation Management,26.2,26.2,0.0,False,False,1,3
+Control Room Operations Management,26.2,26.2,0.0,False,False,1,3
+Strategy Development and Implementation Management,26.2,26.2,0.0,False,False,1,3
+Learning and Development Framework Management,26.2,26.2,0.0,False,False,1,3
+Cleaning Validation,26.2,26.2,0.0,False,False,1,3
+Chromatography Equipment Operation and Control,26.2,26.2,0.0,False,False,1,3
+Packaging Validation,26.2,26.2,0.0,False,False,1,3
+Market Demand and Feedstock Management,26.2,26.2,0.0,False,False,1,3
+Bioreactor Operation and Control,26.2,26.2,0.0,False,False,1,3
+Filtration Equipment Operation and Control,26.2,26.2,0.0,False,True,1,3
+BioPharmaceuticals Manufacturing Quality Control Management,26.2,26.2,0.0,False,False,1,3
+Process Analyser Maintenance Management,26.2,26.2,0.0,False,False,1,3
+Equipment Drawing,30.7,26.0,-15.4,False,True,1,3
+Heat Transfer System Design,30.7,26.0,-15.4,False,False,1,3
+Electrical Drawing,30.7,26.0,-15.4,False,False,1,3
+Communication and Navigation System Design,30.7,26.0,-15.4,False,True,1,3
+Pipeline Drawing,30.7,26.0,-15.4,False,False,1,3
+Marine Auxiliary System Maintenance,30.7,26.0,-15.4,False,False,1,3
+Structural and Arrangement Drawing,30.7,26.0,-15.4,False,False,1,3
+Overhead Catenary System Maintenance,11.5,25.3,120.0,False,False,1,2
+Bus Service Route Operations Training and Development,11.5,25.3,120.0,False,False,1,2
+Train Depot Control Management,11.5,25.3,120.0,False,False,1,2
+Content Acquisition Management,25.0,25.0,0.0,False,True,1,4
+Camera Operations for Live Shows,25.0,25.0,0.0,False,False,1,4
+Master Control Room Operations,25.0,25.0,0.0,False,False,1,4
+Script Writing,25.0,25.0,0.0,False,False,1,4
+Concept Art Creation,25.0,25.0,0.0,False,False,1,4
+Game Analytics,25.0,25.0,0.0,False,False,1,4
+Game Engine Development,25.0,25.0,0.0,False,False,1,4
+Camera Operations,25.0,25.0,0.0,False,False,1,4
+Content Commissioning,25.0,25.0,0.0,False,True,1,4
+Broadcast Infrastructure Design,25.0,25.0,0.0,False,False,1,4
+Storyboarding,25.0,25.0,0.0,False,False,1,4
+Location Scouting and Management,25.0,25.0,0.0,False,False,1,4
+Programme Planning,25.0,25.0,0.0,False,False,1,4
+Game Physics Development,25.0,25.0,0.0,False,False,1,4
+Direction,25.0,25.0,0.0,False,False,1,4
+Broadcast Infrastructure Maintenance,25.0,25.0,0.0,False,False,1,4
+Broadcast Infrastructure Installation,25.0,25.0,0.0,False,False,1,4
+Game Networking,25.0,25.0,0.0,False,False,1,4
+Game Server Programming,25.0,25.0,0.0,False,False,1,4
+Maritime Safety Culture Management,17.6,24.7,40.0,False,False,1,3
+Maintenance and Repair,17.6,24.7,40.0,False,False,1,3
+Confined Space Work,17.6,24.7,40.0,False,False,1,3
+Stowage Load Planning,17.6,24.7,40.0,False,False,1,3
+Mobile Equipment - Heavy Duty Prime Mover and Trailer Operations,17.6,24.7,40.0,False,True,1,3
+Ship Sale and Purchase,17.6,24.7,40.0,False,False,1,3
+Maritime Safety Performance Management,17.6,24.7,40.0,False,False,1,3
+Maritime Safety Policy Development,17.6,24.7,40.0,False,False,1,3
+Shipping Network Operations Management,17.6,24.7,40.0,False,False,1,3
+Ship Compliance Management,17.6,24.7,40.0,False,False,1,3
+Selection Management,17.6,24.7,40.0,False,False,2,9
+Steering and Helmsmanship,17.6,24.7,40.0,False,False,1,3
+Dry Dock Project Management,17.6,24.7,40.0,False,True,1,3
+Marine Insurance Claims Handling,17.6,24.7,40.0,False,False,1,3
+Maritime Hazards Identification,17.6,24.7,40.0,False,True,1,3
+Recruitment Channel Management,17.6,24.7,40.0,False,True,2,6
+Chartwork,17.6,24.7,40.0,False,False,1,3
+Marine Insurance Underwriting Profitability and Efficiency Management,17.6,24.7,40.0,False,True,1,3
+Shipping Trade Management,17.6,24.7,40.0,False,False,1,3
+"Ship Mooring, Anchoring and Securing Operations",17.6,24.7,40.0,False,False,1,3
+Bulk Cargo Operations,17.6,24.7,40.0,False,True,1,3
+Ship Financing,17.6,24.7,40.0,False,False,1,3
+Compensation Management,17.6,24.7,40.0,False,True,2,8
+Benefits Management,17.6,24.7,40.0,False,True,2,8
+Labour Relations Management,17.6,24.7,40.0,False,True,2,6
+Ship Energy Efficiency,17.6,24.7,40.0,False,False,1,3
+Electrical Design Approval,17.6,24.7,40.0,False,False,1,3
+Product and Pricing Analysis,11.8,23.6,100.0,False,False,1,5
+Partnership Development and Management,11.8,23.6,100.0,False,False,1,5
+Farm Biosecurity Compliance and Management,11.8,23.6,100.0,False,False,1,5
+Billing Enquiry Management,11.8,23.6,100.0,False,False,1,5
+High Voltage Direct Current System Engineering and Design,11.8,23.6,100.0,False,False,1,5
+Town Gas Production Management,11.8,23.6,100.0,False,False,1,5
+Gas Network Performance Monitoring Management,11.8,23.6,100.0,False,False,1,5
+Gas Network System Management,11.8,23.6,100.0,False,True,1,5
+Energy Product Advisory,11.8,23.6,100.0,False,False,1,5
+Gas Technical Service Management,11.8,23.6,100.0,False,False,1,5
+Business-to-consumer Management,11.8,23.6,100.0,False,False,1,5
+Smart Farming Technology Implementation,11.8,23.6,100.0,False,False,1,5
+High Voltage Direct Current System Operations and Maintenance,11.8,23.6,100.0,False,False,1,5
+Terminal Operations Management,11.8,23.6,100.0,False,False,1,5
+Customer Service innovation Management,11.8,23.6,100.0,False,True,1,5
+Order Processing and Change Request Management,9.4,18.9,100.0,False,False,1,4
+Hedging Management,9.4,18.9,100.0,False,False,1,4
+Billing and Data Risk Management,9.4,18.9,100.0,False,False,1,4
+Risk and Compliance Management,9.4,18.9,100.0,False,False,2,6
+Energy Product Performance Management,9.4,18.9,100.0,False,False,1,4
+Marketing Content Development,9.4,18.9,100.0,False,False,1,4
+Demand Management Operations,9.4,18.9,100.0,False,False,1,4
+Customisation and Localisation,18.8,18.8,0.0,False,True,1,3
+Media Distribution Platform Management,18.8,18.8,0.0,False,True,1,3
+Community Development,18.8,18.8,0.0,False,False,1,3
+Aerial Camera Operations,18.8,18.8,0.0,False,False,1,3
+360 Degree Camera Operations,18.8,18.8,0.0,False,False,1,3
+Stabilised Camera Operations,18.8,18.8,0.0,False,False,1,3
+News Delivery and Presentation,18.8,18.8,0.0,False,False,1,3
+Game Production Optimisation,18.8,18.8,0.0,False,False,1,3
+"Cranes, Remote Heads and Jibs Operations",18.8,18.8,0.0,False,False,1,3
+Studio Technical Production,18.8,18.8,0.0,False,False,1,3
+Holographic Camera Operations,18.8,18.8,0.0,False,False,1,3
+News Bulletin Production,18.8,18.8,0.0,False,False,1,3
+Content Delivery Network Operations,18.8,18.8,0.0,True,False,1,3
+High Speed Camera Operations,18.8,18.8,0.0,False,True,1,3
+Underwater Camera Operations,18.8,18.8,0.0,False,False,1,3
+Game Quality Assurance Testing,18.8,18.8,0.0,False,False,1,3
+Instrumentation and Control System Maintenance Management,17.5,17.5,0.0,False,False,1,2
+Facility Design,17.5,17.5,0.0,False,False,1,2
+Process Modelling,17.5,17.5,0.0,False,False,1,2
+Trainer and Assessor Development Management,17.5,17.5,0.0,False,True,1,2
+Aircraft Fuel and Engine Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Batteries Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Sensing Components Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Pneumatic Components Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Navigation and Radar Equipment Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Instrument Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Instruments Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Cabin Equipment and Furnishing Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Communication Components Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Wheels and Brakes Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Communication Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Hydraulic Components Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Landing Gears Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Navigation and Automated Flight Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Engine Component Parts Inspection,20.5,17.3,-15.4,False,False,1,2
+Nacelle Mechanical Structures Maintenance,20.5,17.3,-15.4,False,False,1,2
+Engine Disassembly and Assembly,20.5,17.3,-15.4,False,False,1,2
+Fuel Accessories Components Maintenance,20.5,17.3,-15.4,False,False,1,2
+Aircraft Electrical Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Airframe Systems Maintenance,20.5,17.3,-15.4,False,False,1,2
+Pilotage Planning,11.8,16.5,40.0,False,False,1,2
+Rigging and Signalling,11.8,16.5,40.0,False,False,1,2
+Marine Incident and Accident Investigations,11.8,16.5,40.0,False,True,1,2
+Vessel Cost Management,11.8,16.5,40.0,False,False,1,2
+Hull Inspections,11.8,16.5,40.0,False,False,1,2
+Navigation and Position Determination for Special Limit Crew,11.8,16.5,40.0,False,False,1,2
+Navigation and Position Determination,11.8,16.5,40.0,False,False,1,2
+Navigation Watch for Special Limit Crew,11.8,16.5,40.0,False,False,1,2
+Navigation Watch,11.8,16.5,40.0,False,False,1,2
+Container Operations,11.8,16.5,40.0,False,False,1,2
+Behavioural Safety Management,11.8,16.5,40.0,False,False,2,5
+Tug Operations,11.8,16.5,40.0,False,False,1,2
+Pilotage Emergencies,11.8,16.5,40.0,False,False,1,2
+Ship Valuation,11.8,16.5,40.0,False,False,1,2
+Engineering Watch,11.8,16.5,40.0,False,False,1,2
+Ship Propulsion Inspections,11.8,16.5,40.0,False,True,1,2
+Workplace Safety and Health for Crane Operations,11.8,16.5,40.0,False,False,1,2
+Trading Pool Management,7.1,14.2,100.0,False,False,1,3
+Tank Storage Inventory Management,7.1,14.2,100.0,False,False,1,3
+Agriculture Techniques and Cultivation Programme Management,7.1,14.2,100.0,False,False,1,3
+Fuel Terminal Operations Management,7.1,14.2,100.0,False,False,1,3
+Fuel Trading,7.1,14.2,100.0,False,False,1,3
+Demand Management Plan Development,7.1,14.2,100.0,False,False,1,3
+Marketing Operations Management,7.1,14.2,100.0,False,False,1,3
+Marketing Strategy Development,7.1,14.2,100.0,False,True,1,3
+Wholesale Transaction Management,7.1,14.2,100.0,False,False,1,3
+Product and Pricing Strategy Development,7.1,14.2,100.0,False,False,1,3
+Dispute Settlement,7.1,14.2,100.0,False,False,1,3
+VFX Pipeline Development,12.5,12.5,0.0,False,False,1,2
+Game Sound Integration,12.5,12.5,0.0,False,False,1,2
+Lighting Conceptualisation and Design,12.5,12.5,0.0,False,False,1,2
+Immersive Video Editing,12.5,12.5,0.0,False,True,1,2
+Studio Graphics Operations,12.5,12.5,0.0,False,False,1,2
+Multi-camera Operations,12.5,12.5,0.0,False,False,1,2
+Solar Photovoltaic Project Financing and Risk Analysis,4.7,9.4,100.0,True,False,1,2
+Liquefied Natural Gas Breakbulk Services Management,4.7,9.4,100.0,False,False,1,2
+Counterparty Relationship Management,4.7,9.4,100.0,False,False,1,2
+Single Stack Medium Forklift Operations,5.9,8.2,40.0,False,True,1,1
+Mobile Equipment - Prime Mover Defensive Driving,5.9,8.2,40.0,False,True,1,1
+Lashing,5.9,8.2,40.0,False,False,1,1
+Vehicle Camera Operations,6.2,6.2,0.0,False,False,1,1
+Data Wrangling,6.2,6.2,0.0,False,False,1,1
+Sub-sea Electricity Transmission Engineering Management,2.4,4.7,100.0,False,False,1,1
+Self Management,2.4,4.7,100.0,False,False,2,2

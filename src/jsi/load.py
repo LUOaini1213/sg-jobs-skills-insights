@@ -34,11 +34,14 @@ def _cached(name: str, build):
     return df
 
 
-def to_number(s: pd.Series) -> pd.Series:
-    """MOM tables use '-' for nil/negligible; treat as 0. Other non-numerics -> NaN."""
+def to_number(s: pd.Series, dash=0.0) -> pd.Series:
+    """MOM tables use '-' for nil/negligible. Counts: '-' -> 0. Rates: pass dash=NaN.
+
+    Other non-numeric cells become NaN.
+    """
     s = s.astype(str).str.strip().str.replace(",", "", regex=False)
-    s = s.where(s != "-", "0")
-    return pd.to_numeric(s, errors="coerce")
+    out = pd.to_numeric(s, errors="coerce")
+    return out.where(s != "-", dash)
 
 
 @lru_cache(maxsize=None)
@@ -132,13 +135,13 @@ def vacancies() -> pd.DataFrame:
 
 def vacancy_rate() -> pd.DataFrame:
     df = pd.read_csv(VAC_RATE)
-    df["job_vacancy_rate"] = to_number(df["job_vacancy_rate"])
+    df["job_vacancy_rate"] = to_number(df["job_vacancy_rate"], dash=np.nan)
     return df
 
 
 def vacancy_rate_quarterly() -> pd.DataFrame:
     df = pd.read_csv(VAC_RATE_Q)
-    df["job_vacancy_rate"] = to_number(df["job_vacancy_rate"])
+    df["job_vacancy_rate"] = to_number(df["job_vacancy_rate"], dash=np.nan)
     return df
 
 

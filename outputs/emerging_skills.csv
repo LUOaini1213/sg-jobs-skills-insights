@@ -1,0 +1,193 @@
+unique_skill,index_2019,index_2025,growth_2019_2025_pct,emerging,casl,sectors,roles
+Change Management,17138.8,23450.4,36.8,True,False,29,656
+Business Opportunities Development,11671.7,18094.4,55.0,True,False,23,363
+Market Research,7058.0,9008.9,27.6,True,False,14,203
+Data Analytics,8672.4,11390.7,31.3,True,False,14,180
+Continuous Improvement Management,11341.6,22047.9,94.4,True,False,13,596
+Systems Thinking Application,9257.0,12546.1,35.5,True,False,12,208
+Technology Application,9164.8,16641.6,81.6,True,False,10,351
+Business Environment Analysis,7468.7,10385.1,39.0,True,False,10,268
+Manpower Planning,6607.9,12253.5,85.4,True,False,10,226
+Excellence in Service,5027.8,5661.8,12.6,True,False,10,175
+Quality Assurance and Audit,5989.3,8187.0,36.7,True,False,10,107
+Robotic and Automation Technology Application,4333.9,7402.9,70.8,True,False,9,231
+Data and Statistical Analysis,2277.9,3990.3,75.2,True,False,8,173
+Data Governance,2995.6,5187.0,73.2,True,False,8,126
+Process Improvement and Optimisation,3517.9,6600.5,87.6,True,False,7,183
+Customer Experience Management,2842.9,3431.6,20.7,True,False,7,121
+Digital Marketing Management,1271.8,1642.5,29.1,True,False,7,41
+Emerging Technology Synthesis,4100.8,6606.5,61.1,True,False,6,153
+Technology Scanning,6647.6,11738.7,76.6,True,False,6,152
+Data-mining and Modelling,5637.4,7400.8,31.3,True,False,6,115
+Technology Road Mapping,585.3,1092.0,86.6,True,False,6,37
+Business Needs Analysis,3525.3,5632.2,59.8,True,False,5,141
+Risk Analytics,868.0,1011.0,16.5,True,False,5,55
+Organisational Strategy Development,3985.1,4622.9,16.0,True,False,5,49
+User Experience Design,1233.6,1709.0,38.5,True,False,5,46
+Automation Process Control,1196.4,2669.2,123.1,True,False,5,32
+Automated Operation Monitoring,1040.8,1656.1,59.1,True,False,5,22
+Cybersecurity,1314.6,2308.7,75.6,True,False,4,109
+Product Management,2204.3,3008.7,36.5,True,False,4,106
+Business Data Analysis,1439.6,1864.7,29.5,True,False,4,75
+Artificial Intelligence Application,1199.0,1849.8,54.3,True,False,4,72
+Business Innovation,2454.2,3957.7,61.3,True,False,4,54
+Data Analytics System Design,2277.6,2583.6,13.4,True,False,4,48
+User Interface Design,1382.2,1986.0,43.7,True,False,4,38
+Additive Manufacturing,1490.5,2470.1,65.7,True,False,4,35
+Business Process Re-Engineering,675.7,1285.4,90.2,True,False,4,35
+Automated System Design,1222.0,1499.6,22.7,True,False,4,32
+E-commerce Campaign Management,1771.1,1959.9,10.7,True,False,4,26
+Embedded System Integration,1388.1,1639.6,18.1,True,False,4,22
+Systems Integration,372.4,1088.9,192.4,True,False,4,20
+Social Media Marketing,1126.0,1376.2,22.2,True,False,4,19
+Programming and Coding,524.7,1343.6,156.1,True,False,4,18
+Internet of Things Application,940.2,1657.2,76.3,True,False,3,112
+Business Intelligence and Data Analytics,282.3,520.9,84.5,True,False,3,111
+Data Storytelling and Visualisation,1418.6,1825.6,28.7,True,False,3,71
+Building Information Modelling Application,2438.0,9580.9,293.0,True,False,3,65
+Green Manufacturing Design and Implementation,845.0,1051.0,24.4,True,False,3,64
+Augmented Reality Application,1261.9,2857.7,126.5,True,False,3,48
+Cyber Risk Management,1148.6,1509.2,31.4,True,False,3,39
+Applications Development,896.1,1323.5,47.7,True,False,3,36
+Data Visualisation,559.2,819.3,46.5,True,False,3,22
+Laser and Optics Application,826.4,1019.3,23.3,True,False,3,21
+Social Media Management,1480.1,1568.2,6.0,True,False,3,20
+Network Configuration,403.9,592.2,46.6,True,False,3,18
+Financial Modelling,539.2,837.4,55.3,True,False,3,17
+Collaborative Practices with Stakeholders Across Disciplines,5177.9,7985.4,54.2,True,False,2,85
+Cyber and Data Breach Incident Management,1198.0,1805.5,50.7,True,False,2,63
+Technology Adoption and Innovation,2215.8,3094.7,39.7,True,False,2,54
+Research Data Collection and Management,861.9,1329.2,54.2,True,False,2,32
+Customer Data Analysis,3707.7,4430.0,19.5,True,False,2,31
+Inspection Engineering Management,128.4,178.0,38.6,True,False,2,30
+Research into Professional Practice Translation,1417.9,2142.9,51.1,True,False,2,29
+Security Governance,579.3,766.0,32.2,True,False,2,28
+Research Design,1012.9,1490.4,47.1,True,False,2,26
+Research and Information Synthesis,639.6,2152.9,236.6,True,False,2,24
+ICT Disaster Recovery Management,2900.0,3360.0,15.9,True,False,2,23
+Network Security,603.9,898.5,48.8,True,False,2,23
+Infographics and Data Visualisation,1725.4,1800.4,4.3,True,False,2,22
+Technology Strategy Design,2191.7,2515.8,14.8,True,False,2,18
+Active and Smart Packaging,337.3,628.3,86.3,True,False,2,18
+Network Administration and Maintenance,428.9,628.1,46.4,True,False,2,18
+Cloud Computing Application,385.2,573.5,48.9,True,False,2,15
+Security Architecture,357.8,532.8,48.9,True,False,2,14
+Automation System Maintenance,986.4,1182.5,19.9,True,False,2,13
+Technology Infrastructure Management and Integration,122.8,196.5,60.0,True,False,2,13
+System Configuration Management,115.7,110.9,-4.1,True,False,2,13
+Automated Process Design,213.4,709.4,232.3,True,False,2,12
+Plant Economic Modelling,187.2,683.1,264.9,True,False,2,9
+Utilities Management,124.5,193.8,55.6,True,False,2,8
+Solar Photovoltaic Energy Assessment,144.1,649.5,350.6,True,False,2,7
+Sustainable Landscape Design,98.0,195.3,99.2,True,False,2,4
+Technology and Systems Application,167.7,335.4,100.0,True,False,1,71
+Trends Evaluation and Application,1612.1,2222.1,37.8,True,False,1,61
+Autonomous Systems Technology Application,129.9,259.8,100.0,True,False,1,55
+Design for Manufacturing and Assembly,1751.0,8198.0,368.2,True,False,1,39
+Service Quality Management,1030.7,1420.7,37.8,True,False,1,39
+Human-Robot Collaboration,406.1,631.7,55.6,True,False,1,37
+Clinical Services Development,925.0,1275.0,37.8,True,False,1,35
+Social Service Programme Development,740.0,1020.0,37.8,True,False,1,28
+Data and Information Management,3645.0,5872.5,61.1,True,False,1,27
+Design for Maintainability,1212.2,5675.5,368.2,True,False,1,27
+Design Sustainability and Ethics Management,578.6,964.3,66.7,True,False,1,27
+Security Administration,656.2,975.0,48.6,True,False,1,24
+Data Design,628.9,934.4,48.6,True,False,1,23
+Green Building Strategy Implementation,987.8,4624.5,368.2,True,False,1,22
+Nursing Productivity and Innovation,581.4,801.4,37.8,True,False,1,22
+Data Ethics,546.9,812.5,48.6,True,False,1,20
+Health Promotion,528.6,728.6,37.8,True,False,1,20
+E-commerce Management,2533.3,2976.7,17.5,True,False,1,19
+Practice Supervision,502.1,692.1,37.8,True,False,1,19
+Process Quality Management,408.5,851.1,108.3,True,False,1,16
+Predictive Maintenance,163.8,138.6,-15.4,True,False,1,16
+Energy Management and Audit,37.8,75.6,100.0,True,False,1,16
+Digital Technology Adoption and Innovation,545.5,818.2,50.0,True,False,1,15
+Advanced Processing Technology,403.8,750.0,85.7,True,False,1,15
+Data Engineering,410.2,609.4,48.6,True,False,1,15
+Group Therapy Planning and Implementation,370.0,510.0,37.8,True,False,1,14
+Patient Empowerment on Self-care,370.0,510.0,37.8,True,False,1,14
+Operational Technology Security Design,33.1,66.1,100.0,True,False,1,14
+Operational Technology Audit Management of Vulnerability Assessment and Penetration Test,33.1,66.1,100.0,True,False,1,14
+Sustainable Food Production Design,1733.3,2036.7,17.5,True,False,1,13
+Therapy Discharge Planning,343.6,473.6,37.8,True,False,1,13
+Group Dynamics Facilitation,278.6,464.3,66.7,True,False,1,13
+Cybersecurity Framework Application,30.7,61.4,100.0,True,False,1,13
+Detection and Monitoring Application,30.7,61.4,100.0,True,False,1,13
+Virtual Reality Application,1040.0,1360.0,30.8,True,False,1,12
+User Interface and User Experience (UI/UX) Optimisation,1100.0,1150.0,4.5,True,False,1,12
+Environment Management in Landscape Operations,306.4,638.3,108.3,True,False,1,12
+Automation of Landscape Operations,306.4,638.3,108.3,True,False,1,12
+Environmental Sustainability Management,568.4,410.5,-27.8,True,False,1,12
+Computational Design,493.9,2312.2,368.2,True,False,1,11
+Food Science Application,1466.7,1723.3,17.5,True,False,1,11
+Automation Research and Implementation,280.9,585.1,108.3,True,False,1,11
+Data Strategy,300.8,446.9,48.6,True,False,1,11
+Security Programme Management,300.8,446.9,48.6,True,False,1,11
+Autonomous Logistics Design and Application,193.0,308.8,60.0,True,False,1,11
+Behavioural Analysis and Predictive Screening,120.7,187.8,55.6,True,False,1,11
+Threat and Vulnerability Management,26.0,52.0,100.0,True,False,1,11
+Cyber Forensics,273.4,406.2,48.6,True,False,1,10
+Product Design and Development,87.5,87.5,0.0,True,False,1,10
+Green Facilities Management,404.1,1891.8,368.2,True,False,1,9
+Smart Facilities Management,404.1,1891.8,368.2,True,False,1,9
+Access Control Management,1145.5,900.0,-21.4,True,False,1,9
+Paid Search Engine Marketing (SEM),733.3,766.7,4.5,True,False,1,8
+Order Fulfilment and Returns Processing,733.3,766.7,4.5,True,False,1,8
+Search Engine Optimisation (SEO),733.3,766.7,4.5,True,False,1,8
+Mobile Apps Marketing,733.3,766.7,4.5,True,False,1,8
+Finance Business Partnering,290.9,436.4,50.0,True,False,1,8
+Information Gathering and Analysis,290.9,436.4,50.0,True,False,1,8
+Security Assessment and Testing,218.8,325.0,48.6,True,False,1,8
+Electronic Trading System Management,125.6,139.2,10.9,True,False,1,8
+Information Technology Application Support and Monitoring,125.6,139.2,10.9,True,False,1,8
+Process Analytical Technology Implementation,70.0,70.0,0.0,True,False,1,8
+Placemaking and Programming of Spaces,314.3,1471.4,368.2,True,False,1,7
+Care Transition in Nursing,185.0,255.0,37.8,True,False,1,7
+Revenue Optimisation,331.6,239.5,-27.8,True,False,1,7
+Workflow Digitalisation,153.2,319.1,108.3,True,False,1,6
+Skyrise Greenery Design and Implementation,153.2,319.1,108.3,True,False,1,6
+Automated Food Manufacturing System Maintenance,161.5,300.0,85.7,True,False,1,6
+Organisational Impact Analysis,164.1,243.8,48.6,True,False,1,6
+Computational Modelling,164.1,243.8,48.6,True,False,1,6
+Interaction Design,128.6,214.3,66.7,True,False,1,6
+Process Development Management,52.5,52.5,0.0,True,False,1,6
+Immersive Design,37.5,37.5,0.0,True,False,1,6
+Computer Vision Technology,136.7,203.1,48.6,True,False,1,5
+Text Analytics and Processing,136.7,203.1,48.6,True,False,1,5
+Intelligent Reasoning,136.7,203.1,48.6,True,False,1,5
+Pattern Recognition Systems,136.7,203.1,48.6,True,False,1,5
+Self-Learning Systems,136.7,203.1,48.6,True,False,1,5
+Intervention Planning in Occupational Therapy,132.1,182.1,37.8,True,False,1,5
+Green Ship Design,51.2,43.3,-15.4,True,False,1,5
+Game User Interface Development,31.2,31.2,0.0,True,False,1,5
+Analytics and Computational Modelling,179.6,840.8,368.2,True,False,1,4
+Delivery Optimisation,366.7,383.3,4.5,True,False,1,4
+Inbound Marketing,366.7,383.3,4.5,True,False,1,4
+Affiliate Marketing,366.7,383.3,4.5,True,False,1,4
+Blog and Vlog Deployment,366.7,383.3,4.5,True,False,1,4
+Digital Forensics,145.5,218.2,50.0,True,False,1,4
+Forensic Data Analytics,145.5,218.2,50.0,True,False,1,4
+Skyrise Greenery Maintenance,102.1,212.8,108.3,True,False,1,4
+Biophilic Design,102.1,212.8,108.3,True,False,1,4
+Embedded Systems Interface Design,109.4,162.5,48.6,True,False,1,4
+Automated Distribution Management,105.7,145.7,37.8,True,False,1,4
+Development on Intervention Plan for Physiotherapy,105.7,145.7,37.8,True,False,1,4
+Intervention Planning in Speech Therapy,105.7,145.7,37.8,True,False,1,4
+Polymeric Additive Manufacturing,260.0,340.0,30.8,True,False,1,3
+Metal-Based Additive Manufacturing,260.0,340.0,30.8,True,False,1,3
+Learning Experience Delivery,95.5,272.7,185.7,True,False,1,3
+Radio Frequency Engineering,82.0,121.9,48.6,True,False,1,3
+Data Sharing,82.0,121.9,48.6,True,False,1,3
+Data Protection Management,82.0,121.9,48.6,True,False,1,3
+Content Management,82.0,121.9,48.6,True,False,1,3
+Intervention Implementation in Therapy Support,79.3,109.3,37.8,True,False,1,3
+Patient Education and Engagement,79.3,109.3,37.8,True,False,1,3
+Content Delivery Network Operations,18.8,18.8,0.0,True,False,1,3
+Coaching and Mentoring,270.0,435.0,61.1,True,False,1,2
+Biophilic Design in Built Environment,89.8,420.4,368.2,True,False,1,2
+Embedded Systems Programming,54.7,81.2,48.6,True,False,1,2
+Pharmacy Information Technology Management,52.9,72.9,37.8,True,False,1,2
+Solar Photovoltaic Project Financing and Risk Analysis,4.7,9.4,100.0,True,False,1,2
+Water Sensitive Urban Design,25.5,53.2,108.3,True,False,1,1
+Network Slicing,27.3,40.6,48.6,True,False,1,1

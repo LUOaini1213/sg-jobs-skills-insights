@@ -1,0 +1,40 @@
+sector,mom_industry,fit,note
+Accountancy,"legal, accounting and management services",direct,SSIC 69-70
+Aerospace,transport equipment,approximate,aircraft MRO sits in transport-equipment manufacturing; MOM does not split aerospace out
+Agrifood,others,weak,"MOM 'others' = agriculture, fishing, quarrying, utilities, sewerage"
+Air Transport,air transport and supporting services,direct,
+Arts,"arts, entertainment and recreation",direct,
+BioPharmaceuticals Manufacturing,"petroleum, chemical and pharmaceutical products",approximate,shared with Energy and Chemicals
+Built Environment,construction,approximate,also covers facilities management and real estate roles
+Carbon Services and Trading,,cross-cutting,no matching MOM industry
+Design,other professional services,approximate,
+Early Childhood,public administration and education,approximate,MOM groups education with public administration
+Electronics,"electronic, computer and optical products",direct,
+Energy and Chemicals,"petroleum, chemical and pharmaceutical products",approximate,shared with BioPharmaceuticals Manufacturing
+Energy and Power,others,weak,utilities sit inside MOM 'others'
+Engineering Services,architectural and engineering services,direct,
+Environmental Services,cleaning and landscaping,approximate,waste management sits in 'others'
+Financial Services,financial services,direct,insurance is a separate MOM industry
+Food Manufacturing,"food, beverages and tobacco",direct,
+Food Services,food and beverage services,direct,
+Healthcare,health and social services,approximate,shared with Social Service
+Hotel and Accommodation Services,accommodation,direct,
+Human Resource,,cross-cutting,HR is a function present in every industry
+Infocomm Technology,it and other information services,approximate,ICT roles also sit in every other industry
+Intellectual Property,"legal, accounting and management services",approximate,
+Landscape,cleaning and landscaping,approximate,
+Legal Services,"legal, accounting and management services",direct,
+Logistics,other transport and storage services,approximate,warehousing and logistics services
+Marine and Offshore,transport equipment,approximate,shipbuilding and repair
+Media,"telecommunications, broadcasting and publishing",approximate,
+Precision Engineering,"fabricated metal products, machinery and equipment",direct,
+Public Transport,land transport and supporting services,direct,
+Retail,retail trade,direct,
+Sea Transport,water transport and supporting services,direct,
+Security,security and investigation,direct,
+Social Service,health and social services,approximate,shared with Healthcare
+Tourism,other administrative and support services,weak,travel agencies (SSIC 79) sit in administrative and support services
+Trade Associations and Chambers,"other community, social and personal services",approximate,
+Training and Adult Education,public administration and education,approximate,
+Wholesale Trade,wholesale trade,direct,
+Workplace Safety and Health,,cross-cutting,function present in every industry

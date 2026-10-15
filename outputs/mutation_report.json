@@ -1,0 +1,68 @@
+{
+  "baseline_exit": 0,
+  "mutants": [
+    {
+      "mutant": "load: '-' treated as 1 instead of the requested value",
+      "killed": true
+    },
+    {
+      "mutant": "match: ranks worst-first",
+      "killed": true
+    },
+    {
+      "mutant": "match: top-k only ever looks at the first prediction",
+      "killed": true
+    },
+    {
+      "mutant": "match: 4-digit gold codes no longer match by prefix",
+      "killed": true
+    },
+    {
+      "mutant": "match: hybrid uses w twice",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: every role counted as having an emerging skill",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: skill share divided by all roles, not roles in the industry",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: growth divides by the end value",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: total vacancies drop the PME group",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: seasonal naive uses a 3-quarter cycle",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: gaps no longer trimmed",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: training window leaks the first test quarter",
+      "killed": true
+    },
+    {
+      "mutant": "ssoc: track becomes mandatory in SFw entries",
+      "killed": true
+    },
+    {
+      "mutant": "ssoc: slashes not normalised",
+      "killed": true
+    },
+    {
+      "mutant": "wages: regression without intercept",
+      "killed": true
+    }
+  ],
+  "control_survived": true,
+  "killed": 15,
+  "total": 15
+}

@@ -1,0 +1,40 @@
+sector,roles,median_skills_per_role,share_roles_with_emerging,emerging_share_of_requirements,casl_share_of_requirements
+Accountancy,46,23.0,1.0,0.1781,0.2048
+Aerospace,98,32.5,0.9388,0.1213,0.1229
+Agrifood,6,22.0,1.0,0.2258,0.1774
+Air Transport,82,21.0,1.0,0.2316,0.1389
+Arts,19,9.0,0.0,0.0,0.1677
+BioPharmaceuticals Manufacturing,27,23.0,1.0,0.1984,0.213
+Built Environment,49,31.0,1.0,0.2514,0.1878
+Carbon Services and Trading,8,25.0,1.0,0.1095,0.1891
+Design,28,31.0,0.9643,0.1473,0.2226
+Early Childhood,27,21.0,1.0,0.0942,0.0314
+Electronics,29,21.0,1.0,0.1183,0.2017
+Energy and Chemicals,53,22.0,1.0,0.1708,0.1418
+Energy and Power,121,21.0,1.0,0.2008,0.1677
+Engineering Services,35,31.0,1.0,0.2,0.2019
+Environmental Services,30,16.5,0.8667,0.1657,0.1862
+Financial Services,293,16.0,0.9488,0.1771,0.1712
+Food Manufacturing,26,31.0,1.0,0.1927,0.207
+Food Services,30,35.5,1.0,0.2233,0.1313
+Healthcare,77,19.0,0.961,0.1894,0.16
+Hotel and Accommodation Services,38,21.0,1.0,0.1333,0.0804
+Human Resource,21,30.0,1.0,0.1399,0.2184
+Infocomm Technology,128,22.5,1.0,0.3609,0.2062
+Intellectual Property,11,21.0,1.0,0.1907,0.1907
+Landscape,17,22.0,1.0,0.154,0.2222
+Legal Services,9,17.0,0.0,0.0,0.1548
+Logistics,57,14.0,0.807,0.1538,0.203
+Marine and Offshore,29,31.0,0.9655,0.1149,0.2057
+Media,112,8.0,0.3304,0.0832,0.2364
+Precision Engineering,15,37.0,1.0,0.2328,0.1534
+Public Transport,87,24.0,0.9885,0.1544,0.1476
+Retail,24,53.5,1.0,0.1909,0.1208
+Sea Transport,85,17.0,0.9765,0.1969,0.1948
+Security,11,21.0,1.0,0.0943,0.2264
+Social Service,63,19.0,1.0,0.2297,0.1948
+Tourism,69,20.0,1.0,0.2431,0.2276
+Trade Associations and Chambers,22,39.5,1.0,0.2268,0.1749
+Training and Adult Education,13,26.0,0.9231,0.2222,0.1714
+Wholesale Trade,42,25.0,1.0,0.2382,0.2089
+Workplace Safety and Health,11,21.0,1.0,0.1124,0.0763

@@ -46,6 +46,18 @@
       "publisher": "Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)",
       "sha256": "a01c9a2d21b441bb1e89ea997710e040a073a4ab9e2c14a5010825417578c280",
       "bytes": 37138
+    },
+    "ssoc2020_detailed_definitions.xlsx": {
+      "url": "https://www.singstat.gov.sg/files/bbd1b6a5-9246-4f73-8d57-34fbd0a3c084.xlsx",
+      "publisher": "Singapore Department of Statistics (SSOC 2020)",
+      "sha256": "295db4def41dcd1ccd99af1bbe5beaf603a7179d6119666799e95b2e2df45327",
+      "bytes": 349857
+    },
+    "ssoc2020_alpha_index.xlsx": {
+      "url": "https://www.singstat.gov.sg/files/03ca0c44-8d8d-4c58-8b51-3025d06df82d.xlsx",
+      "publisher": "Singapore Department of Statistics (SSOC 2020)",
+      "sha256": "b91c63b9312fb13672ea53bc85c77870747070c8e18c6aaa12d89793110484ce",
+      "bytes": 291963
     }
   }
 }

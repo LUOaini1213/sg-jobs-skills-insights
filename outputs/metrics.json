@@ -1,0 +1,305 @@
+{
+  "data": {
+    "sfw_sectors": 39,
+    "sfw_roles": 1977,
+    "sfw_roles_with_skills": 1948,
+    "role_skill_requirements": 43454,
+    "unique_skills_required": 2056,
+    "ssg_emerging_skills_required": 195,
+    "emerging_share_of_requirements": 0.1919
+  },
+  "sector": {
+    "highest_emerging_share": {
+      "sector": "Infocomm Technology",
+      "emerging_share_of_requirements": 0.3609
+    },
+    "lowest_emerging_share_nonzero": {
+      "sector": "Media",
+      "emerging_share_of_requirements": 0.0832
+    },
+    "sectors_with_zero_emerging": [
+      "Arts",
+      "Legal Services"
+    ],
+    "highest_pme_vacancy_rate_2025": {
+      "sector": "Infocomm Technology",
+      "mom_industry": "it and other information services",
+      "pme_vacancy_rate_2025": 5.7
+    },
+    "direct_fit_sectors": 16
+  },
+  "skill_index_top5_2025": [
+    {
+      "unique_skill": "Stakeholder Management",
+      "index_2025": 43301.9,
+      "growth_2019_2025_pct": 55.0
+    },
+    {
+      "unique_skill": "Change Management",
+      "index_2025": 23450.4,
+      "growth_2019_2025_pct": 36.8
+    },
+    {
+      "unique_skill": "Continuous Improvement Management",
+      "index_2025": 22047.9,
+      "growth_2019_2025_pct": 94.4
+    },
+    {
+      "unique_skill": "Learning and Development",
+      "index_2025": 20704.7,
+      "growth_2019_2025_pct": 39.0
+    },
+    {
+      "unique_skill": "Business Negotiation",
+      "index_2025": 18568.0,
+      "growth_2019_2025_pct": 46.2
+    }
+  ],
+  "emerging_broadest": [
+    {
+      "unique_skill": "Change Management",
+      "sectors": 29,
+      "roles": 656
+    },
+    {
+      "unique_skill": "Business Opportunities Development",
+      "sectors": 23,
+      "roles": 363
+    },
+    {
+      "unique_skill": "Market Research",
+      "sectors": 14,
+      "roles": 203
+    },
+    {
+      "unique_skill": "Data Analytics",
+      "sectors": 14,
+      "roles": 180
+    },
+    {
+      "unique_skill": "Continuous Improvement Management",
+      "sectors": 13,
+      "roles": 596
+    }
+  ],
+  "mapping": {
+    "n_roles": 1977,
+    "n_ssoc_occupations": 997,
+    "reference_official": {
+      "n": 1248,
+      "majority_baseline_top1": 0.04567307692307692,
+      "tfidf_word_title_only": {
+        "top1_5digit": 0.3606,
+        "top1_5digit_ci95": [
+          0.3333,
+          0.3862
+        ],
+        "top1_4digit": 0.4022,
+        "top1_2digit": 0.528,
+        "top1_1digit": 0.6266,
+        "top5_5digit": 0.5401
+      },
+      "tfidf_word": {
+        "top1_5digit": 0.399,
+        "top1_5digit_ci95": [
+          0.3718,
+          0.4263
+        ],
+        "top1_4digit": 0.4431,
+        "top1_2digit": 0.5777,
+        "top1_1digit": 0.6579,
+        "top5_5digit": 0.6474
+      },
+      "tfidf_char": {
+        "top1_5digit": 0.3357,
+        "top1_5digit_ci95": [
+          0.3085,
+          0.3614
+        ],
+        "top1_4digit": 0.3926,
+        "top1_2digit": 0.5312,
+        "top1_1digit": 0.645,
+        "top5_5digit": 0.6002
+      },
+      "embed": {
+        "top1_5digit": 0.4038,
+        "top1_5digit_ci95": [
+          0.3782,
+          0.4295
+        ],
+        "top1_4digit": 0.4543,
+        "top1_2digit": 0.5753,
+        "top1_1digit": 0.6723,
+        "top5_5digit": 0.649
+      },
+      "hybrid": {
+        "top1_5digit": 0.4495,
+        "top1_5digit_ci95": [
+          0.4215,
+          0.4768
+        ],
+        "top1_4digit": 0.4992,
+        "top1_2digit": 0.6194,
+        "top1_1digit": 0.7051,
+        "top5_5digit": 0.6931
+      }
+    },
+    "reference_claude": {
+      "n": 96,
+      "tfidf_word_title_only": {
+        "top1_5digit": 0.3542,
+        "top1_5digit_ci95": [
+          0.25,
+          0.4479
+        ],
+        "top1_4digit": 0.3854,
+        "top1_2digit": 0.5417,
+        "top1_1digit": 0.6458,
+        "top5_5digit": 0.625
+      },
+      "tfidf_word": {
+        "top1_5digit": 0.4167,
+        "top1_5digit_ci95": [
+          0.3229,
+          0.5208
+        ],
+        "top1_4digit": 0.4896,
+        "top1_2digit": 0.5938,
+        "top1_1digit": 0.7083,
+        "top5_5digit": 0.7188
+      },
+      "tfidf_char": {
+        "top1_5digit": 0.3542,
+        "top1_5digit_ci95": [
+          0.2604,
+          0.4479
+        ],
+        "top1_4digit": 0.4271,
+        "top1_2digit": 0.5833,
+        "top1_1digit": 0.7708,
+        "top5_5digit": 0.6458
+      },
+      "embed": {
+        "top1_5digit": 0.5104,
+        "top1_5digit_ci95": [
+          0.4062,
+          0.6042
+        ],
+        "top1_4digit": 0.5521,
+        "top1_2digit": 0.6354,
+        "top1_1digit": 0.7396,
+        "top5_5digit": 0.7812
+      },
+      "hybrid": {
+        "top1_5digit": 0.5521,
+        "top1_5digit_ci95": [
+          0.4479,
+          0.6458
+        ],
+        "top1_4digit": 0.6146,
+        "top1_2digit": 0.6875,
+        "top1_1digit": 0.7708,
+        "top5_5digit": 0.8333
+      }
+    },
+    "claude_vs_official": {
+      "n_overlap": 58,
+      "agree": 40
+    },
+    "production_mapping": {
+      "method_for_unmapped": "hybrid",
+      "official": 1248,
+      "predicted": 729
+    }
+  },
+  "wages": {
+    "n_roles": 1072,
+    "n_occupations": 260,
+    "models": {
+      "raw": {
+        "formula": "log_wage ~ emerging_share",
+        "coef": 0.6088,
+        "ci95": [
+          0.2294,
+          0.9882
+        ],
+        "pct_wage_per_10pp": 6.28,
+        "pct_ci95_per_10pp": [
+          2.32,
+          10.39
+        ],
+        "p_value": 0.0016614410581970971,
+        "r2": 0.021
+      },
+      "plus_controls": {
+        "formula": "log_wage ~ emerging_share + np.log(n_skills) + max_level + C(sector)",
+        "coef": 0.3325,
+        "ci95": [
+          0.0497,
+          0.6154
+        ],
+        "pct_wage_per_10pp": 3.38,
+        "pct_ci95_per_10pp": [
+          0.5,
+          6.35
+        ],
+        "p_value": 0.021192897981042,
+        "r2": 0.563
+      },
+      "within_submajor": {
+        "formula": "log_wage ~ emerging_share + np.log(n_skills) + max_level + C(sector) + C(submajor)",
+        "coef": 0.1677,
+        "ci95": [
+          -0.0552,
+          0.3906
+        ],
+        "pct_wage_per_10pp": 1.69,
+        "pct_ci95_per_10pp": [
+          -0.55,
+          3.98
+        ],
+        "p_value": 0.14036693653991025,
+        "r2": 0.803
+      }
+    }
+  },
+  "forecast": {
+    "n_industries": 21,
+    "data_from": "2013-Q1",
+    "data_to": "2026-Q2",
+    "n_origins": 12,
+    "horizon_quarters": 4,
+    "mae_pp": {
+      "naive": 0.724,
+      "holt_damped": 0.834,
+      "mean_last4": 0.877,
+      "seasonal_naive": 0.947
+    },
+    "mae_pp_by_horizon": {
+      "holt_damped": {
+        "1": 0.659,
+        "2": 0.807,
+        "3": 0.887,
+        "4": 0.984
+      },
+      "mean_last4": {
+        "1": 0.735,
+        "2": 0.829,
+        "3": 0.929,
+        "4": 1.013
+      },
+      "naive": {
+        "1": 0.596,
+        "2": 0.721,
+        "3": 0.763,
+        "4": 0.817
+      },
+      "seasonal_naive": {
+        "1": 1.064,
+        "2": 0.993,
+        "3": 0.912,
+        "4": 0.817
+      }
+    }
+  }
+}

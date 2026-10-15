@@ -1,0 +1,50 @@
+name: ci
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[test]"
+      - name: Unit tests
+        run: pytest -q tests/unit
+      - name: Mutation check (every mutant must be killed, control must survive)
+        run: python tools/mutation_check.py
+      - name: README and brief numbers match outputs
+        run: python tools/check_readme.py
+
+  reproduce:
+    # Download the public sources and re-run the TF-IDF pipeline. If a publisher has released
+    # a new file (hash differs from data/sources.json) the comparison is skipped with a warning,
+    # because outputs are expected to change.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[test]"
+      - name: Fetch public sources
+        id: fetch
+        run: |
+          set +e
+          python -m jsi.fetch
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" = "3" ]; then echo "::warning::A source file changed since data/sources.json; skipping output comparison"; exit 0; fi
+          exit $code
+      - name: Data tests
+        run: pytest -q tests/data
+      - name: Re-run pipeline (no embeddings) and compare with committed outputs
+        if: steps.fetch.outputs.code == '0'
+        run: |
+          python -m jsi.pipeline
+          git diff --stat
+          git diff --exit-code -- outputs/metrics_ci.json outputs/mapping_eval_tfidf.json outputs/role_to_ssoc_tfidf.csv outputs/sector_skill_profile.csv outputs/sector_demand.csv outputs/skill_demand_index.csv outputs/emerging_skills.csv
