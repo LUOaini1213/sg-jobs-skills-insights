@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -e ".[test]"
-      - name: Fetch public sources
+      - name: Fetch public sources (unreachable sources are reported, not fatal)
         id: fetch
         run: |
           set +e
@@ -39,19 +39,10 @@ jobs:
           code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
           if [ "$code" = "3" ]; then echo "::warning::A source file changed since data/sources.json; skipping output comparison"; exit 0; fi
-          if [ "$code" = "4" ]; then echo "::notice::SingStat SSOC files unreachable from this runner; SSOC-dependent steps are skipped here and run locally"; exit 0; fi
+          if [ "$code" = "4" ]; then echo "::notice::Some government sources are unreachable from this runner; only outputs that depend on reachable sources are reproduced"; exit 0; fi
           exit $code
       - name: Data tests
         run: pytest -q -rs tests/data
-      - name: Re-run full pipeline (no embeddings) and compare with committed outputs
-        if: steps.fetch.outputs.code == '0'
-        run: |
-          python -m jsi.pipeline
-          git diff --stat
-          git diff --exit-code -- outputs/
-      - name: Re-run indicators and forecast backtest (no SSOC needed) and compare
-        if: steps.fetch.outputs.code == '4'
-        run: |
-          python -m jsi.pipeline --indicators-only
-          git diff --stat
-          git diff --exit-code -- outputs/sector_skill_profile.csv outputs/sector_demand.csv outputs/skill_demand_index.csv outputs/emerging_skills.csv outputs/forecast_mae_ci.csv
+      - name: Re-run what the reachable sources allow and compare with committed outputs
+        if: steps.fetch.outputs.code != '3'
+        run: python tools/reproduce_ci.py

@@ -122,12 +122,14 @@ tests also caught a wrong hand-entered SSOC code for nurses in the label convert
 should have been `22200`). The fix is in.
 
 CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation check and the README check
-on every push. A second job, `reproduce`, downloads the public sources and runs the data
-tests. It then re-runs the pipeline and requires the committed outputs to come out
-byte-identical. SingStat refuses connections from GitHub-hosted runners (seen on
-2026-10-15), so in CI this job re-runs only the steps that do not need SSOC: indicators and
-the forecast backtest. The SSOC-dependent steps (mapping evaluation and wages) and their
-data tests were run locally against the hashed files in `data/sources.json`.
+on every push. A second job, `reproduce`, downloads whatever public sources the runner can
+reach and runs the data tests. It then regenerates the outputs that depend only on reachable
+sources (`tools/reproduce_ci.py`) and requires them to be byte-identical to the committed
+files. The job log states which outputs were reproduced and which were not. On 2026-10-15
+the GitHub-hosted runner could not reach SingStat or data.gov.sg, although both work from
+Singapore, so CI reproduced the Skills Framework profiles only. The rest of the pipeline
+(MOM indicators, the SSOC mapping evaluation, wages and the forecast) was re-run locally from
+the hashed files in `data/sources.json`, and the outputs came out identical.
 
 ## Layout
 

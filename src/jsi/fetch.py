@@ -60,11 +60,12 @@ def _get(url: str, **kw):
 
     for attempt in range(3):
         try:
-            r = requests.get(url, timeout=120, **kw)
+            r = requests.get(url, timeout=60, **kw)
             if r.status_code == 200:
                 return r
+            print("HTTP", r.status_code, url, file=sys.stderr)
         except Exception as exc:  # network hiccup
-            print("retry", url, exc, file=sys.stderr)
+            print("retry", url, type(exc).__name__, file=sys.stderr)
         time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"failed to fetch {url}")  # noqa: TRY003
 
@@ -112,7 +113,14 @@ def main(argv=None) -> int:
                 continue
             files.setdefault(name, {}).update(url=url, publisher="Singapore Department of Statistics (SSOC 2020)")
         for did, title in DATAGOVSG.items():
-            fetch_datagovsg(did, RAW / f"{did}.csv")
+            try:
+                fetch_datagovsg(did, RAW / f"{did}.csv")
+            except RuntimeError:
+                if not args.allow_unavailable:
+                    raise
+                print("UNAVAILABLE", f"{did}.csv")
+                unavailable.add(f"{did}.csv")
+                continue
             files.setdefault(f"{did}.csv", {}).update(
                 url=f"https://data.gov.sg/datasets/{did}/view", title=title,
                 publisher="Ministry of Manpower via data.gov.sg (Singapore Open Data Licence v1.0)")
