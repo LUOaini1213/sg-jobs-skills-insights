@@ -126,7 +126,7 @@ def run(use_embed: bool) -> dict:
                                      "official": int((m["code_source"] == "official").sum()),
                                      "predicted": int((m["code_source"] != "official").sum())}
     OUT.mkdir(exist_ok=True)
-    m.to_csv(OUT / ("role_to_ssoc.csv" if use_embed else "role_to_ssoc_tfidf.csv"), index=False)
+    m.to_csv(OUT / ("role_to_ssoc.csv" if use_embed else "role_to_ssoc_tfidf.csv"), index=False, lineterminator="\n")
     return results
 
 

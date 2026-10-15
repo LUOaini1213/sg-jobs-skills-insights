@@ -27,16 +27,16 @@ def run(embed: bool, indicators_only: bool = False) -> dict:
     roles = load.roles()
 
     prof = indicators.sector_skill_profile(rs)
-    _round(prof).to_csv(OUT / "sector_skill_profile.csv", index=False)
+    _round(prof).to_csv(OUT / "sector_skill_profile.csv", index=False, lineterminator="\n")
     dem = indicators.sector_demand()
-    _round(dem).to_csv(OUT / "sector_demand.csv", index=False)
+    _round(dem).to_csv(OUT / "sector_demand.csv", index=False, lineterminator="\n")
     idx = indicators.skill_demand_index(rs=rs)
-    _round(idx, 1).to_csv(OUT / "skill_demand_index.csv", index=False)
+    _round(idx, 1).to_csv(OUT / "skill_demand_index.csv", index=False, lineterminator="\n")
 
     em = idx[idx["emerging"]].sort_values(["sectors", "roles"], ascending=False)
-    _round(em, 1).to_csv(OUT / "emerging_skills.csv", index=False)
+    _round(em, 1).to_csv(OUT / "emerging_skills.csv", index=False, lineterminator="\n")
     if indicators_only:  # no SSOC files needed (CI runners cannot reach SingStat)
-        _round(pd.DataFrame([forecast.run()["mae_pp"]]), 3).to_csv(OUT / "forecast_mae_ci.csv", index=False)
+        _round(pd.DataFrame([forecast.run()["mae_pp"]]), 3).to_csv(OUT / "forecast_mae_ci.csv", index=False, lineterminator="\n")
         return {"data": {"indicators_only": True}}
 
     # mapping evaluation (writes outputs/role_to_ssoc.csv)

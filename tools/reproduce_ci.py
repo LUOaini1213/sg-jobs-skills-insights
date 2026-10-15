@@ -41,7 +41,7 @@ def main() -> int:
                                           "emerging_skills.csv", "forecast_mae_ci.csv")]
         print("reproduced: indicators + forecast; NOT reproduced here: SSOC mapping, wages")
     else:
-        indicators.sector_skill_profile().round(4).to_csv(ROOT / "outputs" / "sector_skill_profile.csv", index=False)
+        indicators.sector_skill_profile().round(4).to_csv(ROOT / "outputs" / "sector_skill_profile.csv", index=False, lineterminator="\n")
         files = ["outputs/sector_skill_profile.csv"]
         print("reproduced: sector skill profiles; NOT reproduced here: MOM-based indicators, forecast, SSOC mapping, wages")
     r = subprocess.run(["git", "diff", "--stat", "--exit-code", "--", *files], cwd=ROOT)
