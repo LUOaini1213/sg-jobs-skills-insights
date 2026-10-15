@@ -125,11 +125,12 @@ CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation check and the 
 on every push. A second job, `reproduce`, downloads whatever public sources the runner can
 reach and runs the data tests. It then regenerates the outputs that depend only on reachable
 sources (`tools/reproduce_ci.py`) and requires them to be byte-identical to the committed
-files. The job log states which outputs were reproduced and which were not. On 2026-10-15
-the GitHub-hosted runner could not reach SingStat or data.gov.sg, although both work from
-Singapore, so CI reproduced the Skills Framework profiles only. The rest of the pipeline
-(MOM indicators, the SSOC mapping evaluation, wages and the forecast) was re-run locally from
-the hashed files in `data/sources.json`, and the outputs came out identical.
+files. The job log states which outputs were reproduced and which were not. SingStat answers the
+GitHub-hosted runner with HTTP 403 (seen on 2026-10-15), although the same request works
+from Singapore. CI therefore reproduces the Skills Framework profiles, the MOM-based
+indicators and the forecast backtest. The SSOC-dependent steps (mapping evaluation and wages)
+were re-run locally from the hashed files in `data/sources.json`, and their outputs came out
+identical.
 
 ## Layout
 

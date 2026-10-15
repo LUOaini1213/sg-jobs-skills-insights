@@ -61,7 +61,7 @@ def _get(url: str, **kw):
     for attempt in range(3):
         try:
             r = requests.get(url, timeout=60, **kw)
-            if r.status_code == 200:
+            if 200 <= r.status_code < 300:  # initiate-download answers 201
                 return r
             print("HTTP", r.status_code, url, file=sys.stderr)
         except Exception as exc:  # network hiccup
