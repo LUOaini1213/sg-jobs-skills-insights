@@ -122,8 +122,12 @@ tests also caught a wrong hand-entered SSOC code for nurses in the label convert
 should have been `22200`). The fix is in.
 
 CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation check and the README check
-on every push. A second job downloads the public sources and re-runs the TF-IDF pipeline
-and the data tests.
+on every push. A second job, `reproduce`, downloads the public sources and runs the data
+tests. It then re-runs the pipeline and requires the committed outputs to come out
+byte-identical. SingStat refuses connections from GitHub-hosted runners (seen on
+2026-10-15), so in CI this job re-runs only the steps that do not need SSOC: indicators and
+the forecast backtest. The SSOC-dependent steps (mapping evaluation and wages) and their
+data tests were run locally against the hashed files in `data/sources.json`.
 
 ## Layout
 

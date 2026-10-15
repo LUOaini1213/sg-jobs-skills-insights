@@ -21,7 +21,7 @@ def _round(df: pd.DataFrame, n: int = 4) -> pd.DataFrame:
     return df.round(n)
 
 
-def run(embed: bool) -> dict:
+def run(embed: bool, indicators_only: bool = False) -> dict:
     OUT.mkdir(exist_ok=True)
     rs = load.role_skills()
     roles = load.roles()
@@ -35,6 +35,9 @@ def run(embed: bool) -> dict:
 
     em = idx[idx["emerging"]].sort_values(["sectors", "roles"], ascending=False)
     _round(em, 1).to_csv(OUT / "emerging_skills.csv", index=False)
+    if indicators_only:  # no SSOC files needed (CI runners cannot reach SingStat)
+        _round(pd.DataFrame([forecast.run()["mae_pp"]]), 3).to_csv(OUT / "forecast_mae_ci.csv", index=False)
+        return {"data": {"indicators_only": True}}
 
     # mapping evaluation (writes outputs/role_to_ssoc.csv)
     mapping = evaluate_mapping.run(embed)
@@ -84,8 +87,9 @@ def run(embed: bool) -> dict:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--embed", action="store_true")
+    ap.add_argument("--indicators-only", action="store_true", help="skip SSOC-dependent steps")
     a = ap.parse_args(argv)
-    m = run(a.embed)
+    m = run(a.embed, a.indicators_only)
     print(json.dumps(m["data"], indent=2))
     return 0
 

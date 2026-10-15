@@ -35,16 +35,23 @@ jobs:
         id: fetch
         run: |
           set +e
-          python -m jsi.fetch
+          python -m jsi.fetch --allow-unavailable
           code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
           if [ "$code" = "3" ]; then echo "::warning::A source file changed since data/sources.json; skipping output comparison"; exit 0; fi
+          if [ "$code" = "4" ]; then echo "::notice::SingStat SSOC files unreachable from this runner; SSOC-dependent steps are skipped here and run locally"; exit 0; fi
           exit $code
       - name: Data tests
-        run: pytest -q tests/data
-      - name: Re-run pipeline (no embeddings) and compare with committed outputs
+        run: pytest -q -rs tests/data
+      - name: Re-run full pipeline (no embeddings) and compare with committed outputs
         if: steps.fetch.outputs.code == '0'
         run: |
           python -m jsi.pipeline
           git diff --stat
-          git diff --exit-code -- outputs/metrics_ci.json outputs/mapping_eval_tfidf.json outputs/role_to_ssoc_tfidf.csv outputs/sector_skill_profile.csv outputs/sector_demand.csv outputs/skill_demand_index.csv outputs/emerging_skills.csv
+          git diff --exit-code -- outputs/
+      - name: Re-run indicators and forecast backtest (no SSOC needed) and compare
+        if: steps.fetch.outputs.code == '4'
+        run: |
+          python -m jsi.pipeline --indicators-only
+          git diff --stat
+          git diff --exit-code -- outputs/sector_skill_profile.csv outputs/sector_demand.csv outputs/skill_demand_index.csv outputs/emerging_skills.csv outputs/forecast_mae_ci.csv

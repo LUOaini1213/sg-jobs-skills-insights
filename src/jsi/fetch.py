@@ -58,7 +58,7 @@ def sha256(path: Path) -> str:
 def _get(url: str, **kw):
     import requests
 
-    for attempt in range(6):
+    for attempt in range(3):
         try:
             r = requests.get(url, timeout=120, **kw)
             if r.status_code == 200:
@@ -66,7 +66,7 @@ def _get(url: str, **kw):
         except Exception as exc:  # network hiccup
             print("retry", url, exc, file=sys.stderr)
         time.sleep(5 * (attempt + 1))
-    raise RuntimeError(f"failed to fetch {url}")
+    raise RuntimeError(f"failed to fetch {url}")  # noqa: TRY003
 
 
 def fetch_datagovsg(dataset_id: str, dest: Path) -> None:
@@ -84,21 +84,32 @@ def fetch_datagovsg(dataset_id: str, dest: Path) -> None:
 def main(argv=None) -> int:
     """Exit 0: files present and identical to the hashes in data/sources.json.
     Exit 3: a publisher has released a different file (re-run with --update to accept it).
-    Exit 1: a file is missing."""
+    Exit 1: a file is missing. Exit 4 (with --allow-unavailable): a source could not be reached.
+    SingStat refuses connections from GitHub-hosted runners (seen 2026-10-15), so CI uses exit 4."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="verify hashes of files already present; no download")
     ap.add_argument("--update", action="store_true", help="write the new hashes to data/sources.json")
+    ap.add_argument("--allow-unavailable", action="store_true",
+                    help="skip a source that cannot be reached (exit 4) instead of failing")
     args = ap.parse_args(argv)
     RAW.mkdir(parents=True, exist_ok=True)
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
     files = manifest.setdefault("files", {})
     old = {k: v.get("sha256") for k, v in files.items()}
+    unavailable: set[str] = set()
     if not args.check:
         for name, url in SKILLSFUTURE_FILES.items():
             (RAW / name).write_bytes(_get(url).content)
             files.setdefault(name, {}).update(url=url, publisher="SkillsFuture Singapore / SWDA (Jobs-Skills Portal)")
         for name, url in SINGSTAT_FILES.items():
-            (RAW / name).write_bytes(_get(url, headers=UA).content)
+            try:
+                (RAW / name).write_bytes(_get(url, headers=UA).content)
+            except RuntimeError:
+                if not args.allow_unavailable:
+                    raise
+                print("UNAVAILABLE", name, url)
+                unavailable.add(name)
+                continue
             files.setdefault(name, {}).update(url=url, publisher="Singapore Department of Statistics (SSOC 2020)")
         for did, title in DATAGOVSG.items():
             fetch_datagovsg(did, RAW / f"{did}.csv")
@@ -109,6 +120,8 @@ def main(argv=None) -> int:
     missing = changed = 0
     for name, meta in files.items():
         p = RAW / name
+        if name in unavailable:
+            continue
         if not p.exists():
             print("missing", name)
             missing += 1
@@ -123,7 +136,11 @@ def main(argv=None) -> int:
         manifest["accessed"] = time.strftime("%Y-%m-%d")
         MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{len(files)} files, {missing} missing, {changed} changed since data/sources.json")
-    return 1 if missing else (3 if changed and not args.update else 0)
+    if missing:
+        return 1
+    if changed and not args.update:
+        return 3
+    return 4 if unavailable else 0
 
 
 if __name__ == "__main__":

@@ -9,8 +9,11 @@ from jsi import evaluate_mapping, load, ssoc
 
 ROOT = Path(__file__).resolve().parents[2]
 pytestmark = pytest.mark.skipif(not load.SFW.exists(), reason="raw data not fetched")
+needs_ssoc = pytest.mark.skipif(not ssoc.DEFS.exists() or not ssoc.ALPHA.exists(),
+                                reason="SingStat SSOC files not available (not reachable from CI runners)")
 
 
+@needs_ssoc
 def test_every_label_resolves_to_an_ssoc_code():
     g = evaluate_mapping.claude_label_codes()
     assert len(g) == 100
@@ -21,6 +24,7 @@ def test_every_label_resolves_to_an_ssoc_code():
             assert c in occ or any(o.startswith(c) for o in occ)
 
 
+@needs_ssoc
 def test_official_crosswalk_codes_are_real_occupations():
     cw = ssoc.official_crosswalk()
     occ = set(ssoc.occupations()["code"])
@@ -28,6 +32,7 @@ def test_official_crosswalk_codes_are_real_occupations():
     assert all(c in occ for cs in cw["official_codes"] for c in cs.split(";"))
 
 
+@needs_ssoc
 def test_matcher_text_never_contains_the_official_sfw_entries():
     # leakage guard: the alphabetical-index rows flagged as SFw roles must not reach occ_text
     a = ssoc.alpha_index()
