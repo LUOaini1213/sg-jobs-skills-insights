@@ -48,6 +48,14 @@ MUTANTS = [
     ("ssoc: slashes not normalised", "ssoc.py", 's = re.sub(r"\s*/\s*", "/", s)', "s = s"),
     ("wages: regression without intercept", "wages.py",
      "smf.ols(formula, data=t)", 'smf.ols(formula + " - 1", data=t)'),
+    ("load: interim cache ignores the raw-file hash", "load.py",
+     'p = INTERIM / f"{name}-{key}.pkl"', 'p = INTERIM / f"{name}.pkl"'),
+    ("evaluate_mapping: majority baseline picks the rarest code", "evaluate_mapping.py",
+     "most_common(1)[0][0]", "most_common()[-1][0]"),
+    ("evaluate_mapping: 4-digit labels must equal the 5-digit code", "evaluate_mapping.py",
+     "o[: len(c)] == c", "o == c"),
+    ("evaluate_mapping: production keeps the last official code", "evaluate_mapping.py",
+     '.str.split(";").str[0]', '.str.split(";").str[-1]'),
 ]
 CONTROL = ("CONTROL (behaviour-preserving): growth adds 0.0", "indicators.py",
            "100.0 * (b - a) / a", "100.0 * (b - a) / a + 0.0")
@@ -95,7 +103,7 @@ def main() -> int:
     k = sum(m["killed"] for m in report["mutants"])
     report["killed"], report["total"] = k, len(MUTANTS)
     print(f"{k}/{len(MUTANTS)} mutants killed; control survived: {report['control_survived']}")
-    (ROOT / "outputs" / "mutation_report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "outputs" / "mutation_report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
     return 0 if ok else 1
 
 
