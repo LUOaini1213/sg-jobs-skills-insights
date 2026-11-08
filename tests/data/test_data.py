@@ -38,7 +38,7 @@ def test_matcher_text_never_contains_the_official_sfw_entries():
     a = ssoc.alpha_index()
     sfw = set(a.loc[a["is_sfw"], "alpha"])
     text = " ".join(ssoc.occupations()["alpha_titles"])
-    assert not any(s in text for s in list(sfw)[:300])
+    assert sfw and not any(s in text for s in sfw)
     assert "(SFw-" not in text
 
 
@@ -59,3 +59,4 @@ def test_committed_counts_match_data():
     assert m["sfw_roles"] == len(load.roles())
     assert m["role_skill_requirements"] == len(rs)
     assert m["unique_skills_required"] == rs["unique_skill"].nunique()
+    assert m["requirements_mapped_share"] == round(float(rs["mapped"].mean()), 4)

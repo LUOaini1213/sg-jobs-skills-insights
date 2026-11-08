@@ -6,7 +6,8 @@
     "role_skill_requirements": 43454,
     "unique_skills_required": 2056,
     "ssg_emerging_skills_required": 195,
-    "emerging_share_of_requirements": 0.1919
+    "emerging_share_of_requirements": 0.1919,
+    "requirements_mapped_share": 0.9986
   },
   "sector": {
     "highest_emerging_share": {
@@ -228,7 +229,7 @@
           2.32,
           10.39
         ],
-        "p_value": 0.0016614410581970971,
+        "p_value": 0.00166144,
         "r2": 0.021
       },
       "plus_controls": {
@@ -243,7 +244,7 @@
           0.5,
           6.35
         ],
-        "p_value": 0.021192897981042,
+        "p_value": 0.0211929,
         "r2": 0.563
       },
       "within_submajor": {
@@ -258,7 +259,7 @@
           -0.55,
           3.98
         ],
-        "p_value": 0.14036693653991025,
+        "p_value": 0.140367,
         "r2": 0.803
       }
     }

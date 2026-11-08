@@ -59,7 +59,8 @@ def run() -> dict:
             "pct_wage_per_10pp": round(float(100 * (np.exp(0.1 * b) - 1)), 2),
             "pct_ci95_per_10pp": [round(float(100 * (np.exp(0.1 * lo) - 1)), 2),
                                   round(float(100 * (np.exp(0.1 * hi) - 1)), 2)],
-            "p_value": float(m.pvalues["emerging_share"]),
+            # 6 significant digits: the last bits of a p-value differ across BLAS builds
+            "p_value": float(f"{float(m.pvalues['emerging_share']):.6g}"),
             "r2": round(float(m.rsquared), 3),
         }
     return out

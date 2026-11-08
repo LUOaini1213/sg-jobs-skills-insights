@@ -12,7 +12,7 @@ from functools import lru_cache
 
 import pandas as pd
 
-from .load import RAW, _cached
+from .load import RAW, SFW, _cached
 
 DEFS = RAW / "ssoc2020_detailed_definitions.xlsx"
 ALPHA = RAW / "ssoc2020_alpha_index.xlsx"
@@ -48,7 +48,7 @@ def occupations() -> pd.DataFrame:
         df["alpha_titles"] = df["code"].map(generic).fillna("")
         return df[["code", "title", "definition", "tasks", "examples", "alpha_titles"]].reset_index(drop=True)
 
-    return _cached("ssoc_occupations", build)
+    return _cached("ssoc_occupations", build, (DEFS, ALPHA))
 
 
 @lru_cache(maxsize=None)
@@ -60,7 +60,7 @@ def alpha_index() -> pd.DataFrame:
         df["is_sfw"] = df["sfw_flag"].fillna("").str.strip().str.lower().eq("x")
         return df[["code", "alpha", "is_sfw"]].reset_index(drop=True)
 
-    return _cached("ssoc_alpha", build)
+    return _cached("ssoc_alpha", build, (ALPHA,))
 
 
 def parse_sfw_entry(text: str):
@@ -95,7 +95,7 @@ def official_crosswalk() -> pd.DataFrame:
         out = j.groupby(["sector", "job_role"])["code"].apply(lambda s: ";".join(sorted(set(s)))).reset_index()
         return out.rename(columns={"code": "official_codes"})
 
-    return _cached("official_crosswalk", build)
+    return _cached("official_crosswalk", build, (ALPHA, SFW))
 
 
 def wage_codes() -> pd.DataFrame:
