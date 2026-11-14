@@ -96,3 +96,14 @@ def test_experiment_design_numbers_are_checked():
     pw["sensitivity"][0]["n_per_arm"] = 80000
     errs = check_readme.check(text, {}, {}, "docs", items=check_readme.design_claims(pw))
     assert len(errs) == 1 and "d_grid_0" in errs[0]
+
+
+def test_community_groups_are_checked(tmp_path):
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert check_readme.check(text, {}, {}, "README", items=check_readme.community_claims(ROOT / "outputs")) == []
+    csv_text = (ROOT / "outputs" / "skill_communities.csv").read_text(encoding="utf-8")
+    bad = csv_text.replace("Retail (24)", "Retail (19)")     # Retail would drop out of its mixed community
+    assert bad != csv_text
+    (tmp_path / "skill_communities.csv").write_text(bad, encoding="utf-8")
+    errs = check_readme.check(text, {}, {}, "README", items=check_readme.community_claims(tmp_path))
+    assert len(errs) == 1 and "g_mixed_sectors" in errs[0]

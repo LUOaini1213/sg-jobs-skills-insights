@@ -94,6 +94,13 @@ def pp(x: float) -> str:
     return f"{100 * x:+.1f} pp"
 
 
+METHOD_NAMES = {
+    "popularity": "global popularity", "sector_popularity": "sector popularity",
+    "jaccard_knn": "Jaccard nearest roles", "idf_projection_knn": "IDF-weighted projection",
+    "random_walk_rp3": "three-step random walk", "svd": "truncated SVD",
+}
+
+
 def graph_claims(gm: dict, pw: dict) -> list[tuple[str, str]]:
     """Role-skill graph numbers quoted in the README, rebuilt from outputs/graph_metrics.json."""
     g, t, c, lp, tr = gm["graph"], gm["transitions"], gm["communities"], gm["link_prediction"], gm["track_agreement"]
@@ -118,6 +125,11 @@ def graph_claims(gm: dict, pw: dict) -> list[tuple[str, str]]:
                  f"{h['sector_popularity']}, global popularity {h['popularity']}"),
         ("g_lp_diff", f"Best model minus best baseline: {pp(lp['model_minus_baseline_hits_at_10'])} "
                       f"(95% CI {100 * lo:.1f} to {100 * hi:.1f}), {lp['verdict']}"),
+        ("g_best", f"The best model ({METHOD_NAMES[lp['best_model']]}) scored higher than the best baseline "
+                   f"({METHOD_NAMES[lp['best_baseline']]}) in {lp['model_beats_baseline_in_splits']} of "
+                   f"{lp['n_splits']} splits, " + ("but the gap is small and its 95% interval on the first split "
+                                                   "includes zero" if lo <= 0 <= hi else
+                                                   "and its 95% interval on the first split excludes zero")),
         ("g_off", f"{off['n']} held-out edges ({pct(off['share_of_held_out'])})"),
         ("g_off_hits", f"{pct(off['hits_at_10']['jaccard_knn'])} of them in its top 10 and the IDF-weighted projection "
                        f"{pct(off['hits_at_10']['idf_projection_knn'])}"),
@@ -126,6 +138,17 @@ def graph_claims(gm: dict, pw: dict) -> list[tuple[str, str]]:
                     f"against {tm['random_role_same_sector']} for a random role in the same sector"),
         ("g_power", f"{pw['n_per_arm']:,} users per arm"),
     ]
+
+
+def community_claims(out: Path, min_roles: int = 20) -> list[tuple[str, str]]:
+    """The communities in which no sector has a majority, rebuilt from outputs/skill_communities.csv."""
+    groups = []
+    for r in _rows(out / "skill_communities.csv"):
+        if float(r["largest_sector_share"]) < 0.5:
+            parts = [p.rsplit(" (", 1) for p in r["sector_counts"].split("; ")]
+            groups.append(" + ".join(name for name, n in parts if int(n.rstrip(")")) >= min_roles))
+    return [("g_mixed_sectors", f"In {len(groups)} communities no sector has a majority; their sectors with at least "
+                                f"{min_roles} roles each are " + "; ".join(groups) + ".")]
 
 
 def first_screen_graph_claims(gm: dict) -> list[tuple[str, str]]:
@@ -225,6 +248,7 @@ def main() -> int:
         (brief, "brief", BRIEF, claims(m, mut)),
         (brief, "brief", None, brief_csv_claims(m, ROOT / "outputs")),
         (readme, "README.md", None, graph_claims(gm, pw)),
+        (readme, "README.md", None, community_claims(ROOT / "outputs")),
         (head, "README.md first screen", None, first_screen_graph_claims(gm)),
         (design, "docs/experiment_design.md", None, design_claims(pw)),
     ]

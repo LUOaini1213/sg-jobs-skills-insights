@@ -9,12 +9,13 @@ roles SingStat has coded (top-5 69.3%). Occupation pay goes with emerging-skill 
 significant (an association, not a premium). The
 naive forecast (MAE 0.72 pp) beat three alternatives for vacancy rates 1–4 quarters ahead.
 A role–skill graph lists, for each role, the roles that need the fewest additional skills; on
-held-out requirements a plain Jaccard baseline does as well as the best graph model
-(90.0% against 90.4% of held-out requirements in the top 10), and both beat a random walk and SVD.
+held-out requirements a plain Jaccard baseline does about as well as the best graph model
+(90.0% against 90.4% of held-out requirements in the top 10), and both beat a random walk
+and SVD.
 **Limits:** no job postings; demand is industry-level through a hand-made crosswalk; the second
 test set was labelled by an AI assistant with no human review; CI cannot reach SingStat, so the
-matcher and pay numbers are recomputed locally only ([details](#reproduce)); the graph describes
-what the framework says roles require, not how people actually move between jobs.
+matcher and pay numbers are recomputed locally only ([details](#reproduce)); the graph
+describes what the framework says roles require, not how people actually move between jobs.
 
 It is a personal portfolio project. It is not affiliated with SSG/SWDA, MOM or SingStat, and
 nothing here uses the National Jobs-Skills Intelligence engine or any non-public data.
@@ -36,13 +37,13 @@ nothing here uses the National Jobs-Skills Intelligence engine or any non-public
 | Predicting held-out requirements | 4,345 held-out edges, share ranked in the role's top 10: Jaccard nearest roles 90.0% (baseline), IDF-weighted projection 90.4%, three-step random walk 80.9%, truncated SVD 69.7%, sector popularity 55.1%, global popularity 15.2%. Best model minus best baseline: +0.4 pp (95% CI -0.2 to 1.0), no clear difference |
 | Graph vs published career tracks | the closest role is on the same track for 84.4% of roles by fewest additional skills, 90.5% by plain Jaccard and 91.6% by IDF-weighted Jaccard, against 22.6% for a random role in the same sector |
 | Experiment design | [how to A/B test a skills recommendation](docs/experiment_design.md): 6,745 users per arm to detect a rise in enrolment from 4% to 5% (assumed rates, not measured ones) |
-| Test suite | 68 tests (60 unit tests on hand-computed inputs, 8 on the real data). Mutation check: 39/39 mutants killed, and a behaviour-preserving control mutant survives |
+| Test suite | 69 tests (61 unit tests on hand-computed inputs, 8 on the real data). Mutation check: 39/39 mutants killed, and a behaviour-preserving control mutant survives |
 
 `tools/check_readme.py`, which runs in CI, checks the result numbers in the summary above,
-this table, the method notes, the brief's key points and the experiment-design note against the committed
-`outputs/*.json` and `outputs/*.csv`, and the test counts against `pytest --collect-only`.
-That shows the prose matches the committed outputs. Which outputs CI also recomputes from
-the public sources is listed under [Reproduce](#reproduce).
+this table, the method notes, the brief's key points and the experiment-design note against
+the committed `outputs/*.json` and `outputs/*.csv`, and the test counts against
+`pytest --collect-only`. That shows the prose matches the committed outputs. Which outputs CI
+also recomputes from the public sources is listed under [Reproduce](#reproduce).
 
 ## Data (all public, cited, raw files not committed)
 
@@ -110,29 +111,34 @@ statistics as the demand signal instead. The brief lists what postings would add
      are ranked by the number of additional skills B needs, and those skills are listed. The
      table also gives the number of shared skills that B needs at a higher proficiency level,
      and whether B is more senior, more junior or lateral (difference in mean required level,
-     ±0.25).
+     ±0.25). To see progression moves only, filter the CSV on `direction == "up"`.
    * *Role similarity and skill adjacency.* Role–role similarity is Jaccard overlap weighted
      by inverse document frequency, so a skill that a thousand roles need counts for less.
      [`outputs/skill_adjacency.csv`](outputs/skill_adjacency.csv) lists, for each skill that
      at least five roles need, the three skills most often required with it.
    * *Communities* ([`outputs/skill_communities.csv`](outputs/skill_communities.csv)).
      Louvain on the IDF-weighted bipartite graph puts roles and skills into the same
-     clusters. Sectors that merge share a skill base: one community joins Tourism, Hotel and
-     Accommodation Services and Retail; another joins Energy and Chemicals, Built
-     Environment, Engineering Services and Marine and Offshore.
+     clusters. In 4 communities no sector has a majority; their sectors with at least 20
+     roles each are Tourism + Hotel and Accommodation Services + Retail + Trade Associations
+     and Chambers; Energy and Chemicals + Built Environment + Engineering Services + Marine
+     and Offshore; Sea Transport + Wholesale Trade; Food Services + BioPharmaceuticals
+     Manufacturing + Food Manufacturing. Louvain puts roles from these sectors together
+     because they require many of the same skills.
 7. **Does the graph predict anything?** (`graph_eval.py`).
    * *Held-out requirements.* 10% of edges are hidden, and each method ranks every skill the
-     role does not have in the remaining graph. Each method's one parameter is chosen on a
-     separate 10% validation split and never on the test edges. The protocol is repeated on
-     5 random splits; the first split carries the intervals, which resample roles, not edges.
-     The best model (IDF-weighted projection) beat the best baseline (Jaccard nearest roles)
-     in all 5 splits, but by less than the interval on one split can separate from zero. The
-     random walk and SVD are clearly worse than the Jaccard baseline. The simple method is
-     the one to use.
+     role does not have in the remaining graph. Each method's parameter, where it has one,
+     is chosen on a separate 10% validation split and never on the test edges. The protocol
+     is repeated on 5 random splits; the first split carries the intervals, which resample
+     roles, not edges. The best model (IDF-weighted projection) scored higher than the best
+     baseline (Jaccard nearest roles) in 5 of 5 splits, but the gap is small and its 95%
+     interval on the first split includes zero. The random walk and SVD are clearly worse
+     than the Jaccard baseline. The simple method is the one to use.
    * *Published career tracks.* The dataset gives every role a sector and a track, which is
      the career ladder SSG drew it on. It has no pathway edges, so the check is only whether
      the closest role is on the same track. Ranking by fewest additional skills agrees with
-     the tracks less often than plain Jaccard does, because it favours small, junior roles.
+     the tracks less often than plain Jaccard does (roles with no reachable role count as
+     misses). A role with few requirements is cheap to reach, so this ranking leans towards
+     smaller, more junior roles.
 8. **Experiment design** ([docs/experiment_design.md](docs/experiment_design.md),
    `power.py`). The note covers the unit of randomisation, the primary and guardrail metrics,
    a sample-size calculation and an analysis plan for an A/B test of a skills
@@ -153,8 +159,9 @@ statistics as the demand signal instead. The brief lists what postings would add
   roles. Treat Test B as indicative only.
 * The graph holds what the Skills Framework says roles require. It contains no observed job
   moves, so a "transition" here is a small skill gap, not a route people are known to take.
-  Agreement with the published tracks is partly built in, because SSG wrote each role's
-  skills track by track.
+  Agreement with the published tracks is partly built in, because roles on one track sit in
+  the same sector framework and share much of their skill lists (the point on held-out edges
+  below puts a number on this).
 * The "half of the target's skills" rule for a reachable role is a choice. Without it, roles
   with three or four requirements appear closest to everything.
 * Hiding random edges is an easy test, because roles on one track share most of their
@@ -199,8 +206,8 @@ label converter (`2221` should have been `22200`). The fix is in. When the 20 gr
 sample-size mutants were first added, two survived
 ([report](outputs/mutation_report_graph_first_run.json)): the toy graph had no skill held at
 the same level by both roles, and the test meant to show that tuning never sees the test
-edges used a graph so small that validation and test scores were both 100%. Both tests were
-strengthened.
+edges used a toy graph on which the best validation score and the best test score were both
+100%, so tuning on either gave the same answer. Both tests were strengthened.
 
 **What CI recomputes.** CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation
 check and the README check on every push. A second job, `reproduce`, downloads whatever

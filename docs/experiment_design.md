@@ -5,8 +5,8 @@ recommendation, for example "*Data Analyst* needs two skills you do not have yet
 careers or course-search page. The recommendation itself could come from
 the role-skill graph in this repository (`outputs/role_transitions.csv`).
 
-It is a design exercise in a personal portfolio project. I have no access to any SWDA
-product, traffic or conversion data. **Every rate below is an assumption chosen to show the
+It is a design exercise in a personal portfolio project. This project has no access to any
+SWDA product, traffic or conversion data. **Every rate below is an assumption chosen to show the
 arithmetic**, and the first step of a real study would be to replace them with measured
 values. The numbers are produced by `src/jsi/power.py`, written to
 `outputs/experiment_power.json`, and checked against this text by `tools/check_readme.py`.
@@ -43,6 +43,10 @@ check balance, by sector and by whether the user has enrolled in any course in t
 | Secondary | click-through on a recommended skill; course completion within 180 days; number of distinct recommended skills pursued | mechanism and persistence |
 | Guardrail | overall course enrolment (all skills); bounce rate of the page; complaints or "not relevant" feedback | a recommendation that only moves enrolment from one course to another, or annoys users, should not ship |
 | Long-run (not testable in this window) | job change into a recommended role; wage change | needs linked administrative data and a much longer horizon |
+
+The recommendation is computed and logged for control users too, but not shown to them, so
+"a recommended skill" means the same thing in both arms. Without this the primary metric
+cannot be measured in control.
 
 One primary metric is fixed before launch. Secondary metrics are reported with their
 intervals but do not decide the launch.
