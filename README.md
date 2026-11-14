@@ -1,10 +1,16 @@
 # sg-jobs-skills-insights
 
-A small, reproducible Jobs-Skills Insights pipeline for Singapore, built only from public
-government data. It links the SkillsFuture **Skills Framework** (job roles and the skills they
-need) to the **SSOC 2020** occupation classification and to **MOM labour-market tables**
-(job vacancies and wages). From these it produces sector skill profiles, in-demand and
-emerging skill indicators, and a short [stakeholder brief](brief/jobs_skills_insights_brief.md).
+**Built:** a Python pipeline on public data only. It links the SkillsFuture Skills Framework
+(1,977 job roles in 39 sectors) to SSOC 2020 occupations and MOM vacancy and wage tables, and
+writes sector skill indicators and a [stakeholder brief](brief/jobs_skills_insights_brief.md).
+**Found:** an untrained text matcher ranks SingStat's own code first for 45.0% of the 1,248
+roles SingStat has coded (top-5 69.3%). Occupation pay goes with emerging-skill share
+(+6.3% per 10 pp before controls), but only +1.7% within SSOC sub-major groups, which is not
+significant (an association, not a premium). The
+naive forecast (MAE 0.72 pp) beat three alternatives for vacancy rates 1–4 quarters ahead.
+**Limits:** no job postings; demand is industry-level through a hand-made crosswalk; the second
+test set was labelled by an AI assistant with no human review; CI cannot reach SingStat, so the
+matcher and pay numbers are recomputed locally only ([details](#reproduce)).
 
 It is a personal portfolio project. It is not affiliated with SSG/SWDA, MOM or SingStat, and
 nothing here uses the National Jobs-Skills Intelligence engine or any non-public data.
@@ -21,10 +27,13 @@ nothing here uses the National Jobs-Skills Intelligence engine or any non-public
 | Most emerging-skill-intensive sector | Infocomm Technology: 36.1% of its requirements are SSG emerging skills, and its MOM industry had a PME vacancy rate of 5.7% in 2025, the highest of the mapped industries |
 | Emerging skills and pay | +10 pp emerging-skill share goes with +6.3% (95% CI 2.3 to 10.4) occupation median wage before controls, +3.4% (0.5 to 6.3) with sector and seniority controls, and +1.7% (-0.6 to 4.0) within SSOC sub-major groups, which is not significant. Sample: 1,072 roles in 260 occupations |
 | Forecasting vacancy rates | 1–4 quarters ahead, 21 industries: naive forecast MAE 0.72 pp, beating damped Holt 0.83 pp, mean of the last four quarters 0.88 pp and seasonal naive 0.95 pp |
-| Test suite | 26 tests (20 unit tests on hand-computed inputs, 6 on the real data). Mutation check: 15/15 mutants killed, and a behaviour-preserving control mutant survives |
+| Test suite | 34 tests (28 unit tests on hand-computed inputs, 6 on the real data). Mutation check: 19/19 mutants killed, and a behaviour-preserving control mutant survives |
 
-Every number in this README and the brief is rebuilt from `outputs/*.json` by
-`tools/check_readme.py`, which runs in CI.
+`tools/check_readme.py`, which runs in CI, checks the result numbers in the summary above,
+this table, the method notes and the brief's key points against the committed
+`outputs/*.json` and `outputs/*.csv`, and the test counts against `pytest --collect-only`.
+That shows the prose matches the committed outputs. Which outputs CI also recomputes from
+the public sources is listed under [Reproduce](#reproduce).
 
 ## Data (all public, cited, raw files not committed)
 
@@ -94,43 +103,60 @@ statistics as the demand signal instead. The brief lists what postings would add
   and cross-cutting sectors such as HR, WSH and Carbon Services have no demand figures.
 * SSG's Emerging flag marks skills that are eligible for SkillsFuture Series funding. It is
   not a measure of market demand. Arts and Legal Services have no flagged skills at all.
-* The matcher reaches 45% top-1 at the 5-digit level. That is good enough to suggest
-  candidate codes to a human coder, but not to code roles unattended.
+* The matcher's 5-digit top-1 accuracy (above) is good enough to suggest candidate codes
+  to a human coder, but not to code roles unattended.
 * Test B labels come from an AI assistant, and they agree with SingStat on only 40 of 58
   roles. Treat Test B as indicative only.
 
 ## Reproduce
 
+Python 3.11 (what CI uses). `requirements-ci.txt` pins the library versions that produced the
+committed outputs; the byte-identical comparison below relies on those pins.
+
 ```bash
+pip install -r requirements-ci.txt  # pinned versions (Python 3.11)
 pip install -e ".[test]"            # add ".[embed]" for the embedding matcher
-python -m jsi.fetch                 # download public sources, record SHA-256
+python -m jsi.fetch                 # download public sources, compare SHA-256 with data/sources.json
 python -m jsi.pipeline --embed      # all outputs (about 4 min on CPU); without --embed: TF-IDF only
 pytest                              # unit tests; data tests run when data/raw exists
 python tools/mutation_check.py      # can the tests fail? (see below)
 python tools/check_readme.py        # do README/brief numbers match outputs/?
+python tools/reproduce_ci.py        # regenerate what the fetched sources allow; diff against git
 ```
 
-**Mutation check.** `tools/mutation_check.py` applies 15 plausible bugs to `src/jsi`, one at
-a time, and requires the unit tests to fail on each. Examples: ranking worst-first, dividing
-growth by the end value, and a training window that leaks the first test quarter. A
-behaviour-preserving control mutant must *survive*, which shows that the harness is not
-failing for unrelated reasons. The check has failed for real. On its first run one mutant
-survived ([report](outputs/mutation_report_first_run.json)). That mutant was equivalent:
-adding the overlapping PMET group to a filter changes nothing, because totals only sum the
-PME and non-PME columns. It was replaced by a mutant that does change behaviour. The data
-tests also caught a wrong hand-entered SSOC code for nurses in the label converter (`2221`
-should have been `22200`). The fix is in.
+Parsed tables are cached in `data/interim/` under a key made from the SHA-256 of the raw files
+they are built from. After `python -m jsi.fetch --update` accepts a new release, the next run
+rebuilds them instead of reading the old cache.
 
-CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation check and the README check
-on every push. A second job, `reproduce`, downloads whatever public sources the runner can
-reach and runs the data tests. It then regenerates the outputs that depend only on reachable
-sources (`tools/reproduce_ci.py`) and requires them to be byte-identical to the committed
-files. The job log states which outputs were reproduced and which were not. SingStat answers the
-GitHub-hosted runner with HTTP 403 (seen on 2026-10-15), although the same request works
-from Singapore. CI therefore reproduces the Skills Framework profiles, the MOM-based
-indicators and the forecast backtest. The SSOC-dependent steps (mapping evaluation and wages)
-were re-run locally from the hashed files in `data/sources.json`, and their outputs came out
-identical.
+**Mutation check.** `tools/mutation_check.py` applies 19 plausible bugs to `src/jsi`, one at
+a time, and requires the unit tests to fail on each. Examples: ranking worst-first, dividing
+growth by the end value, a training window that leaks the first test quarter, and an interim
+cache that ignores the raw-file hash. A behaviour-preserving control mutant must *survive*,
+which shows that the harness is not failing for unrelated reasons. The check has failed for
+real. On its first run one mutant survived ([report](outputs/mutation_report_first_run.json)).
+That mutant was equivalent: adding the overlapping PMET group to a filter changes nothing,
+because totals only sum the PME and non-PME columns. It was replaced by a mutant that does
+change behaviour. The data tests also caught a wrong hand-entered SSOC code for nurses in the
+label converter (`2221` should have been `22200`). The fix is in.
+
+**What CI recomputes.** CI (`.github/workflows/ci.yml`) runs the unit tests, the mutation
+check and the README check on every push. A second job, `reproduce`, downloads whatever
+public sources the runner can reach, runs the data tests, regenerates the outputs those
+sources allow (`tools/reproduce_ci.py`) and requires them to be byte-identical to the
+committed files. The job log says which outputs were reproduced. SingStat answers
+GitHub-hosted runners with HTTP 403 (seen on 2026-10-15), although the same request works
+from Singapore, and data.gov.sg sometimes rate-limits them (HTTP 429). So:
+
+| Recomputed in CI from the public sources | Recomputed only on a local machine |
+|---|---|
+| Skills Framework coverage and sector skill profiles; MOM vacancy indicators and the vacancy-weighted skill index; the forecast backtest | Needs the SingStat files: TF-IDF matcher scores on Tests A and B, Claude-vs-SingStat agreement, the production mapping, the pay regression. Needs `--embed` (sentence-transformers): the embedding and hybrid matcher, including the headline top-1 and top-5 |
+
+The TF-IDF part was last re-run locally on 2026-11-08 from files whose SHA-256 matched
+`data/sources.json`, and `tools/reproduce_ci.py` reported its outputs identical to the
+committed ones. The embedding and hybrid outputs (`mapping_eval.json`, `role_to_ssoc.csv` and
+the mapping block of `metrics.json`) come from the original local `--embed` run. If a
+publisher releases a new file (`jsi.fetch` exits 3), the data tests and the comparison are
+skipped with a warning, because outputs are then expected to change.
 
 ## Layout
 
@@ -140,7 +166,7 @@ data/labels/    100-role labelled sample + how it was made
 data/reference/ Skills Framework sector -> MOM industry crosswalk
 outputs/        aggregates (CSV/JSON) - no raw records, no personal data
 brief/          2-3 page Jobs-Skills Insights brief
-tools/          mutation check, README number check
+tools/          mutation check, README number check, CI reproduction
 ```
 
 Licence: MIT for the code. The data remain under their publishers' terms.

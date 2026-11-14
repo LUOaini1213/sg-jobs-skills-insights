@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 
 import numpy as np
@@ -52,6 +53,34 @@ def claude_label_codes() -> pd.DataFrame:
     return g
 
 
+def majority_baseline_top1(gold: list[set[str]]) -> float:
+    """Top-1 accuracy of always predicting the single most common reference code."""
+    maj = Counter(c for g in gold for c in g).most_common(1)[0][0]
+    return float(np.mean([maj in g for g in gold]))
+
+
+def label_agreement(labels: pd.DataFrame, official: pd.DataFrame) -> dict:
+    """Roles in both references, and how many of them agree.
+
+    A role agrees when any label code (5-digit, or a 4-digit unit group) is a prefix of any
+    of SingStat's codes for that role.
+    """
+    both = labels.merge(official, on=["sector", "job_role"], how="inner")
+    agree = [int(any(o[: len(c)] == c for o in oc.split(";") for c in cs))
+             for cs, oc in zip(both["codes"], both["official_codes"])]
+    return {"n_overlap": len(both), "agree": int(sum(agree))}
+
+
+def assign_codes(roles: pd.DataFrame, official: pd.DataFrame, predicted: list[str], best: str) -> pd.DataFrame:
+    """Production code per role: SingStat's first official code where one exists, else the prediction."""
+    m = roles[["sector", "job_role"]].copy()
+    m["predicted_code"] = predicted
+    m = m.merge(official, on=["sector", "job_role"], how="left")
+    m["code"] = m["official_codes"].str.split(";").str[0].fillna(m["predicted_code"])
+    m["code_source"] = np.where(m["official_codes"].notna(), "official", f"predicted:{best}")
+    return m
+
+
 def run(use_embed: bool) -> dict:
     roles = load.roles()
     occ = ssoc.occupations()
@@ -81,15 +110,9 @@ def run(use_embed: bool) -> dict:
     cl_i = [idx[s + "||" + r] for s, r in zip(cl["sector"], cl["job_role"])]
     cl_gold = list(cl["codes"])
 
-    # majority-class baseline: always predict the most common official code
-    from collections import Counter
-
-    maj = Counter(c for g in off_gold for c in g).most_common(1)[0][0]
-
     results = {"n_roles": len(roles), "n_ssoc_occupations": len(occ),
                "reference_official": {"n": len(off_i)}, "reference_claude": {"n": len(cl_i)}}
-    results["reference_official"]["majority_baseline_top1"] = float(
-        np.mean([maj in g for g in off_gold]))
+    results["reference_official"]["majority_baseline_top1"] = majority_baseline_top1(off_gold)
     for name, sc in S.items():
         preds = match.topk(sc, codes, 5)
         for ref, ii, gold in [("reference_official", off_i, off_gold), ("reference_claude", cl_i, cl_gold)]:
@@ -106,21 +129,14 @@ def run(use_embed: bool) -> dict:
             results[ref][name] = r
 
     # agreement between the Claude labels and the official codes, where both exist
-    both = cl.merge(off, on=["sector", "job_role"], how="inner")
-    agree = [int(any(o[: len(c)] == c for o in oc.split(";") for c in cs))
-             for cs, oc in zip(both["codes"], both["official_codes"])]
-    results["claude_vs_official"] = {"n_overlap": len(both), "agree": int(sum(agree))}
+    results["claude_vs_official"] = label_agreement(cl, off)
 
     # production mapping: official code where SingStat gives one, else best matcher
     best = "hybrid" if use_embed else "tfidf_word"
     top = match.topk(S[best], codes, 1)
     sc_top = S[best].max(axis=1)
-    m = roles[["sector", "job_role"]].copy()
-    m["predicted_code"] = [t[0] for t in top]
-    m["predicted_score"] = np.round(sc_top, 4)
-    m = m.merge(off, on=["sector", "job_role"], how="left")
-    m["code"] = m["official_codes"].str.split(";").str[0].fillna(m["predicted_code"])
-    m["code_source"] = np.where(m["official_codes"].notna(), "official", f"predicted:{best}")
+    m = assign_codes(roles, off, [t[0] for t in top], best)
+    m.insert(3, "predicted_score", np.round(sc_top, 4))
     m = m.merge(occ[["code", "title"]].rename(columns={"title": "ssoc_title"}), on="code", how="left")
     results["production_mapping"] = {"method_for_unmapped": best,
                                      "official": int((m["code_source"] == "official").sum()),
@@ -136,7 +152,7 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
     res = run(a.embed)
     name = "mapping_eval.json" if a.embed else "mapping_eval_tfidf.json"
-    (OUT / name).write_text(json.dumps(res, indent=2) + "\n", encoding="utf-8")
+    (OUT / name).write_text(json.dumps(res, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(res, indent=2))
     return 0
 

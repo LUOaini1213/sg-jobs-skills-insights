@@ -1,6 +1,11 @@
-"""Load the raw public files into tidy pandas tables (cached under data/interim/)."""
+"""Load the raw public files into tidy pandas tables (cached under data/interim/).
+
+Each cached table is keyed on the SHA-256 of the raw files it is built from, so a new
+release fetched with `python -m jsi.fetch --update` is never answered from an old cache.
+"""
 from __future__ import annotations
 
+import hashlib
 from functools import lru_cache
 from pathlib import Path
 
@@ -24,12 +29,35 @@ PME = "professionals, managers and executives"
 NON_PME = "non-professionals, managers and executives"
 
 
-def _cached(name: str, build):
+@lru_cache(maxsize=None)
+def _file_sha256(path: str, mtime_ns: int, size: int) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def source_key(sources) -> str:
+    """Short digest of the names and SHA-256 hashes of the raw files a table is built from."""
+    h = hashlib.sha256()
+    for src in sources:
+        st = Path(src).stat()
+        h.update(Path(src).name.encode("utf-8") + b"|")
+        h.update(_file_sha256(str(src), st.st_mtime_ns, st.st_size).encode("ascii") + b"|")
+    return h.hexdigest()[:16]
+
+
+def _cached(name: str, build, sources):
+    """Return the table `name`, rebuilding it when any file in `sources` has changed."""
     INTERIM.mkdir(parents=True, exist_ok=True)
-    p = INTERIM / f"{name}.pkl"
+    key = source_key(sources)
+    p = INTERIM / f"{name}-{key}.pkl"
     if p.exists():
         return pd.read_pickle(p)
     df = build()
+    for stale in [INTERIM / f"{name}.pkl", *INTERIM.glob(f"{name}-*.pkl")]:
+        stale.unlink(missing_ok=True)
     df.to_pickle(p)
     return df
 
@@ -60,7 +88,7 @@ def roles() -> pd.DataFrame:
         ).reset_index()
         return out
 
-    return _cached("roles", build)
+    return _cached("roles", build, (SFW,))
 
 
 @lru_cache(maxsize=None)
@@ -82,7 +110,7 @@ def tsc_to_unique() -> pd.DataFrame:
             m[c] = m[c].astype(str).str.upper().eq("TRUE")
         return m.drop_duplicates(["tsc_code", "unique_skill"]).reset_index(drop=True)
 
-    return _cached("tsc_to_unique", build)
+    return _cached("tsc_to_unique", build, (TSCMAP,))
 
 
 @lru_cache(maxsize=None)
@@ -94,7 +122,7 @@ def unique_skills() -> pd.DataFrame:
         u["casl"] = u["casl"].astype(str).str.upper().eq("TRUE")
         return u[["skill_id", "unique_skill", "skill_description", "skill_type", "emerging", "casl"]]
 
-    return _cached("unique_skills", build)
+    return _cached("unique_skills", build, (UNIQUE,))
 
 
 @lru_cache(maxsize=None)
@@ -124,7 +152,7 @@ def role_skills() -> pd.DataFrame:
         )
         return out
 
-    return _cached("role_skills", build)
+    return _cached("role_skills", build, (SFW, TSCMAP))
 
 
 def vacancies() -> pd.DataFrame:

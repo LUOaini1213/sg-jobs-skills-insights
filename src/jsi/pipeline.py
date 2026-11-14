@@ -42,7 +42,7 @@ def run(embed: bool, indicators_only: bool = False) -> dict:
     # mapping evaluation (writes outputs/role_to_ssoc.csv)
     mapping = evaluate_mapping.run(embed)
     (OUT / ("mapping_eval.json" if embed else "mapping_eval_tfidf.json")).write_text(
-        json.dumps(mapping, indent=2) + "\n", encoding="utf-8")
+        json.dumps(mapping, indent=2) + "\n", encoding="utf-8", newline="\n")
 
     w = wages.run()
     fc = forecast.run()
@@ -59,6 +59,8 @@ def run(embed: bool, indicators_only: bool = False) -> dict:
             "unique_skills_required": int(rs["unique_skill"].nunique()),
             "ssg_emerging_skills_required": int(rs.loc[rs["emerging"], "unique_skill"].nunique()),
             "emerging_share_of_requirements": round(float(per_role["e"].sum() / per_role["n"].sum()), 4),
+            # share of role-skill requirements whose TSC/CCS maps to an SSG unique skill
+            "requirements_mapped_share": round(float(rs["mapped"].mean()), 4),
         },
         "sector": {
             "highest_emerging_share": prof.sort_values("emerging_share_of_requirements").iloc[-1][
@@ -80,7 +82,7 @@ def run(embed: bool, indicators_only: bool = False) -> dict:
         if isinstance(v, dict):
             metrics["sector"][k] = {a: (round(b, 4) if isinstance(b, float) else b) for a, b in v.items()}
     name = "metrics.json" if embed else "metrics_ci.json"
-    (OUT / name).write_text(json.dumps(metrics, indent=2, default=str) + "\n", encoding="utf-8")
+    (OUT / name).write_text(json.dumps(metrics, indent=2, default=str) + "\n", encoding="utf-8", newline="\n")
     return metrics
 
 

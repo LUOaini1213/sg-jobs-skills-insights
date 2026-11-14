@@ -142,7 +142,7 @@ def main(argv=None) -> int:
         meta["bytes"] = p.stat().st_size
     if args.update:
         manifest["accessed"] = time.strftime("%Y-%m-%d")
-        MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     print(f"{len(files)} files, {missing} missing, {changed} changed since data/sources.json")
     if missing:
         return 1

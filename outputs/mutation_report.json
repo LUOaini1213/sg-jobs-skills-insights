@@ -60,9 +60,25 @@
     {
       "mutant": "wages: regression without intercept",
       "killed": true
+    },
+    {
+      "mutant": "load: interim cache ignores the raw-file hash",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: majority baseline picks the rarest code",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: 4-digit labels must equal the 5-digit code",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: production keeps the last official code",
+      "killed": true
     }
   ],
   "control_survived": true,
-  "killed": 15,
-  "total": 15
+  "killed": 19,
+  "total": 19
 }
