@@ -62,3 +62,37 @@ def test_stated_test_counts_are_checked():
     m, mut = _inputs()
     claim = check_readme.test_count_claim(20, 6)
     assert check_readme.check(text, m, mut, "README", items=[claim]) != []  # stale count is caught
+
+
+def _graph_inputs():
+    gm = json.loads((ROOT / "outputs" / "graph_metrics.json").read_text(encoding="utf-8"))
+    pw = json.loads((ROOT / "outputs" / "experiment_power.json").read_text(encoding="utf-8"))
+    return gm, pw
+
+
+def test_graph_numbers_are_checked():
+    gm, pw = _graph_inputs()
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert check_readme.check(text, {}, {}, "README", items=check_readme.graph_claims(gm, pw)) == []
+    head = text.split("## Headline results", 1)[0]
+    assert check_readme.check(head, {}, {}, "head", items=check_readme.first_screen_graph_claims(gm)) == []
+    gm["link_prediction"]["methods"]["jaccard_knn"]["hits_at_10"] -= 0.05     # a re-run that changes the baseline
+    errs = check_readme.check(text, {}, {}, "README", items=check_readme.graph_claims(gm, pw))
+    assert len(errs) == 1 and "g_lp" in errs[0]
+    gm, pw = _graph_inputs()
+    gm["link_prediction"]["verdict"] = "model better"                         # a verdict edited to flatter the model
+    errs = check_readme.check(text, {}, {}, "README", items=check_readme.graph_claims(gm, pw))
+    assert len(errs) == 1 and "g_lp_diff" in errs[0]
+
+
+def test_experiment_design_numbers_are_checked():
+    _, pw = _graph_inputs()
+    text = (ROOT / "docs" / "experiment_design.md").read_text(encoding="utf-8")
+    assert check_readme.check(text, {}, {}, "docs", items=check_readme.design_claims(pw)) == []
+    pw["n_per_arm"] += 1
+    errs = check_readme.check(text, {}, {}, "docs", items=check_readme.design_claims(pw))
+    assert len(errs) == 1 and "d_n" in errs[0]
+    _, pw = _graph_inputs()
+    pw["sensitivity"][0]["n_per_arm"] = 80000
+    errs = check_readme.check(text, {}, {}, "docs", items=check_readme.design_claims(pw))
+    assert len(errs) == 1 and "d_grid_0" in errs[0]

@@ -56,6 +56,48 @@ MUTANTS = [
      "o[: len(c)] == c", "o == c"),
     ("evaluate_mapping: production keeps the last official code", "evaluate_mapping.py",
      '.str.split(";").str[0]', '.str.split(";").str[-1]'),
+    # role-skill graph
+    ("graph: skill gap counts the source's skills, not the target's", "graph.py",
+     "return B.sum(axis=1)[None, :] - shared(B)", "return B.sum(axis=1)[:, None] - shared(B)"),
+    ("graph: reachability measured against the source's skill count", "graph.py",
+     "ok = inter >= min_held * deg[None, :]", "ok = inter >= min_held * deg[:, None]"),
+    ("graph: ties go to the role with fewer shared skills", "graph.py",
+     "np.lexsort((idx, -key_minor[a, idx], key_major[a, idx]))", "np.lexsort((idx, key_minor[a, idx], key_major[a, idx]))"),
+    ("graph: weighted Jaccard divides by the sum, not the union", "graph.py",
+     "union = tot[:, None] + tot[None, :] - inter", "union = tot[:, None] + tot[None, :]"),
+    ("graph: equal levels counted as a level-up", "graph.py",
+     "(g.level[b] > g.level[a]) & both", "(g.level[b] >= g.level[a]) & both"),
+    ("graph: any positive level shift is called 'up'", "graph.py",
+     'return "up" if shift > band', 'return "up" if shift > 0'),
+    ("graph: rare skills are listed in the adjacency table", "graph.py",
+     "eligible[deg < min_roles] = False", "pass"),
+    ("graph: a repeated requirement keeps the last level, not the highest", "graph.py",
+     "L[i, j] = lv if np.isnan(L[i, j]) else max(L[i, j], lv)", "L[i, j] = lv"),
+    ("graph_eval: training edges compete in the ranking", "graph_eval.py",
+     "cand = train[i] == 0", "cand = train[i] >= 0"),
+    ("graph_eval: ties always resolved in favour of the held-out skill", "graph_eval.py",
+     "tied_before = int((s[:j][cand[:j]] == s[j]).sum())", "tied_before = 0"),
+    ("graph_eval: random walk rewards popular skills instead of penalising them", "graph_eval.py",
+     "@ P_rs / ds[None, :] ** param", "@ P_rs * ds[None, :] ** param"),
+    ("graph_eval: a role is its own nearest neighbour", "graph_eval.py",
+     "np.fill_diagonal(S, 0.0)", "pass"),
+    ("graph_eval: training graph keeps the held-out edges (leak)", "graph_eval.py",
+     "parts = [perm[cuts[-1]:]] +", "parts = [perm] +"),
+    ("graph_eval: parameter tuned on the test edges", "graph_eval.py",
+     "val_scores = {p: hits_at(ranks(f(train, sectors, p), train, val)) for p in params}",
+     "val_scores = {p: hits_at(ranks(f(train, sectors, p), train, test)) for p in params}"),
+    ("graph_eval: sector popularity ignores the sector", "graph_eval.py",
+     "out[m] = train[m].sum(axis=0) + glob", "out[m] = train.sum(axis=0) + glob"),
+    ("graph_eval: bootstrap resamples edges, not roles", "graph_eval.py",
+     "codes, inv = np.unique(role, return_inverse=True)", "codes, inv = np.unique(np.arange(len(role)), return_inverse=True)"),
+    ("graph_eval: chance of a same-track draw computed with replacement", "graph_eval.py",
+     "(n_pool - n_good - i) / np.maximum(n_pool - i, 1)", "(n_pool - n_good) / np.maximum(n_pool, 1)"),
+    ("power: one-sided critical value", "power.py",
+     "za, zb = norm.ppf(1 - alpha / 2), norm.ppf(power)", "za, zb = norm.ppf(1 - alpha), norm.ppf(power)"),
+    ("power: sample size divides by the lift, not the lift squared", "power.py",
+     "math.ceil(num ** 2 / (p2 - p1) ** 2)", "math.ceil(num ** 2 / abs(p2 - p1))"),
+    ("power: design effect uses m instead of m - 1", "power.py",
+     "1.0 + (cluster_size - 1.0) * icc", "1.0 + cluster_size * icc"),
 ]
 CONTROL = ("CONTROL (behaviour-preserving): growth adds 0.0", "indicators.py",
            "100.0 * (b - a) / a", "100.0 * (b - a) / a + 0.0")
@@ -74,7 +116,7 @@ def trial(fname: str | None, old: str | None, new: str | None) -> int:
         tmp = Path(d)
         shutil.copytree(ROOT / "src", tmp / "src", ignore=shutil.ignore_patterns("__pycache__"))
         shutil.copytree(ROOT / "tests" / "unit", tmp / "tests" / "unit", ignore=shutil.ignore_patterns("__pycache__"))
-        for extra in ("tools", "outputs", "brief"):
+        for extra in ("tools", "outputs", "brief", "docs"):
             shutil.copytree(ROOT / extra, tmp / extra, ignore=shutil.ignore_patterns("__pycache__"))
         shutil.copy2(ROOT / "README.md", tmp / "README.md")
         if fname:

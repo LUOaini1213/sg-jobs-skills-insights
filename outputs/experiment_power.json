@@ -1,0 +1,66 @@
+{
+  "assumptions": {
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "baseline_rate": 0.04,
+    "target_rate": 0.05,
+    "cluster_size": 20,
+    "icc": 0.02,
+    "weekly_eligible_users": 5000
+  },
+  "n_per_arm": 6745,
+  "n_total": 13490,
+  "achieved_power": 0.8,
+  "weeks_at_assumed_traffic": 3,
+  "design_effect": 1.38,
+  "n_per_arm_cluster_randomised": 9309,
+  "clusters_per_arm": 466,
+  "mde_pp_if_half_the_sample": 1.45,
+  "sensitivity": [
+    {
+      "baseline": 0.02,
+      "relative_lift": 0.1,
+      "n_per_arm": 80682
+    },
+    {
+      "baseline": 0.02,
+      "relative_lift": 0.25,
+      "n_per_arm": 13809
+    },
+    {
+      "baseline": 0.02,
+      "relative_lift": 0.5,
+      "n_per_arm": 3826
+    },
+    {
+      "baseline": 0.04,
+      "relative_lift": 0.1,
+      "n_per_arm": 39475
+    },
+    {
+      "baseline": 0.04,
+      "relative_lift": 0.25,
+      "n_per_arm": 6745
+    },
+    {
+      "baseline": 0.04,
+      "relative_lift": 0.5,
+      "n_per_arm": 1863
+    },
+    {
+      "baseline": 0.08,
+      "relative_lift": 0.1,
+      "n_per_arm": 18872
+    },
+    {
+      "baseline": 0.08,
+      "relative_lift": 0.25,
+      "n_per_arm": 3213
+    },
+    {
+      "baseline": 0.08,
+      "relative_lift": 0.5,
+      "n_per_arm": 882
+    }
+  ]
+}

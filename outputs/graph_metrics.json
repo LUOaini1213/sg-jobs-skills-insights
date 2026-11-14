@@ -1,0 +1,254 @@
+{
+  "graph": {
+    "roles": 1948,
+    "skills": 2056,
+    "edges": 43454,
+    "density": 0.0108,
+    "median_skills_per_role": 21.0,
+    "max_skills_per_role": 79,
+    "median_roles_per_skill": 8.0,
+    "max_roles_per_skill": 1075,
+    "skills_in_one_role_only": 38,
+    "roles_in_framework_without_skills": 29
+  },
+  "transitions": {
+    "min_share_of_target_held": 0.5,
+    "roles_with_a_reachable_role": 1925,
+    "roles_without": 23,
+    "top1_zero_additional_skills": 1134,
+    "top1_median_additional_skills": 0.0,
+    "top1_same_sector_share": 0.9699,
+    "top1_cross_sector": 58,
+    "top1_direction": {
+      "down": 900,
+      "lateral": 551,
+      "unknown": 11,
+      "up": 463
+    },
+    "listed_transitions": 5663,
+    "listed_cross_sector": 189
+  },
+  "skill_adjacency": {
+    "skills_listed": 1408,
+    "min_roles": 5,
+    "pairs": 4224
+  },
+  "communities": {
+    "communities": 19,
+    "ami_vs_sector": 0.8558,
+    "ari_vs_sector": 0.7803,
+    "purity": 0.7387,
+    "sectors": 39,
+    "seed": 20261114,
+    "weights": "idf",
+    "sectors_kept_whole_90pct": 29,
+    "single_sector_communities": 5,
+    "communities_mixing_3plus_sectors": 10,
+    "largest_mixed_community": {
+      "community": 0,
+      "roles": 304,
+      "sector_counts": "Financial Services (293); Sea Transport (6); Media (4); Carbon Services and Trading (1)"
+    },
+    "across_seeds": {
+      "n_seeds": 10,
+      "communities_min": 19,
+      "communities_max": 22,
+      "ami_min": 0.8341,
+      "ami_max": 0.8754
+    },
+    "unweighted": {
+      "communities": 15,
+      "ami_vs_sector": 0.7851,
+      "ari_vs_sector": 0.6141,
+      "purity": 0.6078
+    }
+  },
+  "link_prediction": {
+    "n_splits": 5,
+    "top": 10,
+    "held_out_edges": 4345,
+    "roles_with_held_out_edges": 1659,
+    "methods": {
+      "popularity": {
+        "kind": "baseline",
+        "param": null,
+        "params_all_splits": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "val_hits_at_10": 0.1346,
+        "hits_at_10": 0.1519,
+        "hits_at_10_ci95": [
+          0.1412,
+          0.163
+        ],
+        "mrr": 0.0792,
+        "hits_at_10_mean_all_splits": 0.1484,
+        "hits_at_10_min_all_splits": 0.1434,
+        "hits_at_10_max_all_splits": 0.1524
+      },
+      "sector_popularity": {
+        "kind": "baseline",
+        "param": null,
+        "params_all_splits": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "val_hits_at_10": 0.5185,
+        "hits_at_10": 0.5507,
+        "hits_at_10_ci95": [
+          0.5334,
+          0.568
+        ],
+        "mrr": 0.2993,
+        "hits_at_10_mean_all_splits": 0.5583,
+        "hits_at_10_min_all_splits": 0.5507,
+        "hits_at_10_max_all_splits": 0.5652
+      },
+      "jaccard_knn": {
+        "kind": "baseline",
+        "param": 5,
+        "params_all_splits": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "val_hits_at_10": 0.8272,
+        "hits_at_10": 0.8999,
+        "hits_at_10_ci95": [
+          0.8889,
+          0.9109
+        ],
+        "mrr": 0.5006,
+        "hits_at_10_mean_all_splits": 0.9044,
+        "hits_at_10_min_all_splits": 0.8978,
+        "hits_at_10_max_all_splits": 0.9112
+      },
+      "idf_projection_knn": {
+        "kind": "model",
+        "param": 5,
+        "params_all_splits": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "val_hits_at_10": 0.8341,
+        "hits_at_10": 0.9038,
+        "hits_at_10_ci95": [
+          0.8924,
+          0.9144
+        ],
+        "mrr": 0.5015,
+        "hits_at_10_mean_all_splits": 0.909,
+        "hits_at_10_min_all_splits": 0.9024,
+        "hits_at_10_max_all_splits": 0.9171
+      },
+      "random_walk_rp3": {
+        "kind": "model",
+        "param": 0.3,
+        "params_all_splits": [
+          0.3,
+          0.2,
+          0.3,
+          0.2,
+          0.2
+        ],
+        "val_hits_at_10": 0.7521,
+        "hits_at_10": 0.809,
+        "hits_at_10_ci95": [
+          0.7953,
+          0.8225
+        ],
+        "mrr": 0.4295,
+        "hits_at_10_mean_all_splits": 0.8162,
+        "hits_at_10_min_all_splits": 0.809,
+        "hits_at_10_max_all_splits": 0.8191
+      },
+      "svd": {
+        "kind": "model",
+        "param": 128,
+        "params_all_splits": [
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "val_hits_at_10": 0.62,
+        "hits_at_10": 0.6967,
+        "hits_at_10_ci95": [
+          0.6823,
+          0.7104
+        ],
+        "mrr": 0.3774,
+        "hits_at_10_mean_all_splits": 0.7057,
+        "hits_at_10_min_all_splits": 0.6967,
+        "hits_at_10_max_all_splits": 0.7169
+      }
+    },
+    "best_baseline": "jaccard_knn",
+    "best_model": "idf_projection_knn",
+    "model_minus_baseline_hits_at_10": 0.0039,
+    "model_minus_baseline_ci95": [
+      -0.002,
+      0.0096
+    ],
+    "model_beats_baseline_in_splits": 5,
+    "verdict": "no clear difference",
+    "off_track_edges": {
+      "n": 197,
+      "share_of_held_out": 0.0453,
+      "hits_at_10": {
+        "popularity": 0.1218,
+        "sector_popularity": 0.3503,
+        "jaccard_knn": 0.4467,
+        "idf_projection_knn": 0.4365,
+        "random_walk_rp3": 0.3604,
+        "svd": 0.3807
+      }
+    }
+  },
+  "track_agreement": {
+    "roles_with_a_track_peer": 1917,
+    "roles": 1948,
+    "k": 3,
+    "methods": {
+      "fewest_additional_skills": {
+        "roles_with_a_candidate": 1900,
+        "top1_same_track": 0.8435,
+        "top1_same_sector": 0.9645,
+        "any_same_track_in_top3": 0.9228
+      },
+      "idf_weighted_jaccard": {
+        "roles_with_a_candidate": 1917,
+        "top1_same_track": 0.9165,
+        "top1_same_sector": 1.0,
+        "any_same_track_in_top3": 0.9661
+      },
+      "jaccard": {
+        "roles_with_a_candidate": 1917,
+        "top1_same_track": 0.9051,
+        "top1_same_sector": 0.9979,
+        "any_same_track_in_top3": 0.963
+      },
+      "random_role_same_sector": {
+        "top1_same_track": 0.2257,
+        "any_same_track_in_top3": 0.4832
+      },
+      "random_role": {
+        "top1_same_track": 0.011,
+        "any_same_track_in_top3": 0.0323
+      }
+    }
+  }
+}

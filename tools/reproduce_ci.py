@@ -2,7 +2,8 @@
 
 Government sites differ in whether they accept connections from cloud CI runners, so this
 script checks which raw files exist and regenerates only the outputs that depend on them:
-  Skills Framework files            -> outputs/sector_skill_profile.csv
+  Skills Framework files            -> outputs/sector_skill_profile.csv, the role-skill graph outputs
+                                       and the experiment sample-size figures
   + MOM (data.gov.sg) tables        -> sector_demand, skill_demand_index, emerging_skills, forecast
   + SingStat SSOC files             -> full TF-IDF pipeline
 Prints what was and was not reproduced; exits 1 on any difference.
@@ -16,11 +17,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from jsi import indicators, load, pipeline, ssoc  # noqa: E402
+from jsi import graph_eval, indicators, load, pipeline, power, ssoc  # noqa: E402
 
 SFW = [load.SFW, load.UNIQUE, load.TSCMAP]
 MOM = [load.VAC_N, load.VAC_RATE, load.VAC_RATE_Q]
 SSOC = [ssoc.DEFS, ssoc.ALPHA, load.WAGES]
+GRAPH = [f"outputs/{f}" for f in ("graph_metrics.json", "role_transitions.csv", "skill_adjacency.csv",
+                                  "skill_communities.csv", "link_prediction.csv", "experiment_power.json")]
 
 
 def have(paths) -> bool:
@@ -38,12 +41,14 @@ def main() -> int:
     elif have(SFW + MOM):
         pipeline.run(embed=False, indicators_only=True)
         files = [f"outputs/{f}" for f in ("sector_skill_profile.csv", "sector_demand.csv", "skill_demand_index.csv",
-                                          "emerging_skills.csv", "forecast_mae_ci.csv")]
-        print("reproduced: indicators + forecast; NOT reproduced here: SSOC mapping, wages")
+                                          "emerging_skills.csv", "forecast_mae_ci.csv")] + GRAPH
+        print("reproduced: indicators + forecast + role-skill graph; NOT reproduced here: SSOC mapping, wages")
     else:
         indicators.sector_skill_profile().round(4).to_csv(ROOT / "outputs" / "sector_skill_profile.csv", index=False, lineterminator="\n")
-        files = ["outputs/sector_skill_profile.csv"]
-        print("reproduced: sector skill profiles; NOT reproduced here: MOM-based indicators, forecast, SSOC mapping, wages")
+        graph_eval.run()
+        power.run()
+        files = ["outputs/sector_skill_profile.csv"] + GRAPH
+        print("reproduced: sector skill profiles + role-skill graph; NOT reproduced here: MOM-based indicators, forecast, SSOC mapping, wages")
     r = subprocess.run(["git", "diff", "--stat", "--exit-code", "--", *files], cwd=ROOT)
     print("identical to committed outputs" if r.returncode == 0 else "DIFFERS from committed outputs")
     return r.returncode

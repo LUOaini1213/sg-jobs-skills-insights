@@ -76,9 +76,89 @@
     {
       "mutant": "evaluate_mapping: production keeps the last official code",
       "killed": true
+    },
+    {
+      "mutant": "graph: skill gap counts the source's skills, not the target's",
+      "killed": true
+    },
+    {
+      "mutant": "graph: reachability measured against the source's skill count",
+      "killed": true
+    },
+    {
+      "mutant": "graph: ties go to the role with fewer shared skills",
+      "killed": true
+    },
+    {
+      "mutant": "graph: weighted Jaccard divides by the sum, not the union",
+      "killed": true
+    },
+    {
+      "mutant": "graph: equal levels counted as a level-up",
+      "killed": true
+    },
+    {
+      "mutant": "graph: any positive level shift is called 'up'",
+      "killed": true
+    },
+    {
+      "mutant": "graph: rare skills are listed in the adjacency table",
+      "killed": true
+    },
+    {
+      "mutant": "graph: a repeated requirement keeps the last level, not the highest",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: training edges compete in the ranking",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: ties always resolved in favour of the held-out skill",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: random walk rewards popular skills instead of penalising them",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: a role is its own nearest neighbour",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: training graph keeps the held-out edges (leak)",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: parameter tuned on the test edges",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: sector popularity ignores the sector",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: bootstrap resamples edges, not roles",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: chance of a same-track draw computed with replacement",
+      "killed": true
+    },
+    {
+      "mutant": "power: one-sided critical value",
+      "killed": true
+    },
+    {
+      "mutant": "power: sample size divides by the lift, not the lift squared",
+      "killed": true
+    },
+    {
+      "mutant": "power: design effect uses m instead of m - 1",
+      "killed": true
     }
   ],
   "control_survived": true,
-  "killed": 19,
-  "total": 19
+  "killed": 39,
+  "total": 39
 }

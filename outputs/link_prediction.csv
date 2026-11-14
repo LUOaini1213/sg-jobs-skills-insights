@@ -1,0 +1,7 @@
+method,kind,param,val_hits_at_10,hits_at_10,mrr,hits_at_10_mean_all_splits,hits_at_10_min_all_splits,hits_at_10_max_all_splits,hits_at_10_ci95_low,hits_at_10_ci95_high
+popularity,baseline,,0.1346,0.1519,0.0792,0.1484,0.1434,0.1524,0.1412,0.163
+sector_popularity,baseline,,0.5185,0.5507,0.2993,0.5583,0.5507,0.5652,0.5334,0.568
+jaccard_knn,baseline,5.0,0.8272,0.8999,0.5006,0.9044,0.8978,0.9112,0.8889,0.9109
+idf_projection_knn,model,5.0,0.8341,0.9038,0.5015,0.909,0.9024,0.9171,0.8924,0.9144
+random_walk_rp3,model,0.3,0.7521,0.809,0.4295,0.8162,0.809,0.8191,0.7953,0.8225
+svd,model,128.0,0.62,0.6967,0.3774,0.7057,0.6967,0.7169,0.6823,0.7104

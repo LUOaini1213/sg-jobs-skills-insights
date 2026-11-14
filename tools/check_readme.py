@@ -1,4 +1,4 @@
-"""Check that the result numbers quoted in README.md and the brief match outputs/.
+"""Check that the result numbers quoted in README.md, the brief and docs/ match outputs/.
 
 Each claim is rebuilt from outputs/*.json and outputs/*.csv, and the test counts from
 `pytest --collect-only`. If someone edits a number in the prose, or a re-run changes a
@@ -90,6 +90,67 @@ def first_screen_claims(m: dict) -> list[tuple[str, str]]:
     ]
 
 
+def pp(x: float) -> str:
+    return f"{100 * x:+.1f} pp"
+
+
+def graph_claims(gm: dict, pw: dict) -> list[tuple[str, str]]:
+    """Role-skill graph numbers quoted in the README, rebuilt from outputs/graph_metrics.json."""
+    g, t, c, lp, tr = gm["graph"], gm["transitions"], gm["communities"], gm["link_prediction"], gm["track_agreement"]
+    h = {k: pct(v["hits_at_10"]) for k, v in lp["methods"].items()}
+    tm = {k: pct(v["top1_same_track"]) for k, v in tr["methods"].items()}
+    off = lp["off_track_edges"]
+    lo, hi = lp["model_minus_baseline_ci95"]
+    return [
+        ("g_size", f"{g['roles']:,} roles and {g['skills']:,} skills joined by {g['edges']:,} edges"),
+        ("g_reach", f"{t['roles_with_a_reachable_role']:,} of {g['roles']:,} roles have at least one reachable role"),
+        ("g_zero", f"for {t['top1_zero_additional_skills']:,} of them the closest role needs no additional skill"),
+        ("g_cross", f"{t['top1_cross_sector']} closest roles are in another sector"),
+        ("g_direction", f"{t['top1_direction']['down']} of the closest roles are more junior and {t['top1_direction']['up']} more senior"),
+        ("g_comm", f"{c['communities']} communities against {c['sectors']} sectors (adjusted mutual information "
+                   f"{c['ami_vs_sector']:.2f}; {c['across_seeds']['communities_min']}–{c['across_seeds']['communities_max']} "
+                   f"communities over {c['across_seeds']['n_seeds']} seeds)"),
+        ("g_whole", f"{c['sectors_kept_whole_90pct']} of {c['sectors']} sectors stay at least 90% inside one community"),
+        ("g_mixed", f"{c['communities_mixing_3plus_sectors']} communities mix three or more sectors"),
+        ("g_lp_n", f"{lp['held_out_edges']:,} held-out edges"),
+        ("g_lp", f"Jaccard nearest roles {h['jaccard_knn']} (baseline), IDF-weighted projection {h['idf_projection_knn']}, "
+                 f"three-step random walk {h['random_walk_rp3']}, truncated SVD {h['svd']}, sector popularity "
+                 f"{h['sector_popularity']}, global popularity {h['popularity']}"),
+        ("g_lp_diff", f"Best model minus best baseline: {pp(lp['model_minus_baseline_hits_at_10'])} "
+                      f"(95% CI {100 * lo:.1f} to {100 * hi:.1f}), {lp['verdict']}"),
+        ("g_off", f"{off['n']} held-out edges ({pct(off['share_of_held_out'])})"),
+        ("g_off_hits", f"{pct(off['hits_at_10']['jaccard_knn'])} of them in its top 10 and the IDF-weighted projection "
+                       f"{pct(off['hits_at_10']['idf_projection_knn'])}"),
+        ("g_track", f"same track for {tm['fewest_additional_skills']} of roles by fewest additional skills, "
+                    f"{tm['jaccard']} by plain Jaccard and {tm['idf_weighted_jaccard']} by IDF-weighted Jaccard, "
+                    f"against {tm['random_role_same_sector']} for a random role in the same sector"),
+        ("g_power", f"{pw['n_per_arm']:,} users per arm"),
+    ]
+
+
+def first_screen_graph_claims(gm: dict) -> list[tuple[str, str]]:
+    lp = gm["link_prediction"]
+    h = {k: pct(v["hits_at_10"]) for k, v in lp["methods"].items()}
+    return [("first_graph", f"({h['jaccard_knn']} against {h['idf_projection_knn']} of held-out requirements in the top 10)")]
+
+
+def design_claims(pw: dict) -> list[tuple[str, str]]:
+    """Figures quoted in docs/experiment_design.md, rebuilt from outputs/experiment_power.json."""
+    a = pw["assumptions"]
+    out = [
+        ("d_n", f"{pw['n_per_arm']:,} users per arm ({pw['n_total']:,} in total)"),
+        ("d_rates", f"p₁ = {a['baseline_rate']:.2f} and p₂ = {a['target_rate']:.2f}"),
+        ("d_weeks", f"{a['weekly_eligible_users']:,} eligible users per week that is {pw['weeks_at_assumed_traffic']} weeks"),
+        ("d_mde", f"to {pw['mde_pp_if_half_the_sample']:.2f} pp"),
+        ("d_deff", f"{a['cluster_size']} users per employer and an intra-cluster correlation of {a['icc']:.2f} the "
+                   f"design effect is {pw['design_effect']:.2f}"),
+        ("d_cluster", f"{pw['n_per_arm_cluster_randomised']:,} users per arm in {pw['clusters_per_arm']:,} employers per arm"),
+    ]
+    out += [(f"d_grid_{i}", f"| {100 * r['baseline']:.0f}% | {100 * r['relative_lift']:.0f}% | {r['n_per_arm']:,} |")
+            for i, r in enumerate(pw["sensitivity"])]
+    return out
+
+
 def _rows(path: Path) -> list[dict]:
     with path.open(encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
@@ -153,6 +214,9 @@ def main() -> int:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     brief = (ROOT / "brief" / "jobs_skills_insights_brief.md").read_text(encoding="utf-8")
     head = readme.split("## Headline results", 1)[0]
+    gm = json.loads((ROOT / "outputs" / "graph_metrics.json").read_text(encoding="utf-8"))
+    pw = json.loads((ROOT / "outputs" / "experiment_power.json").read_text(encoding="utf-8"))
+    design = (ROOT / "docs" / "experiment_design.md").read_text(encoding="utf-8")
     tests = [test_count_claim(*collect_test_counts())]
     groups = [
         (readme, "README.md", None, claims(m, mut)),
@@ -160,6 +224,9 @@ def main() -> int:
         (readme, "README.md", None, tests),
         (brief, "brief", BRIEF, claims(m, mut)),
         (brief, "brief", None, brief_csv_claims(m, ROOT / "outputs")),
+        (readme, "README.md", None, graph_claims(gm, pw)),
+        (head, "README.md first screen", None, first_screen_graph_claims(gm)),
+        (design, "docs/experiment_design.md", None, design_claims(pw)),
     ]
     errs, total = [], 0
     for text, where, only, items in groups:
