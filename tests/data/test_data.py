@@ -60,3 +60,31 @@ def test_committed_counts_match_data():
     assert m["role_skill_requirements"] == len(rs)
     assert m["unique_skills_required"] == rs["unique_skill"].nunique()
     assert m["requirements_mapped_share"] == round(float(rs["mapped"].mean()), 4)
+
+
+def test_graph_matches_the_requirements_table():
+    from jsi import graph
+
+    rs = load.role_skills()
+    g = graph.build(rs)
+    m = json.loads((ROOT / "outputs" / "graph_metrics.json").read_text(encoding="utf-8"))["graph"]
+    assert g.n_edges == len(rs) == m["edges"]
+    assert g.B.shape == (m["roles"], m["skills"]) == (rs.groupby(["sector", "job_role"]).ngroups, rs["unique_skill"].nunique())
+    assert m["roles_in_framework_without_skills"] == len(load.roles()) - m["roles"]
+
+
+def test_committed_transitions_obey_their_own_rules():
+    import pandas as pd
+
+    from jsi import graph
+
+    t = pd.read_csv(ROOT / "outputs" / "role_transitions.csv", keep_default_na=False)
+    assert (t["share_of_target_held"].astype(float) >= graph.MIN_HELD).all()
+    listed = t["skills_to_add"].map(lambda s: len(s.split("; ")) if s else 0)
+    assert (listed == t["additional_skills"].astype(int)).all()
+    assert not ((t["sector"] == t["to_sector"]) & (t["job_role"] == t["to_job_role"])).any()
+    held = {(a, b): set(g["unique_skill"]) for (a, b), g in load.role_skills().groupby(["sector", "job_role"])}
+    for r in t.sample(200, random_state=1).itertuples():
+        src, dst = held[(r.sector, r.job_role)], held[(r.to_sector, r.to_job_role)]
+        assert dst - src == (set(r.skills_to_add.split("; ")) if r.skills_to_add else set())
+        assert len(src & dst) == int(r.shared_skills)

@@ -1,0 +1,164 @@
+{
+  "baseline_exit": 0,
+  "mutants": [
+    {
+      "mutant": "load: '-' treated as 1 instead of the requested value",
+      "killed": true
+    },
+    {
+      "mutant": "match: ranks worst-first",
+      "killed": true
+    },
+    {
+      "mutant": "match: top-k only ever looks at the first prediction",
+      "killed": true
+    },
+    {
+      "mutant": "match: 4-digit gold codes no longer match by prefix",
+      "killed": true
+    },
+    {
+      "mutant": "match: hybrid uses w twice",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: every role counted as having an emerging skill",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: skill share divided by all roles, not roles in the industry",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: growth divides by the end value",
+      "killed": true
+    },
+    {
+      "mutant": "indicators: total vacancies drop the PME group",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: seasonal naive uses a 3-quarter cycle",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: gaps no longer trimmed",
+      "killed": true
+    },
+    {
+      "mutant": "forecast: training window leaks the first test quarter",
+      "killed": true
+    },
+    {
+      "mutant": "ssoc: track becomes mandatory in SFw entries",
+      "killed": true
+    },
+    {
+      "mutant": "ssoc: slashes not normalised",
+      "killed": true
+    },
+    {
+      "mutant": "wages: regression without intercept",
+      "killed": true
+    },
+    {
+      "mutant": "load: interim cache ignores the raw-file hash",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: majority baseline picks the rarest code",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: 4-digit labels must equal the 5-digit code",
+      "killed": true
+    },
+    {
+      "mutant": "evaluate_mapping: production keeps the last official code",
+      "killed": true
+    },
+    {
+      "mutant": "graph: skill gap counts the source's skills, not the target's",
+      "killed": true
+    },
+    {
+      "mutant": "graph: reachability measured against the source's skill count",
+      "killed": true
+    },
+    {
+      "mutant": "graph: ties go to the role with fewer shared skills",
+      "killed": true
+    },
+    {
+      "mutant": "graph: weighted Jaccard divides by the sum, not the union",
+      "killed": true
+    },
+    {
+      "mutant": "graph: equal levels counted as a level-up",
+      "killed": false
+    },
+    {
+      "mutant": "graph: any positive level shift is called 'up'",
+      "killed": true
+    },
+    {
+      "mutant": "graph: rare skills are listed in the adjacency table",
+      "killed": true
+    },
+    {
+      "mutant": "graph: a repeated requirement keeps the last level, not the highest",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: training edges compete in the ranking",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: ties always resolved in favour of the held-out skill",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: random walk rewards popular skills instead of penalising them",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: a role is its own nearest neighbour",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: training graph keeps the held-out edges (leak)",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: parameter tuned on the test edges",
+      "killed": false
+    },
+    {
+      "mutant": "graph_eval: sector popularity ignores the sector",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: bootstrap resamples edges, not roles",
+      "killed": true
+    },
+    {
+      "mutant": "graph_eval: chance of a same-track draw computed with replacement",
+      "killed": true
+    },
+    {
+      "mutant": "power: one-sided critical value",
+      "killed": true
+    },
+    {
+      "mutant": "power: sample size divides by the lift, not the lift squared",
+      "killed": true
+    },
+    {
+      "mutant": "power: design effect uses m instead of m - 1",
+      "killed": true
+    }
+  ],
+  "control_survived": true,
+  "killed": 37,
+  "total": 39
+}

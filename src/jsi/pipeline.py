@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from . import evaluate_mapping, forecast, indicators, load, wages
+from . import evaluate_mapping, forecast, graph_eval, indicators, load, power, wages
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "outputs"
@@ -35,6 +35,9 @@ def run(embed: bool, indicators_only: bool = False) -> dict:
 
     em = idx[idx["emerging"]].sort_values(["sectors", "roles"], ascending=False)
     _round(em, 1).to_csv(OUT / "emerging_skills.csv", index=False, lineterminator="\n")
+    # role-skill graph and experiment sample size: Skills Framework files only (own JSON files)
+    graph_eval.run()
+    power.run()
     if indicators_only:  # no SSOC files needed (CI runners cannot reach SingStat)
         _round(pd.DataFrame([forecast.run()["mae_pp"]]), 3).to_csv(OUT / "forecast_mae_ci.csv", index=False, lineterminator="\n")
         return {"data": {"indicators_only": True}}
